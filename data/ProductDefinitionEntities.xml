@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+
+
+            <!-- Product Assoc Type -->
+<!--             <moqui.basic.EnumerationType description="Product Association Type" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductAssocType" locale="zh_CN" localized="产品关联类型" />
+		
+<!--             <moqui.basic.Enumeration description="Up-Sell (Upgrade)" enumId="PatUpsell" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatUpsell" locale="zh_CN" localized="相关产品(更高档次)" />
+		            
+<!--             <moqui.basic.Enumeration description="Down-Sell (Downgrade)" enumId="PatDownSell" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatDownSell" locale="zh_CN" localized="相关产品(稍低档次)" />
+
+<!--             <moqui.basic.Enumeration description="New Version, Replacement" enumId="PatReplacement" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatReplacement" locale="zh_CN" localized="新版本替换" />
+            
+<!--             <moqui.basic.Enumeration description="Equivalent or Substitute" enumId="PatEquivalent" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatEquivalent" locale="zh_CN" localized="等效或替代" />
+
+<!--             <moqui.basic.Enumeration description="Accessory" enumId="PatAccessory" enumTypeId="ProductAssocType"/> -->
+
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatAccessory" locale="zh_CN" localized="附件" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Add On For" enumId="PatAddOn" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatAddOn" locale="zh_CN" localized="附加功能" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Repair Service" enumId="PatRepairService" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatRepairService" locale="zh_CN" localized="维修服务" />
+
+<!--             <moqui.basic.Enumeration description="Cross-Sell (Complementary)" enumId="PatCrossSell" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatCrossSell" locale="zh_CN" localized="交叉销售（互补）" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Also Bought" enumId="PatAlsoBought" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatAlsoBought" locale="zh_CN" localized="还买了" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Alternative Packaging" enumId="PatAlternativePkg" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatAlternativePkg" locale="zh_CN" localized="替代包装" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Refurbished Equivalent" enumId="PatRefurbished" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatRefurbished" locale="zh_CN" localized="相当于翻新" />
+
+<!--             <moqui.basic.Enumeration description="Product Variant" enumId="PatVariant" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatVariant" locale="zh_CN" localized="产品变体（花色等）" />
+		
+<!--             <moqui.basic.Enumeration description="Requires" enumId="PatRequires" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatRequires" locale="zh_CN" localized="需要" />
+
+            <moqui.basic.Enumeration description="Incompatible" enumId="PatIncompatible" enumTypeId="ProductAssocType"/>
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatIncompatible" locale="zh_CN" localized="不兼容" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Unique Item" enumId="PatUniqueItem" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatUniqueItem" locale="zh_CN" localized="独一无二" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Auto Reorder (needs recurrenceInfoId)" enumId="PatAutoReorder" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatAutoReorder" locale="zh_CN" localized="自动重新排序(需要recurrenceInfoId)" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Revision" enumId="PatRevision" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatRevision" locale="zh_CN" localized="修订" />
+
+<!--             <moqui.basic.Enumeration description="Manufacturing Bill of Materials" parentEnumId="PatComponent" enumId="PatMfgBom" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatMfgBom" locale="zh_CN" localized="制造物料清单" />
+		
+<!--             <moqui.basic.Enumeration description="Engineering Bill of Materials" parentEnumId="PatComponent" enumId="PatEngBom" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatEngBom" locale="zh_CN" localized="工程物料清单" />
+		
+		
+		
+<!--             <moqui.basic.Enumeration description="Product Manufactured As" enumId="PatMfgAs" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatMfgAs" locale="zh_CN" localized="产品制造为" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Used to Produce" enumId="PatUsedToProduce" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatUsedToProduce" locale="zh_CN" localized="用于生产" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Configurable Product Instance" enumId="PatConfigInstance" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatConfigInstance" locale="zh_CN" localized="可配置的产品实例" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Actual Product Component" enumId="PatComponent" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatComponent" locale="zh_CN" localized="实际产品组件" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Packaging For" enumId="PatPackagingFor" enumTypeId="ProductAssocType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PatPackagingFor" locale="zh_CN" localized="包装" />
+
+<!--             <moqui.basic.EnumerationType description="Product Form Type" enumTypeId="ProductFormType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductFormType" locale="zh_CN" localized="产品表单类型" />
+		            
+<!--             <moqui.basic.Enumeration description="Sales Required Info" enumId="PfmtSalesRequired" enumTypeId="ProductFormType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfmtSalesRequired" locale="zh_CN" localized="销售必填信息" />       
+		     
+<!--             <moqui.basic.Enumeration description="Sales Optional Info" enumId="PfmtSalesOptional" enumTypeId="ProductFormType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfmtSalesOptional" locale="zh_CN" localized="销售可选信息" />     
+		
+		       
+<!--             <moqui.basic.Enumeration description="Post Sale Survey" enumId="PfmtPostSaleSurvey" enumTypeId="ProductFormType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfmtPostSaleSurvey" locale="zh_CN" localized="售后调查" />
+		
+<!--             <moqui.basic.EnumerationType description="Product Geo Purpose" enumTypeId="ProductGeoPurpose"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductGeoPurpose" locale="zh_CN" localized="产品分区用途" />
+		            
+<!--             <moqui.basic.Enumeration description="Purchase Include" enumId="PgpPurchaseInclude" enumTypeId="ProductGeoPurpose"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PgpPurchaseInclude" locale="zh_CN" localized="采购范围内" />                  
+<!--             <moqui.basic.Enumeration description="Purchase Exclude" enumId="PgpPurchaseExclude" enumTypeId="ProductGeoPurpose"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PgpPurchaseExclude" locale="zh_CN" localized="采购范围外" />
+		                  
+<!--             <moqui.basic.Enumeration description="Shipment Include" enumId="PgpShipmentInclude" enumTypeId="ProductGeoPurpose"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PgpShipmentInclude" locale="zh_CN" localized="送货范围内" />
+		                  
+<!--             <moqui.basic.Enumeration description="Shipment Exclude" enumId="PgpShipmentExclude" enumTypeId="ProductGeoPurpose"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PgpShipmentExclude" locale="zh_CN" localized="送货范围外" />                  
+            
+            
+            <!-- Product Identification Type -->
+<!--             <moqui.basic.EnumerationType description="Product Identification Type" enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductIdentificationType" locale="zh_CN" localized="产品标识类型" />            
+		
+<!--             <moqui.basic.Enumeration description="ISBN" enumId="PidtIsbn"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtIsbn" locale="zh_CN" localized="ISBN" />            
+		  
+<!--             <moqui.basic.Enumeration description="Mfg Model Number" enumId="PidtMfgModelNum"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtMfgModelNum" locale="zh_CN" localized="制造商型号" />      
+		
+		        
+<!--             <moqui.basic.Enumeration description="Other" enumId="PidtOther"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtOther" locale="zh_CN" localized="其他" />       
+		       
+<!--             <moqui.basic.Enumeration description="SKU" enumId="PidtSku"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtSku" locale="zh_CN" localized="SKU" />    
+		          
+<!--             <moqui.basic.Enumeration description="UPC-A" enumId="PidtUpca"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtUpca" locale="zh_CN" localized="UPC-A" />           
+		   
+<!--             <moqui.basic.Enumeration description="UPC-E" enumId="PidtUpce"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtUpce" locale="zh_CN" localized="UPC-E" />         
+		     
+<!--             <moqui.basic.Enumeration description="EAN" enumId="PidtEan"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtEan" locale="zh_CN" localized="EAN" />        
+		
+		      
+<!--             <moqui.basic.Enumeration description="GTIN" enumId="PidtGtin"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtGtin" locale="zh_CN" localized="GTIN" />          
+		    
+<!--             <moqui.basic.Enumeration description="Library of Congress" enumId="PidtLoc"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtLoc" locale="zh_CN" localized="美国国会图书馆" />      
+		        
+            <!-- see https://en.wikipedia.org/wiki/Clean_URL#Slug -->
+<!--             <moqui.basic.Enumeration description="URL Slug" enumId="PidtUrlSlug"  enumTypeId="ProductIdentificationType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtUrlSlug" locale="zh_CN" localized="URL标称" />         
+		     
+            <!-- see https://en.wikipedia.org/wiki/Harmonized_Tariff_Schedule_of_the_United_States and https://hts.usitc.gov/ -->
+<!--             <moqui.basic.Enumeration description="HTS (Tariff)" enumId="PidtHts"  enumTypeId="ProductIdentificationType"/> -->            
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PidtHts" locale="zh_CN" localized="海关商品编码（Tariff）" />  
+		
+            <!-- Product Price Type -->
+<!--             <moqui.basic.EnumerationType description="Product Price Type" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductPriceType" locale="zh_CN" localized="产品价格类型" /> 
+		            
+<!--             <moqui.basic.Enumeration description="List Price" enumId="PptList" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptList" locale="zh_CN" localized="标牌价" />
+		              
+            <moqui.basic.Enumeration description="Current Price" enumId="PptCurrent" enumTypeId="ProductPriceType"/>
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptCurrent" locale="zh_CN" localized="当前价" />  
+		            
+<!--             <moqui.basic.Enumeration description="Average Cost" enumId="PptAverage" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptAverage" locale="zh_CN" localized="平均成本" />  
+		            
+<!--             <moqui.basic.Enumeration description="Minimum Price" enumId="PptMinimum" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptMinimum" locale="zh_CN" localized="最低价" />  
+		            
+<!--             <moqui.basic.Enumeration description="Maximum Price" enumId="PptMaximum" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptMaximum" locale="zh_CN" localized="最高价" />           
+		   
+<!--             <moqui.basic.Enumeration description="Promotional Price" enumId="PptPromotional" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptPromotional" locale="zh_CN" localized="促销价" />  
+		            
+<!--             <moqui.basic.Enumeration description="Competitive Price" enumId="PptCompetitive" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptCompetitive" locale="zh_CN" localized="竞争价" />
+		              
+<!--             <moqui.basic.Enumeration description="Wholesale Price" enumId="PptWholesale" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptWholesale" locale="zh_CN" localized="批发价" />      
+		        
+<!--             <moqui.basic.Enumeration description="Special Promo Price" enumId="PptSpecialPromo" enumTypeId="ProductPriceType"/> -->
+	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PptSpecialPromo" locale="zh_CN" localized="特别促销价" />              
+            <!-- use PptMinimum instead: <moqui.basic.Enumeration description="Minimum Order Price" enumId="PptMinimumOrder" enumTypeId="ProductPriceType"/> -->
+
+            <!-- Product Price Purpose -->
+<!--             <moqui.basic.EnumerationType description="Product Price Purpose" enumTypeId="ProductPricePurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductPricePurpose" locale="zh_CN" localized="产品定价目的" /> 
+		            
+<!--             <moqui.basic.Enumeration description="Purchase/Initial" enumId="PppPurchase" enumTypeId="ProductPricePurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PppPurchase" locale="zh_CN" localized="采购/开始" />    
+		          
+<!--             <moqui.basic.Enumeration description="Recurring Charge" enumId="PppRecurring" enumTypeId="ProductPricePurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PppRecurring" locale="zh_CN" localized="经常性费用" />     
+		         
+<!--             <moqui.basic.Enumeration description="Usage Charge" enumId="PppUsage" enumTypeId="ProductPricePurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PppUsage" locale="zh_CN" localized="使用费" />       
+		
+		       
+<!--             <moqui.basic.Enumeration description="Component Price" enumId="PppComponent" enumTypeId="ProductPricePurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PppComponent" locale="zh_CN" localized="组件价格" />  
+            <!-- Supplier Preferred Order -->
+<!--             <moqui.basic.EnumerationType description="Supplier Preferred Order" enumTypeId="SupplierPreferredOrder"/> -->
+	<moqui.basic.LocalizedEntityField  entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="SupplierPreferredOrder" locale="zh_CN" localized="供应商首选订单" />  
+		            
+            <moqui.basic.Enumeration enumId="SpoMain" sequenceNum="1" description="Main Supplier" enumTypeId="SupplierPreferredOrder"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="SpoMain" locale="zh_CN" localized="主供应商" />   
+		           
+            <moqui.basic.Enumeration enumId="SpoAlternate" sequenceNum="2" description="Alternate Supplier" enumTypeId="SupplierPreferredOrder"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="SpoAlternate" locale="zh_CN" localized="备选供应商" />  
+		            
+	<!-- <moqui.basic.Enumeration description="Product Price Modify" enumId="ProductPriceModify" enumTypeId="ServiceRegisterType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ProductPriceModify" locale="zh_CN" localized="产品价格修改服务" />  
+
+            <!-- Product Review Status -->
+<!--             <moqui.basic.StatusType description="Product Review" statusTypeId="ProductReview"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="ProductReview" locale="zh_CN" localized="产品评论" />  
+            
+<!--             <moqui.basic.StatusItem description="Pending" sequenceNum="1" statusId="PrvwPending" statusTypeId="ProductReview"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="PrvwPending" locale="zh_CN" localized="待处理" />  
+            
+<!--             <moqui.basic.StatusItem description="Approved" sequenceNum="2" statusId="PrvwApproved" statusTypeId="ProductReview"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="PrvwApproved" locale="zh_CN" localized="批准" />  
+            
+<!--             <moqui.basic.StatusItem description="Deleted" sequenceNum="99" statusId="PrvwDeleted" statusTypeId="ProductReview"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="PrvwDeleted" locale="zh_CN" localized="删除" />              
+
+            <!-- Product Category Type -->
+<!--             <moqui.basic.EnumerationType description="Product Category Type" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductCategoryType" locale="zh_CN" localized="产品目录类型" /> 
+            
+<!--             <moqui.basic.Enumeration description="Catalog" enumId="PctCatalog" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctCatalog" locale="zh_CN" localized="产品目录" />              
+		
+<!--             <moqui.basic.Enumeration description="Industry" enumId="PctIndustry" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctIndustry" locale="zh_CN" localized="工业" />    
+		          
+<!--             <moqui.basic.Enumeration description="Internal" enumId="PctInternal" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctInternal" locale="zh_CN" localized="内部" />              
+		
+<!--             <moqui.basic.Enumeration description="Materials" enumId="PctMaterials" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctMaterials" locale="zh_CN" localized="材料" />       
+		       
+<!--             <moqui.basic.Enumeration description="Quick Add" enumId="PctQuickAdd" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctQuickAdd" locale="zh_CN" localized="快速添加" />    
+		          
+<!--             <moqui.basic.Enumeration description="Search" enumId="PctSearch" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctSearch" locale="zh_CN" localized="查找" />   
+		           
+<!--             <moqui.basic.Enumeration description="Usage" enumId="PctUsage" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctUsage" locale="zh_CN" localized="用法" />         
+		     
+<!--             <moqui.basic.Enumeration description="Mix and Match" enumId="PctMixMatch" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctMixMatch" locale="zh_CN" localized="混搭" />       
+      
+<!--             <moqui.basic.Enumeration description="Cross Sell" enumId="PctCrossSell" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctCrossSell" locale="zh_CN" localized="交叉销售" />
+		              
+<!--             <moqui.basic.Enumeration description="Tax" enumId="PctTax" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctTax" locale="zh_CN" localized="税务" />
+		              
+<!--             <moqui.basic.Enumeration description="Gift Card" enumId="PctGiftCard" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctGiftCard" locale="zh_CN" localized="礼品卡" />
+		              
+<!--             <moqui.basic.Enumeration description="Best Selling" enumId="PctBestSelling" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctBestSelling" locale="zh_CN" localized="热销产品" />       
+		       
+<!--             <moqui.basic.Enumeration description="Inventory Group" enumId="PctInventoryGroup" enumTypeId="ProductCategoryType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PctInventoryGroup" locale="zh_CN" localized="库存组" />              
+                        
+            <!-- Product Category Content Type -->
+            <!-- <moqui.basic.EnumerationType description="Product Category Content Type" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductCategoryContentType" locale="zh_CN" localized="产品目录内容类型" /> 
+		            
+<!--             <moqui.basic.Enumeration description="Category Name" enumId="PcctCategoryName" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcctCategoryName" locale="zh_CN" localized="目录名称" />    
+		             
+<!--             <moqui.basic.Enumeration description="Description" enumId="PcctDescription" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcctDescription" locale="zh_CN" localized="简述" />    
+            
+<!--             <moqui.basic.Enumeration description="Description - Long" enumId="PcctDescriptionLong" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcctDescriptionLong" locale="zh_CN" localized="详述" />      
+		           
+<!--             <moqui.basic.Enumeration description="Category Image URL" enumId="PcctImageUrl" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcctImageUrl" locale="zh_CN" localized="目录图像URL" />
+		                 
+<!--             <moqui.basic.Enumeration description="Category Image Alt Text" enumId="PcctImageAltText" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcctImageAltText" locale="zh_CN" localized="类别图像替代文本" />    
+		             
+<!--             <moqui.basic.Enumeration description="Footer" enumId="PcctFooter" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcctFooter" locale="zh_CN" localized="页脚" />                 
+<!--             <moqui.basic.Enumeration description="Meta-Keywords" enumId="PcctMetaKeywords" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcctMetaKeywords" locale="zh_CN" localized="Meta-关键字" />                 
+		
+<!--             <moqui.basic.Enumeration description="Meta-Description" enumId="PcctMetaDescription" enumTypeId="ProductCategoryContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcctMetaDescription" locale="zh_CN" localized="Meat-简述" />                 
+
+            <!-- Product Category Ident Type -->
+<!--             <moqui.basic.EnumerationType description="Product Category Ident Type" enumTypeId="ProductCategoryIdentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductCategoryIdentType" locale="zh_CN" localized="产品目录识别类型" />             
+            <!-- see https://en.wikipedia.org/wiki/Clean_URL#Slug -->
+<!--             <moqui.basic.Enumeration description="URL Slug" enumId="PcitUrlSlug" enumTypeId="ProductCategoryIdentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcitUrlSlug" locale="zh_CN" localized="URL标称" />
+		  
+            <!-- Product Feature Type -->
+<!--             <moqui.basic.EnumerationType description="Product Feature Type" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductFeatureType" locale="zh_CN" localized="产品特性类型" />   
+		            
+<!--             <moqui.basic.Enumeration description="Accessory" enumId="PftAccessory" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftAccessory" locale="zh_CN" localized="附件" /> 
+		           
+<!--             <moqui.basic.Enumeration description="Amount" enumId="PftAmount" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftAmount" locale="zh_CN" localized="数额" />
+		            
+<!--             <moqui.basic.Enumeration description="Net Weight" enumId="PftNetWeight" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftNetWeight" locale="zh_CN" localized="净重" />
+		
+<!--             <moqui.basic.Enumeration description="Artist" enumId="PftArtist" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftArtist" locale="zh_CN" localized="艺术家" />
+		
+<!--             <moqui.basic.Enumeration description="Billing" enumId="PftBilling" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftBilling" locale="zh_CN" localized="账单" />
+		
+<!--             <moqui.basic.Enumeration description="Brand" enumId="PftBrand" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftBrand" locale="zh_CN" localized="品牌" />
+		
+            <moqui.basic.Enumeration description="Care" enumId="PftCare" enumTypeId="ProductFeatureType"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftCare" locale="zh_CN" localized="护理" />
+		
+<!-- 		            <moqui.basic.Enumeration description="Color" enumId="PftColor" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftColor" locale="zh_CN" localized="颜色" />  
+		      
+<!--             <moqui.basic.Enumeration description="Dimension" enumId="PftDimension" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftDimension" locale="zh_CN" localized="尺寸" />
+		
+<!--             <moqui.basic.Enumeration description="Equipment Class" enumId="PftEquipClass" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftEquipClass" locale="zh_CN" localized="设备分类" />
+		
+<!--             <moqui.basic.Enumeration description="Fabric" enumId="PftFabric" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftFabric" locale="zh_CN" localized="面料" />
+		
+<!--             <moqui.basic.Enumeration description="Genre" enumId="PftGenre" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftGenre" locale="zh_CN" localized="体裁" />
+		
+<!--             <moqui.basic.Enumeration description="Hardware" enumId="PftHardware" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftHardware" locale="zh_CN" localized="硬件" />
+		
+<!--             <moqui.basic.Enumeration description="License" enumId="PftLicense" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftLicense" locale="zh_CN" localized="许可证" />
+
+<!--             <moqui.basic.Enumeration description="Origin" enumId="PftOrigin" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftOrigin" locale="zh_CN" localized="产地" />
+		
+<!--             <moqui.basic.Enumeration description="Other" enumId="PftOther" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftOther" locale="zh_CN" localized="其它" />
+		
+<!--             <moqui.basic.Enumeration description="Packaging Component" enumId="PftPackagingComponent" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftPackagingComponent" locale="zh_CN" localized="包装组件" />
+		
+<!--             <moqui.basic.Enumeration description="Packaging Type" enumId="PftPackagingType" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftPackagingType" locale="zh_CN" localized="包装类型" />
+		
+<!--             <moqui.basic.Enumeration description="Product Quality" enumId="PftProdQuality" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftProdQuality" locale="zh_CN" localized="产品质量" />
+		
+<!--             <moqui.basic.Enumeration description="Size" enumId="PftSize" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftSize" locale="zh_CN" localized="大小" />
+		
+<!--             <moqui.basic.Enumeration description="Software" enumId="PftSoftware" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftSoftware" locale="zh_CN" localized="软件" />
+		
+<!--             <moqui.basic.Enumeration description="Style" enumId="PftStyle" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftStyle" locale="zh_CN" localized="风格" />
+		
+<!--             <moqui.basic.Enumeration description="Symptom" enumId="PftSymptom" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftSymptom" locale="zh_CN" localized="表征" />
+		
+<!--             <moqui.basic.Enumeration description="Topic" enumId="PftTopic" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftTopic" locale="zh_CN" localized="主题" />
+		
+<!--             <moqui.basic.Enumeration description="Type" enumId="PftType" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftType" locale="zh_CN" localized="类型" />
+		
+<!--             <moqui.basic.Enumeration description="Warranty" enumId="PftWarranty" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftWarranty" locale="zh_CN" localized="质保" />
+		
+            <moqui.basic.Enumeration description="Model Year" enumId="PftModelYear" enumTypeId="ProductFeatureType"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftModelYear" locale="zh_CN" localized="车型年份" />
+		
+<!--             <moqui.basic.Enumeration description="Year Made" enumId="PftYearMade" enumTypeId="ProductFeatureType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PftYearMade" locale="zh_CN" localized="制造年份" />
+		            
+            <!-- Product Feature Appl Type -->
+<!--             <moqui.basic.EnumerationType description="Product Feature Appl Type" enumTypeId="ProductFeatureApplType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductFeatureApplType" locale="zh_CN" localized="产品特性应用类型" />   
+		            
+<!--             <moqui.basic.Enumeration description="Selectable" enumId="PfatSelectable" enumTypeId="ProductFeatureApplType">
+                
+                    Use this to associate selectable features with a virtual product. These features are organized by the feature type and there may be a variant of the virtual product for each combination of features, one feature for each feature type.
+                    Each variant of the virtual product should have one feature (selected from the set of selectable features on the virtual product) for each feature type, associated with it as a standard or distinguishing feature.
+               
+            </moqui.basic.Enumeration>
+ -->
+ 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfatSelectable" locale="zh_CN" localized="可变" />
+		            
+<!--             <moqui.basic.Enumeration description="Standard" enumId="PfatStandard" enumTypeId="ProductFeatureApplType">
+                
+                    Standard features are inherent features that describe the nature of a product. These can be used for product comparison, parametric searching, and to describe variants of virtual products.
+                    For more information about the virtual/variant pattern please see the descriptions of the Selectable and Distinguishing Feature Application Types.
+                    Note that in OFBiz parametric searching by default considers all applications types and not just standard features, but that may be an option more desirable for certain organizations.
+               
+            </moqui.basic.Enumeration>
+ -->            
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfatStandard" locale="zh_CN" localized="标准" />  
+		          
+<!--             <moqui.basic.Enumeration description="Distinguishing" enumId="PfatDistinguishing" enumTypeId="ProductFeatureApplType">
+                
+                    Used only for variant products. Features applied to products this way distinguish one variant from another.
+                    For the virtual/variant structure the features attached to variants can be applied as Standard or Distinguishing features.
+                    Use distinguishing instead of standard feature application when you want the feature to be used ONLY for virtual/variant distinction and not for other things standard features are used for like product comparisons and such.
+               
+            </moqui.basic.Enumeration> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfatDistinguishing" locale="zh_CN" localized="区别" /> 
+		           
+<!--             <moqui.basic.Enumeration description="Optional" enumId="PfatOptional" enumTypeId="ProductFeatureApplType">
+                
+                    Optional features are for add-on options to a Product that may optionally have an amount and/or recurringAmount to charge for the option,
+                    and may optionally have a featureProductId with more details about the option (including ProductPrice records to override or instead of amount and recurringAmount).
+               
+            </moqui.basic.Enumeration>   -->          		            
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfatOptional" locale="zh_CN" localized="可选" />
+
+            <!-- Product Feature Iactn Type -->
+<!--             <moqui.basic.EnumerationType description="Product Feature Interaction Type" enumTypeId="ProductFeatureIactnType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ProductFeatureIactnType" locale="zh_CN" localized="产品特性交互类型" />     
+		          
+<!--             <moqui.basic.Enumeration description="Dependency" enumId="PfitDependency" enumTypeId="ProductFeatureIactnType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfitDependency" locale="zh_CN" localized="依赖" />    
+		        
+<!--             <moqui.basic.Enumeration description="Compatible" enumId="PfitCompatible" enumTypeId="ProductFeatureIactnType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfitCompatible" locale="zh_CN" localized="兼容" />
+		            
+<!--             <moqui.basic.Enumeration description="Incompatible" enumId="PfitIncompatible" enumTypeId="ProductFeatureIactnType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfitIncompatible" locale="zh_CN" localized="不兼容" />            
+		
+<!--             <moqui.basic.Enumeration description="Composition" enumId="PfitComposition" enumTypeId="ProductFeatureIactnType"/> -->		
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PfitComposition" locale="zh_CN" localized="组合" />		                                    		            		
+		
+		            <!-- Product Subscription Type -->
+<!--             <moqui.basic.EnumerationType description="Subscription Type" enumTypeId="SubscriptionType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="SubscriptionType" locale="zh_CN" localized="订阅类型" />  
+		            
+<!--             <moqui.basic.Enumeration description="Product" enumId="StProduct" enumTypeId="SubscriptionType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="StProduct" locale="zh_CN" localized="产品" />		
+		            
+            
+</entity-facade-xml>
+            

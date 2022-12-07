@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+            <!-- Shipment Type -->
+<!--             <moqui.basic.EnumerationType description="Shipment Type" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ShipmentType" locale="zh_CN" localized="货运类型" />
+            
+<!--             <moqui.basic.Enumeration description="Incoming" enumId="ShpTpIncoming" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ShpTpIncoming" locale="zh_CN" localized="入库" />
+            
+<!--             <moqui.basic.Enumeration description="Outgoing" enumId="ShpTpOutgoing" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ShpTpIncoming" locale="zh_CN" localized="出库" />
+            
+<!--             <moqui.basic.Enumeration description="Sales Return" parentEnumId="ShpTpIncoming" enumId="ShpTpSalesReturn" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ShpTpSalesReturn" locale="zh_CN" localized="销售退货" />
+
+<!--             <moqui.basic.Enumeration description="Sales Shipment" parentEnumId="ShpTpOutgoing" enumId="ShpTpSales" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ShpTpSales" locale="zh_CN" localized="销售发货" />
+
+<!--             <moqui.basic.Enumeration description="Purchase Shipment" parentEnumId="ShpTpIncoming" enumId="ShpTpPurchase" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ShpTpPurchase" locale="zh_CN" localized="采购入库" />
+
+<!--             <moqui.basic.Enumeration description="Purchase Return" parentEnumId="ShpTpOutgoing" enumId="ShpTpPurchaseReturn" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ShpTpPurchaseReturn" locale="zh_CN" localized="采购退货" />
+
+<!--             <moqui.basic.Enumeration description="Drop Shipment" enumId="ShpTpDrop" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ShpTpDrop" locale="zh_CN" localized="直运" />
+
+<!--             <moqui.basic.Enumeration description="Transfer" enumId="ShpTpTransfer" enumTypeId="ShipmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ShpTpTransfer" locale="zh_CN" localized="调拨" />
+
+            <!-- Shipment Status -->
+<!--             <moqui.basic.StatusType description="Shipment Status" statusTypeId="Shipment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="Shipment" locale="zh_CN" localized="装运状态" />
+		            
+<!--             <moqui.basic.StatusItem description="Input" sequenceNum="1" statusId="ShipInput" statusTypeId="Shipment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ShipInput" locale="zh_CN" localized="输入" />
+
+<!--             <moqui.basic.StatusItem description="Scheduled" sequenceNum="2" statusId="ShipScheduled" statusTypeId="Shipment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ShipScheduled" locale="zh_CN" localized="已排程" />
+            
+<!--             <moqui.basic.StatusItem description="Picked" sequenceNum="3" statusId="ShipPicked" statusTypeId="Shipment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ShipPicked" locale="zh_CN" localized="已分拣" />
+
+<!--             <moqui.basic.StatusItem description="Packed" sequenceNum="4" statusId="ShipPacked" statusTypeId="Shipment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ShipPacked" locale="zh_CN" localized="已装箱" />
+
+<!--             <moqui.basic.StatusItem description="Shipped" sequenceNum="5" statusId="ShipShipped" statusTypeId="Shipment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ShipShipped" locale="zh_CN" localized="已发货" />
+
+<!--             <moqui.basic.StatusItem description="Delivered" sequenceNum="6" statusId="ShipDelivered" statusTypeId="Shipment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ShipDelivered" locale="zh_CN" localized="已交货" />
+
+<!--             <moqui.basic.StatusItem description="Rejected" sequenceNum="98" statusId="ShipRejected" statusTypeId="Shipment"/>Rejected by receiver -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ShipRejected" locale="zh_CN" localized="已驳回" />
+
+<!--             <moqui.basic.StatusItem description="Cancelled" sequenceNum="99" statusId="ShipCancelled" statusTypeId="Shipment"/>Cancelled by sender -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ShipCancelled" locale="zh_CN" localized="已取消" />
+            
+                                		                                            		            
+</entity-facade-xml>
+            

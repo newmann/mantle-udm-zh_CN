@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+            <!-- Request Type -->
+<!--             <moqui.basic.EnumerationType description="Request Type" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField  entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="AssetReservationOrder" locale="zh_CN" localized="需求类型" />            
+
+            
+<!--             <moqui.basic.Enumeration enumId="RqtBugFix" description="Bug Fix" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtBugFix" locale="zh_CN" localized="错误修复" />   
+		            
+<!--             <moqui.basic.Enumeration enumId="RqtNewFeature" description="New Feature" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtNewFeature" locale="zh_CN" localized="新功能" />
+		              
+<!--             <moqui.basic.Enumeration enumId="RqtInformation" description="Information" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtInformation" locale="zh_CN" localized="信息" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RqtProposal" description="Proposal" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtProposal" locale="zh_CN" localized="提案" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RqtQuote" description="Quote" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtQuote" locale="zh_CN" localized="报价" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RqtSupport" description="Support" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtSupport" locale="zh_CN" localized="支持" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RqtInventory" description="Inventory" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtInventory" locale="zh_CN" localized="库存" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RqtPurchase" description="Purchase" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtPurchase" locale="zh_CN" localized="采购" />
+		  
+<!--             <moqui.basic.Enumeration enumId="RqtContact" description="Contact Us" enumTypeId="RequestType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqtContact" locale="zh_CN" localized="联系我们" />  
+            <!-- Request Status -->
+<!--             <moqui.basic.StatusType description="Request Status" statusTypeId="Request"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="Request" locale="zh_CN" localized="需求状态" />  
+            
+<!--             <moqui.basic.StatusItem description="Draft" sequenceNum="0" statusId="ReqDraft" statusTypeId="Request"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReqDraft" locale="zh_CN" localized="草案" />  
+
+<!--             <moqui.basic.StatusItem description="Submitted" sequenceNum="1" statusId="ReqSubmitted" statusTypeId="Request"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReqSubmitted" locale="zh_CN" localized="已提交" />  
+
+<!--             <moqui.basic.StatusItem description="Reviewed" sequenceNum="3" statusId="ReqReviewed" statusTypeId="Request"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReqReviewed" locale="zh_CN" localized="已审阅" />  
+
+<!--             <moqui.basic.StatusItem description="In Progress" sequenceNum="4" statusId="ReqInProgress" statusTypeId="Request"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReqInProgress" locale="zh_CN" localized="处理中" />  
+
+<!--             <moqui.basic.StatusItem description="Completed" sequenceNum="5" statusId="ReqCompleted" statusTypeId="Request"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReqCompleted" locale="zh_CN" localized="已完成" />  
+
+<!--             <moqui.basic.StatusItem description="Cancelled" sequenceNum="99" statusId="ReqCancelled" statusTypeId="Request"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReqCancelled" locale="zh_CN" localized="已取消" />  
+
+
+            <!-- Request Resolution -->
+<!--             <moqui.basic.EnumerationType description="Request Resolution" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField  entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="RequestResolution" locale="zh_CN" localized="需求解决类型" />     
+		            
+<!--             <moqui.basic.Enumeration enumId="RrFixed" description="Fixed" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrFixed" locale="zh_CN" localized="已修复" />  
+		            
+<!--             <moqui.basic.Enumeration enumId="RrCantReproduce" description="Can't Reproduce" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrCantReproduce" locale="zh_CN" localized="不能重现" />
+		  
+<!--             <moqui.basic.Enumeration enumId="RrWontFix" description="Won't Fix" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrWontFix" locale="zh_CN" localized="不会修复" /> 
+		 
+<!--             <moqui.basic.Enumeration enumId="RrDuplicate" description="Duplicate" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrDuplicate" locale="zh_CN" localized="重复" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RrRejected" description="Rejected" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrRejected" locale="zh_CN" localized="已拒绝" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RrInsufficient" description="Insufficient Information" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrInsufficient" locale="zh_CN" localized="信息不充分" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RrCompleted" description="Completed" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrCompleted" locale="zh_CN" localized="已完成" />  
+		
+<!--             <moqui.basic.Enumeration enumId="RrUnresolved" description="Unresolved" enumTypeId="RequestResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrUnresolved" locale="zh_CN" localized="未解决" />              
+                    		            
+            <!-- Request Content Type -->
+<!--             <moqui.basic.EnumerationType description="Request Content Type" enumTypeId="RequestContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="RequestContentType" locale="zh_CN" localized="需求文档类型" />
+		             
+<!--             <moqui.basic.Enumeration description="Internal" enumId="RqCntInternal" enumTypeId="RequestContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqCntInternal" locale="zh_CN" localized="内部" />
+
+<!--             <moqui.basic.Enumeration description="User Defined" enumId="RqCntUserDefined" enumTypeId="RequestContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqCntUserDefined" locale="zh_CN" localized="用户定义" />
+            
+<!--             <moqui.basic.Enumeration description="Documentation" enumId="RqCntDocumentation" enumTypeId="RequestContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqCntDocumentation" locale="zh_CN" localized="文档" />
+
+<!--             <moqui.basic.Enumeration description="Story" enumId="RqCntStory" enumTypeId="RequestContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqCntStory" locale="zh_CN" localized="情况" />
+
+<!--             <moqui.basic.Enumeration description="Image" enumId="RqCntImage" enumTypeId="RequestContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqCntImage" locale="zh_CN" localized="图片" />
+<!-- 		Request Party -->
+<!--             <moqui.basic.Enumeration description="Request" enumId="RgpRequest" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpRequest" locale="zh_CN" localized="需求" />
+		
+            <!-- Requirement Type -->
+<!--             <moqui.basic.EnumerationType description="Requirement Type" enumTypeId="RequirementType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="RequirementType" locale="zh_CN" localized="申请类型" />
+            
+<!--             <moqui.basic.Enumeration description="Customer" enumId="RqTpCustomer" enumTypeId="RequirementType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqTpCustomer" locale="zh_CN" localized="顾客" />
+            
+<!--             <moqui.basic.Enumeration description="Internal" enumId="RqTpInternal" enumTypeId="RequirementType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqTpInternal" locale="zh_CN" localized="内部" />
+
+<!--             <moqui.basic.Enumeration description="Product" enumId="RqTpProduct" enumTypeId="RequirementType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqTpProduct" locale="zh_CN" localized="产品" />
+
+<!--             <moqui.basic.Enumeration description="Inventory" enumId="RqTpInventory" enumTypeId="RequirementType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqTpInventory" locale="zh_CN" localized="库存" />
+
+<!--             <moqui.basic.Enumeration description="Work" enumId="RqTpWork" enumTypeId="RequirementType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RqTpWork" locale="zh_CN" localized="工作" />
+
+            <!-- Requirement Status -->
+<!--             <moqui.basic.StatusType description="Requirement Status" statusTypeId="Requirement"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="Requirement" locale="zh_CN" localized="申请状态" />
+		            
+<!--             <moqui.basic.StatusItem description="Proposed" sequenceNum="1" statusId="RqmtStProposed" statusTypeId="Requirement"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="RqmtStProposed" locale="zh_CN" localized="已提交" />
+
+<!--             <moqui.basic.StatusItem description="Created" sequenceNum="2" statusId="RqmtStCreated" statusTypeId="Requirement"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="RqmtStCreated" locale="zh_CN" localized="已创建" />
+
+<!--             <moqui.basic.StatusItem description="Approved" sequenceNum="3" statusId="RqmtStApproved" statusTypeId="Requirement"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="RqmtStApproved" locale="zh_CN" localized="已批准" />
+
+<!--             <moqui.basic.StatusItem description="Ordered" sequenceNum="4" statusId="RqmtStOrdered" statusTypeId="Requirement"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="RqmtStOrdered" locale="zh_CN" localized="已订货" />
+
+<!--             <moqui.basic.StatusItem description="Rejected" sequenceNum="9" statusId="RqmtStRejected" statusTypeId="Requirement"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="RqmtStRejected" locale="zh_CN" localized="已拒绝" />
+
+            <!-- Work Requirement Fulfillment Type -->
+<!--             <moqui.basic.EnumerationType description="Work Requirement Fulfillment Type" enumTypeId="WorkRequirementFulfillmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkRequirementFulfillmentType" locale="zh_CN" localized="工作要求满足类型" />
+		            
+<!--             <moqui.basic.Enumeration description="Implements" enumId="WrfImplements" enumTypeId="WorkRequirementFulfillmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WrfImplements" locale="zh_CN" localized="实现" />      
+		      
+<!--             <moqui.basic.Enumeration description="Fixes" enumId="WrfFixes" enumTypeId="WorkRequirementFulfillmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WrfFixes" locale="zh_CN" localized="修复" />
+		
+<!--             <moqui.basic.Enumeration description="Deploys" enumId="WrfDeploys" enumTypeId="WorkRequirementFulfillmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WrfDeploys" locale="zh_CN" localized="部署" />
+		
+<!--             <moqui.basic.Enumeration description="Tests" enumId="WrfTests" enumTypeId="WorkRequirementFulfillmentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WrfTests" locale="zh_CN" localized="测试" />
+		
+<!--             <moqui.basic.Enumeration description="Delivers" enumId="WrfDelivers" enumTypeId="WorkRequirementFulfillmentType"/> -->            
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WrfDelivers" locale="zh_CN" localized="交付" />
+		            		                                            		            
+</entity-facade-xml>
+            

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a 
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+
+<!--    <moqui.basic.EnumerationType description="Payroll Calc Period" enumTypeId="PayrollCalcPer"/>-->
+    <moqui.basic.LocalizedEntityField
+            entityName="moqui.basic.EnumerationType" fieldName="description"
+            pkValue="PayrollCalcPer" locale="zh_CN" localized="工资计算期" />
+
+<!--    <moqui.basic.Enumeration description="Pay Period" enumId="PcfPayPeriod" enumTypeId="PayrollCalcPer"/>-->
+    <moqui.basic.LocalizedEntityField
+            entityName="moqui.basic.Enumeration" fieldName="description"
+            pkValue="PcfPayPeriod" locale="zh_CN" localized="支付期" />
+
+<!--    <moqui.basic.Enumeration description="Workweek" enumId="PcfWorkweek" enumTypeId="PayrollCalcPer"/>-->
+    <moqui.basic.LocalizedEntityField
+            entityName="moqui.basic.Enumeration" fieldName="description"
+            pkValue="PcfWorkweek" locale="zh_CN" localized="工作日" />
+
+<!--    <moqui.basic.EnumerationType description="Payroll Wage Grouping" enumTypeId="PayrollWageGrp"/>-->
+    <moqui.basic.LocalizedEntityField
+            entityName="moqui.basic.EnumerationType" fieldName="description"
+            pkValue="PayrollWageGrp" locale="zh_CN" localized="工资单工资分组" />
+
+    <!-- All time entries are considered together for the calculation period. -->
+    <!--<moqui.basic.Enumeration description="All" enumId="PwgAll" sequenceNum="1" enumTypeId="PayrollWageGrp"/>-->
+    <moqui.basic.LocalizedEntityField
+            entityName="moqui.basic.Enumeration" fieldName="description"
+            pkValue="PwgAll" locale="zh_CN" localized="全部" />
+
+    <!-- All time entries for the same facility owner -->
+<!--    <moqui.basic.Enumeration description="Facility Owner" enumId="PwgFacilityOwner" sequenceNum="2" enumTypeId="PayrollWageGrp"/>-->
+    <moqui.basic.LocalizedEntityField
+            entityName="moqui.basic.Enumeration" fieldName="description"
+            pkValue="PwgFacilityOwner" locale="zh_CN" localized="设施所有者" />
+
+    <!-- All time entries for the same facility -->
+<!--    <moqui.basic.Enumeration description="Facility" enumId="PwgFacility" sequenceNum="3" enumTypeId="PayrollWageGrp"/>-->
+    <moqui.basic.LocalizedEntityField
+            entityName="moqui.basic.Enumeration" fieldName="description"
+            pkValue="PwgFacility" locale="zh_CN" localized="设施" />
+
+    <!-- Time Entry grouping should evaluate each time entry separately as for whether it achieved minimum wage -->
+<!--    <moqui.basic.Enumeration description="Time Entry" enumId="PwgTimeEntry" sequenceNum="10" enumTypeId="PayrollWageGrp"/>-->
+    <moqui.basic.LocalizedEntityField
+            entityName="moqui.basic.Enumeration" fieldName="description"
+            pkValue="PwgTimeEntry" locale="zh_CN" localized="时间条目" />
+
+</entity-facade-xml>

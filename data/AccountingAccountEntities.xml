@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+	<!-- Billing Account Term Type -->
+<!--	<moqui.basic.EnumerationType description="Billing Account Term Type" enumTypeId="BillingAccountTermType"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="BillingAccountTermType" locale="zh_CN" localized="计费账户条款类型" />
+
+	<!-- Financial Account Status -->
+<!--	<moqui.basic.StatusType description="Financial Account Status" statusTypeId="FinancialAccount"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+									  pkValue="FinancialAccount" locale="zh_CN" localized="金融账户状态" />
+
+<!--	<moqui.basic.StatusItem description="Active" sequenceNum="1" statusId="FaActive" statusTypeId="FinancialAccount"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="FaActive" locale="zh_CN" localized="正常" />
+
+	<!-- This is set automatically by the auto-replenishment code to allow one transaction to bring the balance below
+        zero and then if any other transactions are attempted during replenishment they will be rejected. -->
+<!--	<moqui.basic.StatusItem description="Negative Pending Replenishment" sequenceNum="2" statusId="FaNegPendRepl" statusTypeId="FinancialAccount"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="FaNegPendRepl" locale="zh_CN" localized="Negative Pending Replenishment" />
+
+	<!-- This is meant to be set manually by a company representative to freeze an account so further transactions are
+        not allowed. -->
+<!--	<moqui.basic.StatusItem description="Manually Frozen" sequenceNum="3" statusId="FaManFrozen" statusTypeId="FinancialAccount"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="FaManFrozen" locale="zh_CN" localized="手工冻结" />
+
+<!--	<moqui.basic.StatusItem description="Cancelled" sequenceNum="9" statusId="FaCancelled" statusTypeId="FinancialAccount"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="FaCancelled" locale="zh_CN" localized="作废" />
+
+	<!-- Financial Account Trans Type -->
+<!--	<moqui.basic.EnumerationType description="Financial Account Trans Type" enumTypeId="FinancialAccountTransType"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+									  pkValue="FinancialAccountTransType" locale="zh_CN" localized="金融账户交易类型" />
+
+<!--	<moqui.basic.Enumeration description="Deposit" enumId="FattDeposit" enumTypeId="FinancialAccountTransType"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FattDeposit" locale="zh_CN" localized="存款" />
+
+<!--	<moqui.basic.Enumeration description="Withdraw" enumId="FattWithdraw" enumTypeId="FinancialAccountTransType"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FattWithdraw" locale="zh_CN" localized="取款" />
+
+<!--	<moqui.basic.Enumeration description="Adjustment" enumId="FattAdjustment" enumTypeId="FinancialAccountTransType"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FattAdjustment" locale="zh_CN" localized="调整" />
+
+	<!-- Financial Account Trans Reason -->
+<!--	<moqui.basic.EnumerationType description="Financial Account Trans Reason" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+									  pkValue="FinancialAccountTransReason" locale="zh_CN" localized="金融账户交易原因" />
+
+<!--	<moqui.basic.Enumeration description="Purchase" enumId="FatrPurchase" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FatrPurchase" locale="zh_CN" localized="采购" />
+
+<!--	<moqui.basic.Enumeration description="Initial Deposit" enumId="FatrInitDeposit" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FatrInitDeposit" locale="zh_CN" localized="开户存款" />
+
+<!--	<moqui.basic.Enumeration description="Replenishment" enumId="FatrReplenish" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FatrReplenish" locale="zh_CN" localized="补货" />
+
+<!--	<moqui.basic.Enumeration description="Refund" enumId="FatrRefund" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FatrRefund" locale="zh_CN" localized="退款" />
+
+<!--	<moqui.basic.Enumeration description="Disbursement" enumId="FatrDisbursement" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FatrDisbursement" locale="zh_CN" localized="垫付费用" />
+
+<!--	<moqui.basic.Enumeration description="Account Transfer" enumId="FatrTransfer" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FatrTransfer" locale="zh_CN" localized="转账" />
+
+<!--	<moqui.basic.Enumeration description="Customer Service Credit" enumId="FatrCsCredit" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FatrCsCredit" locale="zh_CN" localized="客户服务信用" />
+
+<!--	<moqui.basic.Enumeration description="Error Adjustment" enumId="FatrErrorAdjust" enumTypeId="FinancialAccountTransReason"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="FatrErrorAdjust" locale="zh_CN" localized="误差调整" />
+
+</entity-facade-xml>
+            

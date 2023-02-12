@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+            <!-- Party Type -->
+<!--             <moqui.basic.EnumerationType description="Party Type" enumTypeId="PartyType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="PartyType" locale="zh_CN" localized="实体类型" />
+		            
+<!--             <moqui.basic.Enumeration description="Automated Agent" enumId="PtyAutomatedAgent" enumTypeId="PartyType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtyAutomatedAgent" locale="zh_CN" localized="自动代理" />  
+		          
+<!--             <moqui.basic.Enumeration description="Person" enumId="PtyPerson" enumTypeId="PartyType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtyPerson" locale="zh_CN" localized="个人" />  
+            
+<!--             <moqui.basic.Enumeration description="Organization" enumId="PtyOrganization" enumTypeId="PartyType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtyOrganization" locale="zh_CN" localized="组织" />  
+<!--             Person -->
+<!--             <moqui.basic.EnumerationType description="Marital Status" enumTypeId="MaritalStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="MaritalStatus" locale="zh_CN" localized="婚姻状况" />            
+<!--             <moqui.basic.Enumeration description="Single" enumId="MarsSingle" enumTypeId="MaritalStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="MarsSingle" locale="zh_CN" localized="单身" />  
+
+<!--             <moqui.basic.Enumeration description="Married" enumId="MarsMarried" enumTypeId="MaritalStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="MarsMarried" locale="zh_CN" localized="已婚" />  
+
+<!--             <moqui.basic.Enumeration description="Divorced" enumId="MarsDivorced" enumTypeId="MaritalStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="MarsDivorced" locale="zh_CN" localized="离婚" />  
+
+<!--             <moqui.basic.Enumeration description="Widowed/Widower" enumId="MarsWidow" enumTypeId="MaritalStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="MarsWidow" locale="zh_CN" localized="丧偶" />  
+
+<!--             <moqui.basic.EnumerationType description="Employment Status" enumTypeId="EmploymentStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="EmploymentStatus" locale="zh_CN" localized="雇佣状况" />
+		
+<!--             <moqui.basic.Enumeration description="Full-time Employed" enumId="EmpsFullTime" enumTypeId="EmploymentStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EmpsFullTime" locale="zh_CN" localized="全职" />  
+
+<!--             <moqui.basic.Enumeration description="Part-time Employed" enumId="EmpsPartTime" enumTypeId="EmploymentStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EmpsPartTime" locale="zh_CN" localized="兼职" />  
+
+<!--             <moqui.basic.Enumeration description="Self Employed" enumId="EmpsSelf" enumTypeId="EmploymentStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EmpsSelf" locale="zh_CN" localized="自我雇佣" />  
+
+<!--             <moqui.basic.Enumeration description="House-Person" enumId="EmpsHouse" enumTypeId="EmploymentStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EmpsHouse" locale="zh_CN" localized="家人" />  
+
+<!--             <moqui.basic.Enumeration description="Retired" enumId="EmpsRetired" enumTypeId="EmploymentStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EmpsRetired" locale="zh_CN" localized="退休" />  
+
+<!--             <moqui.basic.Enumeration description="Student" enumId="EmpsStudent" enumTypeId="EmploymentStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EmpsStudent" locale="zh_CN" localized="学生" />  
+
+<!--             <moqui.basic.Enumeration description="Unemployed" enumId="EmpsUnemployed" enumTypeId="EmploymentStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EmpsUnemployed" locale="zh_CN" localized="无业" />  
+
+<!--             <moqui.basic.EnumerationType description="Residence Status" enumTypeId="ResidenceStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ResidenceStatus" locale="zh_CN" localized="居住状况" />
+		            
+<!--             <moqui.basic.Enumeration description="Own Home" enumId="RessOwn" enumTypeId="ResidenceStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RessOwn" locale="zh_CN" localized="自住" />  
+
+<!--             <moqui.basic.Enumeration description="Private Tenant" enumId="RessPrivateTenant" enumTypeId="ResidenceStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RessPrivateTenant" locale="zh_CN" localized="租私人房" />  
+
+<!--             <moqui.basic.Enumeration description="Public Tenant" enumId="RessPublicTenant" enumTypeId="ResidenceStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RessPublicTenant" locale="zh_CN" localized="租公共房" />  
+
+<!--             <moqui.basic.Enumeration description="With Parents" enumId="RessParents" enumTypeId="ResidenceStatus"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RessParents" locale="zh_CN" localized="父母同住" />
+		  
+<!-- Party Badge Scan -->
+<!--             <moqui.basic.EnumerationType description="Party Badge Scan Purpose" enumTypeId="PartyBadgeScanPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="PartyBadgeScanPurpose" locale="zh_CN" localized="实体标识扫描目的" />
+		            
+<!--             <moqui.basic.Enumeration description="Access" enumId="PbspAccess" enumTypeId="PartyBadgeScanPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PbspAccess" locale="zh_CN" localized="进入" />
+
+<!--             <moqui.basic.Enumeration description="Clock In" enumId="PbspClockIn" enumTypeId="PartyBadgeScanPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PbspClockIn" locale="zh_CN" localized="上班打卡" />
+<!--             <moqui.basic.Enumeration description="Clock Out" enumId="PbspClockOut" enumTypeId="PartyBadgeScanPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PbspClockOut" locale="zh_CN" localized="下班打卡" />
+		
+<!--             <moqui.basic.EnumerationType description="Party Badge Scan Result" enumTypeId="PartyBadgeScanResult"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="PartyBadgeScanResult" locale="zh_CN" localized="实体标识扫描结果" />
+		            
+<!--             <moqui.basic.Enumeration description="Success" enumId="PbsrSuccess" enumTypeId="PartyBadgeScanResult"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PbsrSuccess" locale="zh_CN" localized="成功" />
+		            
+<!--             <moqui.basic.Enumeration description="Not Yet Valid" enumId="PbsrNotYetValid" enumTypeId="PartyBadgeScanResult"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PbsrNotYetValid" locale="zh_CN" localized="尚未生效" />
+
+            <!-- <moqui.basic.Enumeration description="Expired" enumId="PbsrExpired" enumTypeId="PartyBadgeScanResult"/> -->                   
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PbsrExpired" locale="zh_CN" localized="已过期" />
+		
+<!--             Party Classification -->
+
+<!--             <moqui.basic.EnumerationType description="Party Classification Type" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="PartyClassificationType" locale="zh_CN" localized="实体分类" />
+            
+<!--             <moqui.basic.Enumeration description="Customer" enumId="PcltCustomer" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltCustomer" locale="zh_CN" localized="客户" />
+		
+<!--             <moqui.basic.Enumeration description="EEOC (Equal Opportunity)" enumId="PcltEeoc" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltEeoc" locale="zh_CN" localized="EEOC（机会均等）" />
+		
+<!--             <moqui.basic.Enumeration description="Minority" enumId="PcltMinority" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltMinority" locale="zh_CN" localized="少数民族" />
+		
+<!--             <moqui.basic.Enumeration description="Income" enumId="PcltIncome" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltIncome" locale="zh_CN" localized="收入" />
+		
+<!--             <moqui.basic.Enumeration description="Industry" enumId="PcltIndustry" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltIndustry" locale="zh_CN" localized="产业" />
+		
+<!--             <moqui.basic.Enumeration description="Revenue" enumId="PcltRevenue" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltRevenue" locale="zh_CN" localized="收益" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Number of Employees" enumId="PcltNumberEmployees" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltNumberEmployees" locale="zh_CN" localized="员工数量" />
+		
+<!--             <moqui.basic.Enumeration description="SIC Code" enumId="PcltSicCode" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltSicCode" locale="zh_CN" localized="SIC代码" />
+		
+<!--             <moqui.basic.Enumeration description="NAICS Code" enumId="PcltNaicsCode" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltNaicsCode" locale="zh_CN" localized="NAICS代码" />
+		
+<!--             <moqui.basic.Enumeration description="Ownership" enumId="PcltOwnership" enumTypeId="PartyClassificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcltOwnership" locale="zh_CN" localized="所有权" />            
+
+            <!-- Party Content Type -->
+<!--             <moqui.basic.EnumerationType description="Party Content Type" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="PartyContentType" locale="zh_CN" localized="实体内容分类" /> 
+		            
+<!--             <moqui.basic.Enumeration description="Internal Content" enumId="PcntInternal" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntInternal" locale="zh_CN" localized="内部内容" />            
+            
+<!--             <moqui.basic.Enumeration description="User Defined Content"  enumId="PcntUserDefined" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntUserDefined" locale="zh_CN" localized="用户定义内容" />            
+
+<!--             <moqui.basic.Enumeration description="Primary Image"  enumId="PcntPrimaryImage" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntPrimaryImage" locale="zh_CN" localized="首要图片" />            
+
+<!--             <moqui.basic.Enumeration description="Logo Image"  enumId="PcntLogoImage" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntLogoImage" locale="zh_CN" localized="Logo图片" />            
+
+<!--             <moqui.basic.Enumeration description="Face Image"  enumId="PcntFaceImage" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntFaceImage" locale="zh_CN" localized="人脸图片" />            
+
+<!--             <moqui.basic.Enumeration description="Vendor Shipping Info"  enumId="PcntVendorShipping" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntVendorShipping" locale="zh_CN" localized="供应商运输信息" />            
+
+<!--             <moqui.basic.Enumeration description="Payment Signature Primary"  enumId="PcntPaymentSignaturePrimary" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntPaymentSignaturePrimary" locale="zh_CN" localized="首选支付签名" />            
+
+<!--             <moqui.basic.Enumeration description="Payment Signature Secondary"  enumId="PcntPaymentSignatureSecondary" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntPaymentSignatureSecondary" locale="zh_CN" localized="备选支付签名" />            
+
+<!--             <moqui.basic.Enumeration description="Identity Document"  enumId="PcntIdentityDocument" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntIdentityDocument" locale="zh_CN" localized="证明文件" />            
+
+<!--             <moqui.basic.Enumeration description="Employment Authorization Document"  enumId="PcntEmplAuthzDocument" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntEmplAuthzDocument" locale="zh_CN" localized="工作许可证" />            
+
+<!--             <moqui.basic.Enumeration description="Bio"  enumId="PcntBio" enumTypeId="PartyContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PcntBio" locale="zh_CN" localized="简历" />            
+		
+<!-- Party Identification -->
+<!--             <moqui.basic.EnumerationType description="Party Identification Type" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="PartyIdType" locale="zh_CN" localized="实体标识类型" />            
+
+            
+<!--             <moqui.basic.Enumeration description="Passport Number" enumId="PtidPassport" enumTypeId="PartyIdType" optionValue="*{4,10}"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidPassport" locale="zh_CN" localized="护照号码" />    
+		
+<!--             <moqui.basic.Enumeration description="Driver License Number" enumId="PtidDriverLicense" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidDriverLicense" locale="zh_CN" localized="驾驶执照号码" />    
+		
+<!--             <moqui.basic.Enumeration description="Social Security Number" enumId="PtidSsn" enumTypeId="PartyIdType" optionValue="999-99-9999"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidSsn" locale="zh_CN" localized="（美）社会保险号" />   
+		 
+<!--             <moqui.basic.Enumeration description="Federal Agent Indicator Code" enumId="PtidFaic" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidFaic" locale="zh_CN" localized="（美）联邦特工指示代码" />   
+		 
+<!--             <moqui.basic.Enumeration description="Federal EIN" enumId="PtidFein" enumTypeId="PartyIdType" optionValue="99-9999999"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidFein" locale="zh_CN" localized="联邦 EIN" />  
+		  
+<!--             <moqui.basic.Enumeration description="Federal User ID" enumId="PtidFuid" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidFuid" locale="zh_CN" localized="联邦用户ID" />    
+		
+<!--             <moqui.basic.Enumeration description="Matricula Consular ID" enumId="PtidMcid" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidMcid" locale="zh_CN" localized="签证证号" />   
+		 
+<!--             <moqui.basic.Enumeration description="Global Location Number" enumId="PtidGln" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidGln" locale="zh_CN" localized="全球位置码" />   
+		 
+<!--             <moqui.basic.Enumeration description="Alien Registration Number" enumId="PtidArn" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidArn" locale="zh_CN" localized="外侨登记号码" />  
+		  
+<!--             <moqui.basic.Enumeration description="Immigrant Admission Number" enumId="PtidIan" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidIan" locale="zh_CN" localized="移民录取号码" />    
+		
+<!--             <moqui.basic.Enumeration description="Dun and Bradstreet DUNS" enumId="PtidDuns" enumTypeId="PartyIdType" optionValue="99-999-9999"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidDuns" locale="zh_CN" localized="DUNS" />  
+		  
+<!--             <moqui.basic.Enumeration description="Dun and Bradstreet DUNS+4" enumId="PtidDuns4" enumTypeId="PartyIdType" optionValue="99-999-9999-9999"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidDuns4" locale="zh_CN" localized="DUNS+4" />    
+		
+<!--             <moqui.basic.Enumeration description="Customer Assigned" enumId="PtidCust" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidCust" locale="zh_CN" localized="客户分配" />    
+		
+<!--             <moqui.basic.Enumeration description="Vendor Assigned" enumId="PtidVend" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidVend" locale="zh_CN" localized="供应商分配" />    
+		
+<!--             <moqui.basic.Enumeration description="Permanent Resident" enumId="PtidPermReg" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidPermReg" locale="zh_CN" localized="永久居民" />    
+		
+<!--             <moqui.basic.Enumeration description="I-551" enumId="PtidI551" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidI551" locale="zh_CN" localized="I-551" />    
+		
+<!--             <moqui.basic.Enumeration description="I-766" enumId="PtidI766" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidI766" locale="zh_CN" localized="I-766" />  
+		  
+<!--             <moqui.basic.Enumeration description="I-94" enumId="PtidI94" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtidI94" locale="zh_CN" localized="I-94" />    
+		
+<!--             <moqui.basic.Enumeration description="I-94A" enumId="Ptid94A" enumTypeId="PartyIdType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="Ptid94A" locale="zh_CN" localized="I-94A" />
+<!-- 		             Party Relationship -->                           
+            <!-- NOTE: The partyRelationshipTypeEnumId describes the FROM Party, ie Joe is a customer of ACME, so Joe
+                is the fromPartyId (fromRoleTypeId=Customer) and ACME is the toPartyId (toRoleTypeId=OrgInternal); for
+                other examples see Table 2.5 in "The Data Model Resource Book, Revised Edition, Volume 1"-->
+<!--             <moqui.basic.EnumerationType description="Party Relationship Type" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="PartyRelationshipType" locale="zh_CN" localized="实体关系类型" />
+		            
+<!--             <moqui.basic.Enumeration description="Agent" enumId="PrtAgent" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtAgent" locale="zh_CN" localized="代理" />
+
+<!--             <moqui.basic.Enumeration description="Child" enumId="PrtChild" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtChild" locale="zh_CN" localized="子女" />
+
+<!--             <moqui.basic.Enumeration description="Contact" enumId="PrtContact" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtContact" locale="zh_CN" localized="联系人" />
+
+<!--             <moqui.basic.Enumeration description="Customer" enumId="PrtCustomer" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtCustomer" locale="zh_CN" localized="客户" />
+
+<!--             <moqui.basic.Enumeration description="Employee" enumId="PrtEmployee" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtEmployee" locale="zh_CN" localized="雇员" />
+
+<!--             <moqui.basic.Enumeration description="Friend" enumId="PrtFriend" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtFriend" locale="zh_CN" localized="朋友" />
+
+<!--             <moqui.basic.Enumeration description="Manager" enumId="PrtManager" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtManager" locale="zh_CN" localized="经理" />
+
+<!--             <moqui.basic.Enumeration description="Organization Member" enumId="PrtMember" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtMember" locale="zh_CN" localized="组织成员" />
+
+<!--             <moqui.basic.Enumeration description="Organization Rollup (Child)" enumId="PrtOrgRollup" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtOrgRollup" locale="zh_CN" localized="组织汇总（下级）" />
+
+<!--             <moqui.basic.Enumeration description="Partner" enumId="PrtPartner" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtPartner" locale="zh_CN" localized="合作伙伴" />
+
+<!--             <moqui.basic.Enumeration description="Representative" enumId="PrtRepresentative" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtRepresentative" locale="zh_CN" localized="代表" />
+
+<!--             <moqui.basic.Enumeration description="Sales Affiliate" enumId="PrtSalesAffiliate" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtSalesAffiliate" locale="zh_CN" localized="销售分支机构" />
+
+<!--             <moqui.basic.Enumeration description="Spouse" enumId="PrtSpouse" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtSpouse" locale="zh_CN" localized="配偶" />
+
+<!--             <moqui.basic.Enumeration description="Supplier" enumId="PrtSupplier" enumTypeId="PartyRelationshipType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PrtSupplier" locale="zh_CN" localized="供应商" />
+
+<!--             <moqui.basic.StatusType description="Party Relationship" statusTypeId="PartyRelationship"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="PartyRelationship" locale="zh_CN" localized="实体关系" />
+
+            <!-- Role to use when a role is not really applicable for the party association with a record. -->
+<!--             <mantle.party.RoleType description="Not Applicable" roleTypeId="_NA_"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="_NA_" locale="zh_CN" localized="不可用" />
+
+            <!-- General Roles -->
+<!--             <mantle.party.RoleType description="Agent" roleTypeId="Agent"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Agent" locale="zh_CN" localized="代理" />
+
+<!--             <mantle.party.RoleType description="Affiliate" roleTypeId="Affiliate"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Affiliate" locale="zh_CN" localized="加盟" />
+
+<!--             <mantle.party.RoleType description="Asset Owner" roleTypeId="AssetOwner"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="AssetOwner" locale="zh_CN" localized="资产拥有者" />
+
+<!--             <mantle.party.RoleType description="Bad Actor (Banned)" roleTypeId="BadActor"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="BadActor" locale="zh_CN" localized="坏角色（禁止）" />
+
+<!--             <mantle.party.RoleType description="Carrier" roleTypeId="Carrier"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Carrier" locale="zh_CN" localized="搬运人" />
+
+<!--             <mantle.party.RoleType description="Competitor" roleTypeId="Competitor"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Competitor" locale="zh_CN" localized="竞争对手" />
+
+<!--             <mantle.party.RoleType description="Consumer" roleTypeId="Consumer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Consumer" locale="zh_CN" localized="顾客" />
+
+<!--             <mantle.party.RoleType description="Contractor" roleTypeId="Contractor"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Contractor" locale="zh_CN" localized="承包商" />
+
+<!--             <mantle.party.RoleType description="Distributor" roleTypeId="Distributor"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Distributor" locale="zh_CN" localized="分销商" />
+
+<!--             <mantle.party.RoleType description="Garnishment Payee" roleTypeId="GarnishmentPayee"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="GarnishmentPayee" locale="zh_CN" localized="扣押收款人" />
+
+<!--             <mantle.party.RoleType description="Internet Service Provider" roleTypeId="InternetSp"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="InternetSp" locale="zh_CN" localized="互联网服务提供商" />
+
+<!--             <mantle.party.RoleType description="Hosting Provider" roleTypeId="HostingProvider"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="HostingProvider" locale="zh_CN" localized="主机提供商" />
+
+<!--             <mantle.party.RoleType description="Manufacturer" roleTypeId="Manufacturer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Manufacturer" locale="zh_CN" localized="制造商" />
+
+<!--             <mantle.party.RoleType description="Owner"  roleTypeId="Owner"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Owner" locale="zh_CN" localized="所有者" />
+
+<!--             <mantle.party.RoleType description="Partner" roleTypeId="Partner"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Partner" locale="zh_CN" localized="伙伴" />
+
+<!--             <mantle.party.RoleType description="Payroll Other Payee" roleTypeId="PayrollOtherPayee"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="PayrollOtherPayee" locale="zh_CN" localized="工资 其他收款人" />
+
+<!--             <mantle.party.RoleType description="Prospect" roleTypeId="Prospect"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Prospect" locale="zh_CN" localized="潜在客户" />
+
+<!--             <mantle.party.RoleType description="Referrer" roleTypeId="Referrer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Referrer" locale="zh_CN" localized="介绍人" />
+
+<!--             <mantle.party.RoleType description="Sales Account" roleTypeId="Account"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Account" locale="zh_CN" localized="销售客户" />
+
+<!--             <mantle.party.RoleType description="Sales Account Lead" roleTypeId="AccountLead"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="AccountLead" locale="zh_CN" localized="销售客户线索" />
+
+<!--             <mantle.party.RoleType description="Shareholder" roleTypeId="Shareholder"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Shareholder" locale="zh_CN" localized="股东" />
+
+<!--             <mantle.party.RoleType description="Subscriber" roleTypeId="Subscriber"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Subscriber" locale="zh_CN" localized="订户" />
+
+<!--             <mantle.party.RoleType description="Supplier" roleTypeId="Supplier"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Supplier" locale="zh_CN" localized="供应商" />
+
+<!--             <mantle.party.RoleType description="Visitor" roleTypeId="Visitor"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Visitor" locale="zh_CN" localized="游客" />
+
+<!--             <mantle.party.RoleType description="Web Master" roleTypeId="WebMaster"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="WebMaster" locale="zh_CN" localized="网址负责人" />
+
+            <!-- Person Roles -->
+<!--             <mantle.party.RoleType description="Accountant" roleTypeId="Accountant"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Accountant" locale="zh_CN" localized="会计师" />
+
+<!--             <mantle.party.RoleType description="Administrator" roleTypeId="Administrator"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Administrator" locale="zh_CN" localized="管理员" />
+
+<!--             <mantle.party.RoleType description="Assignee" roleTypeId="Assignee"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Assignee" locale="zh_CN" localized="受让人" />
+
+<!--             <mantle.party.RoleType description="Buyer" roleTypeId="Buyer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Buyer" locale="zh_CN" localized="买手" />
+
+<!--             <mantle.party.RoleType description="Cashier" roleTypeId="Cashier"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Cashier" locale="zh_CN" localized="收银员" />
+
+<!--             <mantle.party.RoleType description="Client Billing Rep" roleTypeId="ClientBilling"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="ClientBilling" locale="zh_CN" localized="客户账单代表" />
+
+<!--             <mantle.party.RoleType description="Client Manager" roleTypeId="ClientManager"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="ClientManager" locale="zh_CN" localized="客户经理" />
+
+<!--             <mantle.party.RoleType description="Email Administrator" roleTypeId="EmailAdmin"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="EmailAdmin" locale="zh_CN" localized="邮箱管理员" />
+
+<!--             <mantle.party.RoleType description="Employee" roleTypeId="Employee"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Employee" locale="zh_CN" localized="雇员" />
+
+<!--             <mantle.party.RoleType description="Executive" roleTypeId="Executive"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Executive" locale="zh_CN" localized="高管" />
+
+<!--             <mantle.party.RoleType description="Family Member" roleTypeId="FamilyMember"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="FamilyMember" locale="zh_CN" localized="家庭成员" />
+
+<!--             <mantle.party.RoleType description="Human Resources Manager" roleTypeId="HumanResourcesManager"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="HumanResourcesManager" locale="zh_CN" localized="人事经理" />
+
+<!--             <mantle.party.RoleType description="Inventory Manager" roleTypeId="InventoryManager"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="InventoryManager" locale="zh_CN" localized="库存经理" />
+
+<!--             <mantle.party.RoleType description="Manager" roleTypeId="Manager"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Manager" locale="zh_CN" localized="经理" />
+
+<!--             <mantle.party.RoleType description="Operator" roleTypeId="Operator"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Operator" locale="zh_CN" localized="操作员" />
+
+<!--             <mantle.party.RoleType description="Order Clerk" roleTypeId="OrderClerk"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrderClerk" locale="zh_CN" localized="订单登记员" />
+
+<!--             <mantle.party.RoleType description="Packer" roleTypeId="Packer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Packer" locale="zh_CN" localized="包装工人" />
+
+<!--             <mantle.party.RoleType description="Payroll" roleTypeId="Payroll"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Payroll" locale="zh_CN" localized="薪资管理" />
+
+<!--             <mantle.party.RoleType description="Picker" roleTypeId="Picker"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Picker" locale="zh_CN" localized="分拣员" />
+
+<!--             <mantle.party.RoleType description="Production Manager" roleTypeId="ProductionManager"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="ProductionManager" locale="zh_CN" localized="产品经理" />
+
+<!--             <mantle.party.RoleType description="Production Worker" roleTypeId="ProductionWorker"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="ProductionWorker" locale="zh_CN" localized="生产工人" />
+
+<!--             <mantle.party.RoleType description="Receiver" roleTypeId="Receiver"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Receiver" locale="zh_CN" localized="收货人" />
+
+<!--             <mantle.party.RoleType description="Reporter" roleTypeId="Reporter"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Reporter" locale="zh_CN" localized="报告人" />
+
+<!--             <mantle.party.RoleType description="Sales Contact" roleTypeId="Contact"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Contact" locale="zh_CN" localized="销售联系人" />
+
+<!--             <mantle.party.RoleType description="Sales Representative" roleTypeId="SalesRepresentative"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="SalesRepresentative" locale="zh_CN" localized="销售代表" />
+
+<!--             <mantle.party.RoleType description="Shipment Clerk" roleTypeId="ShipmentClerk"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="ShipmentClerk" locale="zh_CN" localized="发货员" />
+
+<!--             <mantle.party.RoleType description="Sponsor" roleTypeId="Sponsor"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Sponsor" locale="zh_CN" localized="赞助商" />
+
+<!--             <mantle.party.RoleType description="Spouse" roleTypeId="Spouse"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Spouse" locale="zh_CN" localized="配偶" />
+
+<!--             <mantle.party.RoleType description="Stocker" roleTypeId="Stocker"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Stocker" locale="zh_CN" localized="装料工" />
+
+<!--             <mantle.party.RoleType description="Supplier Agent" roleTypeId="SupplierAgent"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="SupplierAgent" locale="zh_CN" localized="供应商代理" />
+
+<!--             <mantle.party.RoleType description="Technical Contact" roleTypeId="TechContact"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="TechContact" locale="zh_CN" localized="技术联系" />
+
+<!--             <mantle.party.RoleType description="Watcher" roleTypeId="Watcher"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Watcher" locale="zh_CN" localized="看守" />
+
+<!--             <mantle.party.RoleType description="Worker" roleTypeId="Worker"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Worker" locale="zh_CN" localized="工人" />
+
+
+<!--             <mantle.party.RoleType description="Business Analyst" roleTypeId="BusinessAnalyst"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="BusinessAnalyst" locale="zh_CN" localized="商业分析员" />
+
+<!--             <mantle.party.RoleType description="Default Assignee" roleTypeId="DefaultAssignee"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="DefaultAssignee" locale="zh_CN" localized="缺省受让人" />
+
+<!--             <mantle.party.RoleType description="Expert User" roleTypeId="ExpertUser"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="ExpertUser" locale="zh_CN" localized="专家用户" />
+
+<!--             <mantle.party.RoleType description="Programmer" roleTypeId="Programmer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Programmer" locale="zh_CN" localized="程序员" />
+
+<!--             <mantle.party.RoleType description="Programmer Lead" roleTypeId="ProgrammerLead"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="ProgrammerLead" locale="zh_CN" localized="程序员主管" />
+
+<!--             <mantle.party.RoleType description="Project Manager" roleTypeId="ProjectManager"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="ProjectManager" locale="zh_CN" localized="项目经理" />
+
+<!--             <mantle.party.RoleType description="Quality Analyst" roleTypeId="QualityAnalyst"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="QualityAnalyst" locale="zh_CN" localized="质量分析师" />
+
+<!--             <mantle.party.RoleType description="Quality Lead" roleTypeId="QualityLead"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="QualityLead" locale="zh_CN" localized="质量主管" />
+
+<!--             <mantle.party.RoleType description="System Administrator" roleTypeId="SysAdmin"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="SysAdmin" locale="zh_CN" localized="系统管理员" />
+
+<!--             <mantle.party.RoleType description="System Architect" roleTypeId="SysArchitect"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="SysArchitect" locale="zh_CN" localized="系统架构师" />
+
+<!--             <mantle.party.RoleType description="UI Designer" roleTypeId="UiDesigner"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="UiDesigner" locale="zh_CN" localized="界面设计师" />
+
+
+
+<!--             <moqui.basic.Enumeration description="Person Roles" enumId="RgpPerson" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpPerson" locale="zh_CN" localized="个体角色" />
+
+
+            <!-- Organization Roles -->
+<!--             <mantle.party.RoleType description="Association" roleTypeId="OrgAssociation"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgAssociation" locale="zh_CN" localized="协会" />
+		            
+<!--             <mantle.party.RoleType description="Corporation" roleTypeId="OrgCorporation"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgCorporation" locale="zh_CN" localized="企业" />
+		
+<!--             <mantle.party.RoleType description="Department" roleTypeId="OrgDepartment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgDepartment" locale="zh_CN" localized="部门" />
+		
+<!--             <mantle.party.RoleType description="Division" roleTypeId="OrgDivision"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgDivision" locale="zh_CN" localized="事业部" />
+		
+<!--             <mantle.party.RoleType description="Employer" roleTypeId="OrgEmployer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgEmployer" locale="zh_CN" localized="雇主" />
+		
+<!--             <mantle.party.RoleType description="Family" roleTypeId="OrgFamily"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgFamily" locale="zh_CN" localized="家庭" />
+		
+<!--             <mantle.party.RoleType description="Government" roleTypeId="OrgGovernment"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgGovernment" locale="zh_CN" localized="政府" />
+		
+<!--             <mantle.party.RoleType description="Government Agency" roleTypeId="OrgGovernmentAgency"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgGovernmentAgency" locale="zh_CN" localized="政府机关" />
+		
+		
+<!--             <mantle.party.RoleType description="Household" roleTypeId="OrgHousehold"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgHousehold" locale="zh_CN" localized="家庭" />
+		
+<!--             <mantle.party.RoleType description="Internal Organization" roleTypeId="OrgInternal"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgInternal" locale="zh_CN" localized="内部组织" />
+		
+<!--             <mantle.party.RoleType description="Team" roleTypeId="OrgTeam"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgTeam" locale="zh_CN" localized="团队" />
+		
+<!--             <mantle.party.RoleType description="Unit" roleTypeId="OrgUnit"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgUnit" locale="zh_CN" localized="单位" />
+		
+<!--             <mantle.party.RoleType description="Parent" roleTypeId="OrgParent"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgParent" locale="zh_CN" localized="父母" />
+		
+<!--             <mantle.party.RoleType description="Regulatory Agency" roleTypeId="OrgRegulatoryAgency"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgRegulatoryAgency" locale="zh_CN" localized="管理机构" />
+		
+<!--             <mantle.party.RoleType description="Subsidiary" roleTypeId="OrgSubsidiary"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgSubsidiary" locale="zh_CN" localized="子公司" />
+		
+<!--             <mantle.party.RoleType description="Tax Authority" roleTypeId="OrgTaxAuthority"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgTaxAuthority" locale="zh_CN" localized="税务机关" />
+		
+<!--             <mantle.party.RoleType description="Union" roleTypeId="OrgUnion"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="OrgUnion" locale="zh_CN" localized="联邦" />
+		
+<!--             <moqui.basic.Enumeration description="Organization Roles" enumId="RgpOrganization" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpOrganization" locale="zh_CN" localized="组织角色" />
+
+            <!-- Calendar Roles -->
+<!--             <mantle.party.RoleType description="Attendee" roleTypeId="Attendee"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Attendee" locale="zh_CN" localized="参加人员" />
+<!--             <mantle.party.RoleType description="Delegate" roleTypeId="Delegate"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Delegate" locale="zh_CN" localized="代表" />
+		
+<!--             <mantle.party.RoleType description="Host" roleTypeId="Host"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Host" locale="zh_CN" localized="主持人" />
+		
+<!--             <mantle.party.RoleType description="Organizer" roleTypeId="Organizer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Organizer" locale="zh_CN" localized="组织者" />
+		
+<!--             <moqui.basic.Enumeration description="Calendar Roles" enumId="RgpCalendar" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpCalendar" locale="zh_CN" localized="日历角色？？" />
+
+            <!-- Customer and Vendor Roles -->
+            <!-- NOTE: these don't use RoleGroupMember because they are an actual hierarchy of roles (Customer and Vendor are valid roles with sub-roles) -->
+<!--             <mantle.party.RoleType description="Customer" roleTypeId="Customer"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Customer" locale="zh_CN" localized="客户" />
+		
+<!--             <mantle.party.RoleType description="Customer - Bill To" parentTypeId="Customer" roleTypeId="CustomerBillTo"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="CustomerBillTo" locale="zh_CN" localized="客户 - 付款方" />
+		
+<!--             <mantle.party.RoleType description="Customer - End User" parentTypeId="Customer" roleTypeId="CustomerEndUser"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="CustomerEndUser" locale="zh_CN" localized="客户 - 最终用户" />
+		
+<!--             <mantle.party.RoleType description="Customer - Placing" parentTypeId="Customer" roleTypeId="CustomerPlacing"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="CustomerPlacing" locale="zh_CN" localized="客户 - 下单" />
+		
+<!--             <mantle.party.RoleType description="Customer - Ship To" parentTypeId="Customer" roleTypeId="CustomerShipTo"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="CustomerShipTo" locale="zh_CN" localized="客户 - 收货方" />
+		
+<!--             <mantle.party.RoleType description="Vendor" roleTypeId="Vendor"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="Vendor" locale="zh_CN" localized="供应商" />
+		
+<!--             <mantle.party.RoleType description="Vendor - Bill From" parentTypeId="Vendor" roleTypeId="VendorBillFrom"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="VendorBillFrom" locale="zh_CN" localized="供应商 - 开票方" />
+		
+<!--             <mantle.party.RoleType description="Vendor - Ship From" parentTypeId="Vendor" roleTypeId="VendorShipFrom"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="VendorShipFrom" locale="zh_CN" localized="供应商 - 发货方" />
+		
+<!--             <mantle.party.RoleType description="Vendor - Pick Up From" parentTypeId="Vendor" roleTypeId="VendorPickUpFrom"/> -->
+	<moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description"
+		pkValue="VendorPickUpFrom" locale="zh_CN" localized="供应商 - 上门取货方" />
+		
+<!--             <moqui.basic.Enumeration description="Order Roles" enumId="RgpOrder" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpOrder" locale="zh_CN" localized="订单角色" />
+
+<!--             <moqui.basic.Enumeration description="Account Contact Roles" enumId="RgpAccountContact" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpAccountContact" locale="zh_CN" localized="客户联系人角色" />
+
+<!--             <moqui.basic.Enumeration description="Directly Applied Roles" enumId="RgpDirect" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpDirect" locale="zh_CN" localized="直接应用角色？？" />
+		
+		 	                                        
+</entity-facade-xml>
+            

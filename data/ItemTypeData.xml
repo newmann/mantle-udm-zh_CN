@@ -421,156 +421,358 @@
 		entityName="moqui.basic.Enumeration" fieldName="description"
 		pkValue="ItemExpInsOther" locale="zh_CN" localized="其他保险" />
 		
-	<moqui.basic.Enumeration
+	<!-- <moqui.basic.Enumeration
 		description="Utilities Heating" enumId="ItemExpUtilHeating"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpUtilHeating" locale="zh_CN" localized="公用事业-加热" />
+
+	<!-- <moqui.basic.Enumeration
 		description="Utilities Electricity" enumId="ItemExpUtilElec"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpUtilElec" locale="zh_CN" localized="公用事业-电力" />
+<!-- 
 	<moqui.basic.Enumeration
 		description="Utilities Water/Sewer" enumId="ItemExpUtilWater"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpUtilWater" locale="zh_CN" localized="公用事业-水/污水" />
+
+<!-- 	<moqui.basic.Enumeration
 		description="Utilities Trash/Recycle" enumId="ItemExpUtilTrash"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpUtilTrash" locale="zh_CN" localized="公用事业-垃圾回收" />
+
+<!-- 	<moqui.basic.Enumeration
 		description="Utilities Vehicle Fuel" enumId="ItemExpUtilVehFuel"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpUtilVehFuel" locale="zh_CN" localized="公用事业-车辆燃料" />
 
-	<moqui.basic.Enumeration
+<!-- 	<moqui.basic.Enumeration
 		description="Medical and Health Care" enumId="ItemExpMedical"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpMedical" locale="zh_CN" localized="医疗卫生" />
+
+<!-- 	<moqui.basic.Enumeration
 		description="Royalties" enumId="ItemExpRoyalties"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration description="Supplies"
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpRoyalties" locale="zh_CN" localized="版税" />
+		
+<!-- 	<moqui.basic.Enumeration description="Supplies"
 		enumId="ItemExpSupplies" parentEnumId="ItemExpense"
-		enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpSupplies" locale="zh_CN" localized="物资" />
+
+<!-- 	<moqui.basic.Enumeration
 		description="Taxes and Licenses" enumId="ItemExpTaxesLic"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration description="Other"
-		enumId="ItemExpOther" parentEnumId="ItemExpense" enumTypeId="ItemType" />
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpTaxesLic" locale="zh_CN" localized="税收和许可证" />
+		
+	<!-- <moqui.basic.Enumeration description="Other"
+		enumId="ItemExpOther" parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpOther" locale="zh_CN" localized="其他" />
 
-	<moqui.basic.Enumeration
+<!-- 	<moqui.basic.Enumeration
 		description="Travel Meals/Entertainment" enumId="ItemExpTravMealsEnt"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Travel Local/Parking/Tolls" enumId="ItemExpTravLocal"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Travel Air" enumId="ItemExpTravAir"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Travel Car Rental" enumId="ItemExpTravCarRental"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Travel Other" enumId="ItemExpTravOther"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Travel Lodging" enumId="ItemExpTravLodging"
-		parentEnumId="ItemExpense" enumTypeId="ItemType" />
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpTravMealsEnt" locale="zh_CN" localized="旅游餐饮/娱乐" />
 
-	<moqui.basic.Enumeration
+<!-- 	<moqui.basic.Enumeration
+		description="Travel Local/Parking/Tolls" enumId="ItemExpTravLocal"
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpTravLocal" locale="zh_CN" localized="旅游/停车收费" />
+
+<!-- 	<moqui.basic.Enumeration
+		description="Travel Air" enumId="ItemExpTravAir"
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpTravAir" locale="zh_CN" localized="航空旅行" />
+
+<!-- 	<moqui.basic.Enumeration
+		description="Travel Car Rental" enumId="ItemExpTravCarRental"
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpTravCarRental" locale="zh_CN" localized="租车旅行" />
+
+<!-- 	<moqui.basic.Enumeration
+		description="Travel Other" enumId="ItemExpTravOther"
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpTravOther" locale="zh_CN" localized="其他旅行" />
+
+<!-- 	<moqui.basic.Enumeration
+		description="Travel Lodging" enumId="ItemExpTravLodging"
+		parentEnumId="ItemExpense" enumTypeId="ItemType" /> -->
+
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemExpTravLodging" locale="zh_CN" localized="差旅费" />
+
+<!-- 	<moqui.basic.Enumeration
 		description="Commission Line Item" enumId="ItemCommission"
-		enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemCommission" locale="zh_CN" localized="佣金项目" />
+		
+	<!-- <moqui.basic.Enumeration
 		description="Commission Adjustment" enumId="ItemCommissionAdj"
-		enumTypeId="ItemType" />
+		enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemCommissionAdj" locale="zh_CN" localized="佣金调整" />
 
 	<!-- Adjustments: Write-off, Early Payment Discount, Late Payment Charge, 
 		Return -->
-	<moqui.basic.Enumeration
+<!-- 	<moqui.basic.Enumeration
 		description="Invoice Adjustment" enumId="ItemInvAdjust"
-		enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		enumTypeId="ItemType" /> -->
+  	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemInvAdjust" locale="zh_CN" localized="发票调整" />
+
+<!-- 	<moqui.basic.Enumeration
 		description="Write-off" enumId="ItemWriteOff"
 		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+ -->
+   	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemWriteOff" locale="zh_CN" localized="销账" />
+		
+<!-- 	<moqui.basic.Enumeration
 		description="Prompt Payment Discount" enumId="ItemPromptDiscount"
-		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" /> -->
+   	<moqui.basic.LocalizedEntityField
+		entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ItemPromptDiscount" locale="zh_CN" localized="即时付款折扣" />
+<!--
 	<moqui.basic.Enumeration
 		description="Late Payment Charge" enumId="ItemLateCharge"
-		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemLateCharge" locale="zh_CN" localized="滞纳金" />
+<!--
 	<moqui.basic.Enumeration description="Return"
 		enumId="ItemReturnAdjust" parentEnumId="ItemInvAdjust"
-		enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemReturnAdjust" locale="zh_CN" localized="退货" />
+
+	<!--<moqui.basic.Enumeration
 		description="Chargeback" enumId="ItemChargebackAdjust"
-		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemChargebackAdjust" locale="zh_CN" localized="退款" />
+
+	<!--<moqui.basic.Enumeration
 		description="Compliance Fee" enumId="ItemComplianceFee"
-		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemComplianceFee" locale="zh_CN" localized="合规费" />
+
+
+	<!--<moqui.basic.Enumeration
 		description="Shrinkage" enumId="ItemShrinkage"
-		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemShrinkage" locale="zh_CN" localized="收缩" />
+
+<!--
 	<moqui.basic.Enumeration
 		description="Coupons and Credits" enumId="ItemCouponCredit"
 		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemCouponCredit" locale="zh_CN" localized="优惠券和积分" />
+
+<!--
 	<moqui.basic.Enumeration
 		description="Promotional Discounts" enumId="ItemPromoDiscount"
 		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemPromoDiscount" locale="zh_CN" localized="促销折扣" />
+
+<!--
 	<moqui.basic.Enumeration
 		description="Free Fills" enumId="ItemFreeFills"
 		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemFreeFills" locale="zh_CN" localized="免费填充" />
+
+<!--
 	<moqui.basic.Enumeration
 		description="Slotting Fees" enumId="ItemSlottingFees"
 		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemSlottingFees" locale="zh_CN" localized="上位费" />
+
+<!--
 	<moqui.basic.Enumeration
 		description="Advertising" enumId="ItemAdjAdvertising"
 		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemAdjAdvertising" locale="zh_CN" localized="广告" />
+
+<!--
 	<moqui.basic.Enumeration
 		description="Joint Advertising" enumId="ItemAdjJointAdv"
 		parentEnumId="ItemInvAdjust" enumTypeId="ItemType" />
+-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemAdjJointAdv" locale="zh_CN" localized="联合广告" />
 
+<!--
 	<moqui.basic.Enumeration
 		description="Payroll Income" enumId="ItemPayrollIncome"
 		enumTypeId="ItemType" />
+-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemPayrollIncome" locale="zh_CN" localized="工资收入" />
+
+<!--
 	<moqui.basic.Enumeration
 		description="Hourly Earnings" enumId="ItemHourlyEarnings"
 		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
+-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemHourlyEarnings" locale="zh_CN" localized="每小时收入" />
+
+<!--	<moqui.basic.Enumeration
 		description="Piecework Earnings" enumId="ItemPieceworkEarnings"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Piece Or Hourly Earnings"
-		enumId="ItemPieceOrHourlyEarnings" parentEnumId="ItemPayrollIncome"
-		enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Piece Plus Hourly Earnings"
-		enumId="ItemPiecePlusHourlyEarnings" parentEnumId="ItemPayrollIncome"
-		enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Shift Premium Earnings" enumId="ItemShiftPremiumEarnings"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Piece Min Wage Adjustment" enumId="ItemPieceMinWageAdj"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Overtime Premium" enumId="ItemOvertimePremium"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Double Time Premium" enumId="ItemDoubleTimePremium"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Break Hourly Earnings" enumId="ItemBreakHourlyEarnings"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Break RRP Earnings" enumId="ItemBreakRrpEarnings"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Nonproductive Earnings"
-		enumId="ItemNonproductiveEarnings" parentEnumId="ItemPayrollIncome"
-		enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Holiday Hourly" enumId="ItemHolidayHourly"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="PTO Hourly" enumId="ItemPtoHourly"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
-	<moqui.basic.Enumeration
-		description="Sick Hourly" enumId="ItemSickHourly"
-		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
+		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemPieceworkEarnings" locale="zh_CN" localized="计件收入" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Piece Or Hourly Earnings"-->
+<!--		enumId="ItemPieceOrHourlyEarnings" parentEnumId="ItemPayrollIncome"-->
+<!--		enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemPieceOrHourlyEarnings" locale="zh_CN" localized="计件或小时收入" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Piece Plus Hourly Earnings"-->
+<!--		enumId="ItemPiecePlusHourlyEarnings" parentEnumId="ItemPayrollIncome"-->
+<!--		enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemPiecePlusHourlyEarnings" locale="zh_CN" localized="计件加小时收入" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Shift Premium Earnings" enumId="ItemShiftPremiumEarnings"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemShiftPremiumEarnings" locale="zh_CN" localized="转移保费收入" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Piece Min Wage Adjustment" enumId="ItemPieceMinWageAdj"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemPieceMinWageAdj" locale="zh_CN" localized="计件最低工资调整" />
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Overtime Premium" enumId="ItemOvertimePremium"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemOvertimePremium" locale="zh_CN" localized="加班费" />
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Double Time Premium" enumId="ItemDoubleTimePremium"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemDoubleTimePremium" locale="zh_CN" localized="双倍时间保费" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Break Hourly Earnings" enumId="ItemBreakHourlyEarnings"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemBreakHourlyEarnings" locale="zh_CN" localized="打破每小时收入" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Break RRP Earnings" enumId="ItemBreakRrpEarnings"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemBreakRrpEarnings" locale="zh_CN" localized="打破建议零售价收益" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Nonproductive Earnings"-->
+<!--		enumId="ItemNonproductiveEarnings" parentEnumId="ItemPayrollIncome"-->
+<!--		enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemNonproductiveEarnings" locale="zh_CN" localized="非生产性收入" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Holiday Hourly" enumId="ItemHolidayHourly"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemHolidayHourly" locale="zh_CN" localized="假日每小时收入" />
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="PTO Hourly" enumId="ItemPtoHourly"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemPtoHourly" locale="zh_CN" localized="带薪休假每小时收入" />
+
+
+<!--	<moqui.basic.Enumeration-->
+<!--		description="Sick Hourly" enumId="ItemSickHourly"-->
+<!--		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ItemSickHourly" locale="zh_CN" localized="病假每小时收入" />
+
+
 	<moqui.basic.Enumeration
 		description="Vacation Hourly" enumId="ItemVacationHourly"
 		parentEnumId="ItemPayrollIncome" enumTypeId="ItemType" />
@@ -1108,18 +1310,5 @@
 		description="Product Items" enumId="EngItemsProduct"
 		enumTypeId="EnumGroup" />
 
-	<moqui.basic.EnumGroupMember
-		enumId="ItemProduct" enumGroupEnumId="EngItemsProduct" />
-	<moqui.basic.EnumGroupMember
-		enumId="ItemServiceProduct" enumGroupEnumId="EngItemsProduct" />
-	<moqui.basic.EnumGroupMember
-		enumId="ItemRental" enumGroupEnumId="EngItemsProduct" />
-	<moqui.basic.EnumGroupMember
-		enumId="ItemReplacement" enumGroupEnumId="EngItemsProduct" />
-	<moqui.basic.EnumGroupMember
-		enumId="ItemInventory" enumGroupEnumId="EngItemsProduct" />
-	<moqui.basic.EnumGroupMember
-		enumId="ItemAsset" enumGroupEnumId="EngItemsProduct" />
-	<moqui.basic.EnumGroupMember
-		enumId="ItemExpSupplies" enumGroupEnumId="EngItemsProduct" />
+
 </entity-facade-xml>

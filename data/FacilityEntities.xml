@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+            <!-- Facility Type -->
+<!--             <moqui.basic.EnumerationType description="Facility Type" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="FacilityType" locale="zh_CN" localized="场所设施类型" />
+		            
+<!--             <moqui.basic.Enumeration description="Block" enumId="FcTpBlock" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpBlock" locale="zh_CN" localized="区块" />  
+		          
+<!--             <moqui.basic.Enumeration description="Block Group" enumId="FcTpBlockGroup" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpBlockGroup" locale="zh_CN" localized="区块组" />  
+
+<!--             <moqui.basic.Enumeration description="Building" enumId="FcTpBuilding" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpBuilding" locale="zh_CN" localized="建筑物" />  
+
+<!--             <moqui.basic.Enumeration description="Land" enumId="FcTpLand" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpLand" locale="zh_CN" localized="土地" />  
+
+<!--             <moqui.basic.Enumeration description="Floor" enumId="FcTpFloor" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpFloor" locale="zh_CN" localized="楼层" />  
+
+<!--             <moqui.basic.Enumeration description="Office" enumId="FcTpOffice" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpOffice" locale="zh_CN" localized="办公室" />  
+
+<!--             <moqui.basic.Enumeration description="Call Center" enumId="FcTpCallCenter" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpCallCenter" locale="zh_CN" localized="呼叫中心" />  
+
+<!--             <moqui.basic.Enumeration description="Data Center" enumId="FcTpDataCenter" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpDataCenter" locale="zh_CN" localized="数据中心" />  
+
+<!--             <moqui.basic.Enumeration description="Plant" enumId="FcTpPlant" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpPlant" locale="zh_CN" localized="工厂" />  
+
+<!--             <moqui.basic.Enumeration description="Room" enumId="FcTpRoom" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpRoom" locale="zh_CN" localized="房间" />  
+
+<!--             <moqui.basic.Enumeration description="Retail Store" enumId="FcTpRetailStore" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpRetailStore" locale="zh_CN" localized="零售门店" />  
+
+<!--             <moqui.basic.Enumeration description="Warehouse" enumId="FcTpWarehouse" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpWarehouse" locale="zh_CN" localized="仓库" />  
+
+<!--             <moqui.basic.Enumeration description="Dock" enumId="FcTpDock" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpDock" locale="zh_CN" localized="船坞" />  
+
+<!--             <moqui.basic.Enumeration description="Production Line" enumId="FcTpLine" enumTypeId="FacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcTpLine" locale="zh_CN" localized="生产线" />  
+
+            <!-- Facility Status -->
+<!--             <moqui.basic.StatusType description="Facility" statusTypeId="Facility"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="Facility" locale="zh_CN" localized="场所设施" />  
+
+<!--             <moqui.basic.EnumerationType description="Facility Certification Type" enumTypeId="FacilityCertificationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="FacilityCertificationType" locale="zh_CN" localized="场所设施认证类型" />  
+		
+            <!-- Facility Content Type -->
+<!--             <moqui.basic.EnumerationType description="Facility Content Type" enumTypeId="FacilityContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="FacilityContentType" locale="zh_CN" localized="场所设施内容类型" />  
+		            
+<!--             <moqui.basic.Enumeration description="Internal Content" enumId="FcntInternal" enumTypeId="FacilityContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcntInternal" locale="zh_CN" localized="内部内容" />              
+<!--             <moqui.basic.Enumeration description="User Defined Content"  enumId="FcntUserDefined" enumTypeId="FacilityContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcntUserDefined" locale="zh_CN" localized="用户定义内容" />              
+<!--             <moqui.basic.Enumeration description="Image URL"  enumId="FcntImageUrl" enumTypeId="FacilityContentType"/> -->		
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FcntImageUrl" locale="zh_CN" localized="图片URL" />  
+		
+            <!-- Facility Group Type -->
+<!--             <moqui.basic.EnumerationType description="Facility Group Type" enumTypeId="FacilityGroupType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="FacilityGroupType" locale="zh_CN" localized="场所设施组类型" />  
+		            
+<!--             <moqui.basic.Enumeration description="Management Structure" enumId="MGMT_STRUCTURE" enumTypeId="FacilityGroupType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="MGMT_STRUCTURE" locale="zh_CN" localized="管理架构" />  
+<!--             <moqui.basic.Enumeration description="Pricing Group" enumId="PRICING_GROUP" enumTypeId="FacilityGroupType"/> -->		
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PRICING_GROUP" locale="zh_CN" localized="定价组" />  
+
+            <!-- Facility Location Type -->
+<!--             <moqui.basic.EnumerationType description="Facility Location Type" enumTypeId="FacilityLocationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="FacilityLocationType" locale="zh_CN" localized="场所设施位置类型" />  
+		            
+<!--             <moqui.basic.Enumeration description="Pick" enumId="FltPick" enumTypeId="FacilityLocationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FltPick" locale="zh_CN" localized="分拣区" />              
+            <!-- <moqui.basic.Enumeration description="Bulk" enumId="FltBulk" enumTypeId="FacilityLocationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FltBulk" locale="zh_CN" localized="存储区" />              
+            <!-- <moqui.basic.Enumeration description="Receiving" enumId="FltReceiving" enumTypeId="FacilityLocationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FltReceiving" locale="zh_CN" localized="收货区" />              
+<!--             <moqui.basic.Enumeration description="Staging" enumId="FltStaging" enumTypeId="FacilityLocationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FltStaging" locale="zh_CN" localized="安装区" />              
+<!--             <moqui.basic.Enumeration description="Quarantine" enumId="FltQuarantine" enumTypeId="FacilityLocationType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FltQuarantine" locale="zh_CN" localized="检疫区" />              
+<!--             <moqui.basic.Enumeration description="Morgue" enumId="FltMorgue" enumTypeId="FacilityLocationType"/> -->		
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="FltMorgue" locale="zh_CN" localized="资料室" />  
+<!-- Facility Printer -->
+<!--             <moqui.basic.EnumerationType description="Printer Purpose" enumTypeId="PrinterPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="PrinterPurpose" locale="zh_CN" localized="打印机用途" />
+		            
+<!--             <moqui.basic.Enumeration description="Container Label" enumId="PtpContainerLabel" enumTypeId="PrinterPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtpContainerLabel" locale="zh_CN" localized="容器标签" />  
+<!--             <moqui.basic.Enumeration description="Package Label" enumId="PtpPackageLabel" enumTypeId="PrinterPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtpPackageLabel" locale="zh_CN" localized="包装标签" />  
+<!--             <moqui.basic.Enumeration description="Picking Documents" enumId="PtpPickingDocuments" enumTypeId="PrinterPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtpPickingDocuments" locale="zh_CN" localized="分拣单据" />              
+<!--             <moqui.basic.Enumeration description="Packing Documents" enumId="PtpPackingDocuments" enumTypeId="PrinterPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtpPackingDocuments" locale="zh_CN" localized="打包单据" />  
+<!--             <moqui.basic.Enumeration description="Shipment Documents" enumId="PtpShipmentDocuments" enumTypeId="PrinterPurpose"/> -->		
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="PtpShipmentDocuments" locale="zh_CN" localized="装运单据" />  
+		
+		
+										                                            		                                            		            
+</entity-facade-xml>
+            

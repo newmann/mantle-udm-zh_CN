@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+<!--             <moqui.basic.EnumerationType description="Order Content Type" enumTypeId="OrderContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="OrderContentType" locale="zh_CN" localized="订单内容类型" />
+
+            <!-- Order Header Status -->
+<!--             <moqui.basic.StatusType description="Order Header Status" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="OrderHeader" locale="zh_CN" localized="订单头状态" />
+		            
+            <!-- Use Being Changed to disable automatic changes such as promotions, tax calc, shipping calc, etc -->
+<!--             <moqui.basic.StatusItem description="Being Changed" sequenceNum="0" statusId="OrderBeingChanged" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderBeingChanged" locale="zh_CN" localized="订单被修改" />
+		
+            <!-- An Open Order is like a shopping cart -->
+<!--             <moqui.basic.StatusItem description="Open (Tentative)" sequenceNum="1" statusId="OrderOpen" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderOpen" locale="zh_CN" localized="打开（暂定）" />
+		            
+            <!-- Request Quote done by Customer (or at Customer's request) -->
+<!--             <moqui.basic.StatusItem description="Quote Requested by Customer" sequenceNum="2" statusId="OrderRequested" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderRequested" locale="zh_CN" localized="客户要求报价" />        
+            <!-- Propose done by Vendor -->
+<!--             <moqui.basic.StatusItem description="Quote Proposed by Vendor" sequenceNum="3" statusId="OrderProposed" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderProposed" locale="zh_CN" localized="供应商已报价" />
+            <!-- Place done by Customer (or at Customer's request) -->
+<!--             <moqui.basic.StatusItem description="Placed by Customer" sequenceNum="4" statusId="OrderPlaced" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderPlaced" locale="zh_CN" localized="客户已下单" />
+		
+<!--             <moqui.basic.StatusItem description="Held" sequenceNum="5" statusId="OrderHold" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderHold" locale="zh_CN" localized="被冻结" />
+		
+<!--             <moqui.basic.StatusItem description="Processing" sequenceNum="11" statusId="OrderProcessing" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderProcessing" locale="zh_CN" localized="处理中" />
+		
+<!--             <moqui.basic.StatusItem description="Approved" sequenceNum="12" statusId="OrderApproved" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderApproved" locale="zh_CN" localized="已批准" />
+		
+<!--             <moqui.basic.StatusItem description="Sent" sequenceNum="13" statusId="OrderSent" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderSent" locale="zh_CN" localized="已递交" />
+		
+<!--             <moqui.basic.StatusItem description="Completed" sequenceNum="21" statusId="OrderCompleted" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderCompleted" locale="zh_CN" localized="已完成" />
+		
+            <!-- Reject done by Vendor -->
+<!--             <moqui.basic.StatusItem description="Rejected by Vendor" sequenceNum="98" statusId="OrderRejected" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderRejected" locale="zh_CN" localized="供应商已拒绝" />
+		
+            <!-- Cancel done by Customer (or at Customer's request) -->
+<!--             <moqui.basic.StatusItem description="Cancelled by Customer" sequenceNum="99" statusId="OrderCancelled" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderCancelled" locale="zh_CN" localized="客户已取消" />
+		
+<!--             <moqui.basic.StatusItem description="Wish List" sequenceNum="101" statusId="OrderWishList" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderWishList" locale="zh_CN" localized="愿望清单" />
+		
+<!--             <moqui.basic.StatusItem description="Gift Registry" sequenceNum="102" statusId="OrderGiftRegistry" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderGiftRegistry" locale="zh_CN" localized="礼品登记" />
+		
+<!--             <moqui.basic.StatusItem description="Auto Reorder" sequenceNum="103" statusId="OrderAutoReorder" statusTypeId="OrderHeader"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="OrderAutoReorder" locale="zh_CN" localized="自动重新下单" />
+
+            <!-- Sales Channel -->
+<!--             <moqui.basic.EnumerationType description="Sales Channel" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="SalesChannel" locale="zh_CN" localized="销售渠道类型" />
+
+            
+<!--             <moqui.basic.Enumeration description="Web" enumId="ScWeb" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScWeb" locale="zh_CN" localized="官网" />
+		
+<!--             <moqui.basic.Enumeration description="Web External" enumId="ScWebExternal" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScWebExternal" locale="zh_CN" localized="外部网站" />
+
+<!--             <moqui.basic.Enumeration description="POS" enumId="ScPos" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScPos" locale="zh_CN" localized="POS" />
+
+<!--             <moqui.basic.Enumeration description="Fax" enumId="ScFax" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScFax" locale="zh_CN" localized="传真" />
+
+<!--             <moqui.basic.Enumeration description="Phone" enumId="ScPhone" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScPhone" locale="zh_CN" localized="电话" />
+
+<!--             <moqui.basic.Enumeration description="E-Mail" enumId="ScEmail" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScEmail" locale="zh_CN" localized="邮件" />
+
+<!--             <moqui.basic.Enumeration description="Postal Mail" enumId="ScPostal" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScPostal" locale="zh_CN" localized="信件" />
+
+<!--             <moqui.basic.Enumeration description="Affiliate" enumId="ScAffiliate" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScAffiliate" locale="zh_CN" localized="加盟" />
+
+<!--             <moqui.basic.Enumeration description="eBay" enumId="ScEbay" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScEbay" locale="zh_CN" localized="eBay" />
+
+<!--             <moqui.basic.Enumeration description="Amazon" enumId="ScAmazon" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScAmazon" locale="zh_CN" localized="Amazon" />
+
+<!--             <moqui.basic.Enumeration description="EDI" enumId="ScEdi" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScEdi" locale="zh_CN" localized="EDI" />
+
+<!--             <moqui.basic.Enumeration description="OAGIS" enumId="ScOagis" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScOagis" locale="zh_CN" localized="OAGIS" />
+
+<!--             <moqui.basic.Enumeration description="Unknown" enumId="ScUnknown" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScUnknown" locale="zh_CN" localized="未知" />
+
+<!--             <moqui.basic.Enumeration description="Test Order" enumId="ScTest" enumTypeId="SalesChannel"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="ScTest" locale="zh_CN" localized="测试订单" />
+
+            <!-- Sync Status -->
+<!--             <moqui.basic.StatusType description="Sync Status" statusTypeId="Sync"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="Sync" locale="zh_CN" localized="同步状态" />
+		            
+            <!-- Order Processing Status: placeholder for custom processing (pre-approve) status flow -->
+<!--             <moqui.basic.StatusType description="Order Processing Status" statusTypeId="OrderProcessing"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="OrderProcessing" locale="zh_CN" localized="订单处理状态" />            
+
+<!-- Order Decision Reason -->
+
+<!--             <moqui.basic.EnumerationType description="Order Decision Reason" enumTypeId="OrderDecisionReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="OrderDecisionReason" locale="zh_CN" localized="订单决定原因" />   
+		
+<!--             <moqui.basic.Enumeration description="Fraud" enumId="OdrFraud" enumTypeId="OrderDecisionReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="OdrFraud" locale="zh_CN" localized="欺诈" />   
+
+<!--             <moqui.basic.Enumeration description="Payment Not Received" enumId="OdrPayment" enumTypeId="OrderDecisionReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="OdrPayment" locale="zh_CN" localized="订单决定原因" />   
+
+<!--             <moqui.basic.Enumeration description="Other" enumId="OdrOther" enumTypeId="OrderDecisionReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="OdrOther" locale="zh_CN" localized="其他" />   
+
+<!--             <moqui.basic.Enumeration description="Order Approved Reasons" enumId="EngOrderReasonApproved" enumTypeId="EnumGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EngOrderReasonApproved" locale="zh_CN" localized="订单批准原因" />   
+
+
+<!--             <moqui.basic.Enumeration description="Order Rejected Reasons" enumId="EngOrderReasonRejected" enumTypeId="EnumGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="EngOrderReasonRejected" locale="zh_CN" localized="订单拒绝原因" />   
+
+<!--             <moqui.basic.EnumerationType description="Order Item Quantity Change Reason" enumTypeId="OrderItemQuantityReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="OrderItemQuantityReason" locale="zh_CN" localized="订单明细数量变更原因" />    
+		           
+<!--             <moqui.basic.Enumeration enumId="OiqrInventory" description="Insufficient Inventory" enumTypeId="OrderItemQuantityReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="OiqrInventory" locale="zh_CN" localized="库存不足" />
+		 
+<!--             <moqui.basic.Enumeration enumId="OiqrSingleLot" description="Single Lot Unavailable" enumTypeId="OrderItemQuantityReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="OiqrSingleLot" locale="zh_CN" localized="单批不可用" /> 
+<!--             <moqui.basic.Enumeration enumId="OiqrCustomer" description="Customer Request" enumTypeId="OrderItemQuantityReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="OiqrCustomer" locale="zh_CN" localized="客户需求" /> 
+
+            <!-- Return Header and Item Status -->
+<!--             <moqui.basic.StatusType description="Return Header and Item Status" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="Return" locale="zh_CN" localized="退货单据头和明细的状态" />   
+		          
+<!--             <moqui.basic.StatusItem description="Created" sequenceNum="0" statusId="ReturnCreated" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="Return" locale="zh_CN" localized="退货单据头和明细的状态" />   
+		            
+<!--             <moqui.basic.StatusItem description="Requested" sequenceNum="1" statusId="ReturnRequested" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReturnRequested" locale="zh_CN" localized="已请求" />
+		  
+<!--             <moqui.basic.StatusItem description="Approved" sequenceNum="2" statusId="ReturnApproved" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReturnApproved" locale="zh_CN" localized="已批准" />
+		  
+<!--             <moqui.basic.StatusItem description="Shipped" sequenceNum="3" statusId="ReturnShipped" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReturnShipped" locale="zh_CN" localized="已发货" />
+		  
+<!--             <moqui.basic.StatusItem description="Received" sequenceNum="4" statusId="ReturnReceived" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReturnReceived" locale="zh_CN" localized="已收货" />
+		  
+<!--             <moqui.basic.StatusItem description="Completed" sequenceNum="10" statusId="ReturnCompleted" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReturnCompleted" locale="zh_CN" localized="已完成" />
+		  
+<!--             <moqui.basic.StatusItem description="Manual Response Required" sequenceNum="11" statusId="ReturnManResp" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReturnManResp" locale="zh_CN" localized="需要手动响应" />  
+		
+<!--             <moqui.basic.StatusItem description="Cancelled" sequenceNum="99" statusId="ReturnCancelled" statusTypeId="Return"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="ReturnCancelled" locale="zh_CN" localized="已取消" />  
+
+            <!-- Return Reason -->
+<!--             <moqui.basic.EnumerationType description="Return Reason" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ReturnReason" locale="zh_CN" localized="退货原因" />  
+		            
+<!--             <moqui.basic.Enumeration sequenceNum="1" description="01 Damaged in Shipping" enumId="RrsnDamagedShip" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnDamagedShip" locale="zh_CN" localized="01 运输中损坏" /> 
+		            
+<!--             <moqui.basic.Enumeration sequenceNum="2" description="02 Defective" enumId="RrsnDefective" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnDefective" locale="zh_CN" localized="02 次品" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="3" description="03 Wrong Item Shipped" enumId="RrsnMisShip" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnMisShip" locale="zh_CN" localized="03 发错货" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="4" description="04 Not as Expected" enumId="RrsnNotExpected" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnNotExpected" locale="zh_CN" localized="04 不如预期" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="5" description="05 Did not Fit/Wrong Size" enumId="RrsnWrongSize" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnWrongSize" locale="zh_CN" localized="05 尺寸不合适" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="6" description="06 Duplicate Shipment" enumId="RrsnDupShip" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnDupShip" locale="zh_CN" localized="06 重复发货" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="7" description="07 Gift, Not Wanted" enumId="RrsnGiftNotWant" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnGiftNotWant" locale="zh_CN" localized="07 礼品，不想要" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="8" description="08 Arrived Too Late" enumId="RrsnArrivedLate" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnArrivedLate" locale="zh_CN" localized="08 太晚到货" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="9" description="09 Did not Want/Like" enumId="RrsnDidNotWant" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnDidNotWant" locale="zh_CN" localized="09 不想要/不喜欢" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="10" description="10 Found Better Price" enumId="RrsnBetterPrice" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnBetterPrice" locale="zh_CN" localized="10 发现更优惠的价格" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="11" description="11 Poor Customer Service" enumId="RrsnPoorService" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnPoorService" locale="zh_CN" localized="11 服务态度差" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="12" description="12 Unlike Photo/Description" enumId="RrsnUnlikeDescribed" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnUnlikeDescribed" locale="zh_CN" localized="12 与图片/描述不符" /> 
+
+<!--             <moqui.basic.Enumeration sequenceNum="13" description="13 COD Payment Rejected" enumId="RrsnCodPmtRejected" enumTypeId="ReturnReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrsnCodPmtRejected" locale="zh_CN" localized="13 货到付款被拒绝" /> 
+
+
+            <!-- Return Response -->
+<!--             <moqui.basic.EnumerationType description="Return Response" enumTypeId="ReturnResponse"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="ReturnResponse" locale="zh_CN" localized="退货反馈" /> 
+
+            
+            <moqui.basic.Enumeration enumId="RrspCredit" description="Credit" enumTypeId="ReturnResponse"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrspCredit" locale="zh_CN" localized="信用" /> 
+
+            <moqui.basic.Enumeration enumId="RrspRefund" description="Refund" enumTypeId="ReturnResponse"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrspRefund" locale="zh_CN" localized="退款" /> 
+
+            <moqui.basic.Enumeration enumId="RrspReplace" description="Replace" enumTypeId="ReturnResponse"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrspReplace" locale="zh_CN" localized="置换" /> 
+
+            <moqui.basic.Enumeration enumId="RrspManual" description="Manual" enumTypeId="ReturnResponse"/>
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RrspManual" locale="zh_CN" localized="人工处理" /> 
+
+
+                   
+</entity-facade-xml>
+            

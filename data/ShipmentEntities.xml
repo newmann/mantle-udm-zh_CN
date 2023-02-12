@@ -17,7 +17,7 @@
             
 <!--             <moqui.basic.Enumeration description="Outgoing" enumId="ShpTpOutgoing" enumTypeId="ShipmentType"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="ShpTpIncoming" locale="zh_CN" localized="出库" />
+		pkValue="ShpTpOutgoing" locale="zh_CN" localized="出库" />
             
 <!--             <moqui.basic.Enumeration description="Sales Return" parentEnumId="ShpTpIncoming" enumId="ShpTpSalesReturn" enumTypeId="ShipmentType"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"

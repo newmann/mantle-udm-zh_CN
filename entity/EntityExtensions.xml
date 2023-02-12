@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a 
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/entity-definition-3.xsd">
+
+    <extend-entity entity-name="RoleType" package="mantle.party">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="SettlementTerm" package="mantle.account.invoice">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="Uom" package="moqui.basic">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="EmplPositionClass" package="mantle.humanres.position">
+        <field name="title" type="text-medium" enable-localization="true"/>
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="TimePeriodType" package="mantle.party.time">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="ContactMechPurpose" package="mantle.party.contact">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+<!--     <extend-entity entity-name="Organization" package="mantle.party">
+        <field name="taxOrganizationName" type="text-medium" enable-localization="true"/>
+    </extend-entity> -->
+
+
+</entities>

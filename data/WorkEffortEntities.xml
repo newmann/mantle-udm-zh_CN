@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+            <!-- Work Effort Type -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Type" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortType" locale="zh_CN" localized="工作成果类型" />
+		 
+<!--             <moqui.basic.Enumeration description="Project" enumId="WetProject" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WetProject" locale="zh_CN" localized="项目" />
+
+<!--             <moqui.basic.Enumeration description="Milestone" enumId="WetMilestone" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WetMilestone" locale="zh_CN" localized="里程碑" />
+<!--             <moqui.basic.Enumeration description="Task" enumId="WetTask" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WetTask" locale="zh_CN" localized="任务" />
+
+<!--             <moqui.basic.Enumeration description="Release" enumId="WetRelease" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WetRelease" locale="zh_CN" localized="发布" />
+
+<!--             <moqui.basic.Enumeration description="Component" enumId="WetComponent" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WetComponent" locale="zh_CN" localized="组件" />
+
+<!--             <moqui.basic.Enumeration description="Event" enumId="WetEvent" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WetEvent" locale="zh_CN" localized="事件" />
+
+<!--             <moqui.basic.Enumeration description="Available" enumId="WetAvailable" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WetAvailable" locale="zh_CN" localized="可用" />
+
+<!--             <moqui.basic.Enumeration description="Time Off" enumId="WetTimeOff" enumTypeId="WorkEffortType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WetTimeOff" locale="zh_CN" localized="休假" />
+
+            <!-- Work Effort Purpose -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Purpose" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortPurpose" locale="zh_CN" localized="工作目的" />
+		
+            <!-- Purposes for Task type WE -->
+<!--             <moqui.basic.Enumeration description="Task" enumId="WepTask" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepTask" locale="zh_CN" localized="任务" />
+
+<!--             <moqui.basic.Enumeration description="Bug Fix" enumId="WepFix" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepFix" locale="zh_CN" localized="修复错误" />
+
+<!--             <moqui.basic.Enumeration description="New Feature" enumId="WepNewFeature" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepNewFeature" locale="zh_CN" localized="新功能" />
+<!--             <moqui.basic.Enumeration description="Feature Enhancement" enumId="WepFeatureEnhance" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepFeatureEnhance" locale="zh_CN" localized="功能增强" />
+<!--             <moqui.basic.Enumeration description="Feature Test" enumId="WepFeatureTest" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepFeatureTest" locale="zh_CN" localized="功能测试" />
+<!--             <moqui.basic.Enumeration description="To Do" enumId="WepToDo" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepToDo" locale="zh_CN" localized="计划事项" />
+		
+<!--             <moqui.basic.Enumeration description="Document" enumId="WepDocument" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepDocument" locale="zh_CN" localized="文档" />
+		
+<!--             <moqui.basic.Enumeration description="Communication" enumId="WepCommunication" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepCommunication" locale="zh_CN" localized="沟通" />
+		
+<!--             <moqui.basic.Enumeration description="Placeholder" enumId="WepPlaceholder" parentEnumId="WetTask" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPlaceholder" locale="zh_CN" localized="预留" />
+
+            <!-- Purposes for Project type WE -->
+<!--             <moqui.basic.Enumeration description="Organization Management" enumId="WepPrOrgMgmt" parentEnumId="WetProject" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPrOrgMgmt" locale="zh_CN" localized="组织管理" />
+<!--             <moqui.basic.Enumeration description="Training" enumId="WepPrTraining" parentEnumId="WetProject" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPrTraining" locale="zh_CN" localized="培训" />
+<!--             <moqui.basic.Enumeration description="IT Security" enumId="WepPrItSecurity" parentEnumId="WetProject" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPrItSecurity" locale="zh_CN" localized="信息安全" />
+<!--             <moqui.basic.Enumeration description="Marketing" enumId="WepPrMarketing" parentEnumId="WetProject" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPrMarketing" locale="zh_CN" localized="营销" />
+<!--             <moqui.basic.Enumeration description="Product Development" enumId="WepPrProdDev" parentEnumId="WetProject" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPrProdDev" locale="zh_CN" localized="产品研发" />
+<!--             <moqui.basic.Enumeration description="Product Fulfillment" enumId="WepPrProdFulfill" parentEnumId="WetProject" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPrProdFulfill" locale="zh_CN" localized="产品交付" />
+
+<!--             <moqui.basic.Enumeration description="Manufacturing" enumId="WepManufacturing" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepManufacturing" locale="zh_CN" localized="生产" />
+<!--             <moqui.basic.Enumeration description="Assembling" enumId="WepAssembling" parentEnumId="WepManufacturing" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepAssembling" locale="zh_CN" localized="组装" />
+        
+<!--             <moqui.basic.Enumeration description="Routing" enumId="WepRouting" parentEnumId="WepManufacturing" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepRouting" locale="zh_CN" localized="工艺路线" />
+		
+<!--             <moqui.basic.Enumeration description="Routing Task" enumId="WepRoutingTask" parentEnumId="WepManufacturing" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepRoutingTask" locale="zh_CN" localized="生产任务" />
+		
+<!--             <moqui.basic.Enumeration description="Production Run" enumId="WepProductionRun" parentEnumId="WepManufacturing" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepProductionRun" locale="zh_CN" localized="生产运行" />
+<!--             <moqui.basic.Enumeration description="Pick Assembly" enumId="WepPickAssembly" parentEnumId="WepManufacturing" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPickAssembly" locale="zh_CN" localized="组装" />
+
+<!--             <moqui.basic.Enumeration description="Shipment Pick/Load/Ship" enumId="WepShipmentShip" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepShipmentShip" locale="zh_CN" localized="运输 拣货/装车/发货" />
+		
+		
+<!--             <moqui.basic.Enumeration description="Shipment Receive" enumId="WepShipmentReceive" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepShipmentReceive" locale="zh_CN" localized="收货" />
+
+<!--             <moqui.basic.Enumeration description="Asset Usage (Rental)" enumId="WepAssetUsage" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepAssetUsage" locale="zh_CN" localized="资产使用(租赁)" />
+
+<!--             <moqui.basic.Enumeration description="Business Travel" enumId="WepBusinessTravel" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepBusinessTravel" locale="zh_CN" localized="商务旅游" />
+		
+<!--             <moqui.basic.Enumeration description="Meeting" enumId="WepMeeting" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepMeeting" locale="zh_CN" localized="会议" />
+		
+<!--             <moqui.basic.Enumeration description="Training" enumId="WepTraining" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepTraining" locale="zh_CN" localized="培训" />
+		
+<!--             <moqui.basic.Enumeration description="Holiday" enumId="WepHoliday" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepHoliday" locale="zh_CN" localized="假日" />
+
+<!--             <moqui.basic.Enumeration description="Maintenance" enumId="WepMaintenance" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepMaintenance" locale="zh_CN" localized="维护" />
+		
+<!--             <moqui.basic.Enumeration description="Research" enumId="WepResearch" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepResearch" locale="zh_CN" localized="研究" />
+		
+<!--             <moqui.basic.Enumeration description="Development" enumId="WepDevelopment" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepDevelopment" locale="zh_CN" localized="开发" />
+		
+<!--             <moqui.basic.Enumeration description="Support" enumId="WepSupport" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepSupport" locale="zh_CN" localized="支持" />
+		
+<!--             <moqui.basic.Enumeration description="Deployment" enumId="WepDeployment" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepDeployment" locale="zh_CN" localized="部署" />
+
+<!--             <moqui.basic.Enumeration description="Sub-contracting" enumId="WepSubcontracting" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepSubcontracting" locale="zh_CN" localized="分包" />
+		
+<!--             <moqui.basic.Enumeration description="Phone Call" enumId="WepPhoneCall" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepPhoneCall" locale="zh_CN" localized="电话" />
+		
+<!--             <moqui.basic.Enumeration description="Email" enumId="WepEmail" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepEmail" locale="zh_CN" localized="邮件" />
+
+<!--             <moqui.basic.Enumeration description="Timesheet" enumId="WepTimesheet" enumTypeId="WorkEffortPurpose"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepTimesheet" locale="zh_CN" localized="工时表" />
+
+            <!-- Work Effort Resolution -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Resolution" enumTypeId="WorkEffortResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortResolution" locale="zh_CN" localized="工作解决状况" />
+
+<!--             <moqui.basic.Enumeration description="Unresolved" enumId="WerUnresolved" enumTypeId="WorkEffortResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WerUnresolved" locale="zh_CN" localized="未处理" />
+
+<!--             <moqui.basic.Enumeration description="Completed" enumId="WerCompleted" enumTypeId="WorkEffortResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WerCompleted" locale="zh_CN" localized="已完成" />
+<!--             <moqui.basic.Enumeration description="Incomplete" enumId="WerIncomplete" enumTypeId="WorkEffortResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WerIncomplete" locale="zh_CN" localized="未完成" />
+<!--             <moqui.basic.Enumeration description="Won't Complete" enumId="WerWontComplete" enumTypeId="WorkEffortResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WerWontComplete" locale="zh_CN" localized="不愿完成" />
+		
+<!--             <moqui.basic.Enumeration description="Duplicate" enumId="WerDuplicate" enumTypeId="WorkEffortResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WerDuplicate" locale="zh_CN" localized="重复" />
+<!--             <moqui.basic.Enumeration description="Cannot Reproduce" enumId="WerCannotReproduce" enumTypeId="WorkEffortResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WerCannotReproduce" locale="zh_CN" localized="不能重现" />
+		
+<!--             <moqui.basic.Enumeration description="Insufficient Information" enumId="WerInsufficient" enumTypeId="WorkEffortResolution"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WerInsufficient" locale="zh_CN" localized="信息不足" />
+
+            <!-- Work Effort Status -->
+<!--             <moqui.basic.StatusType description="Work Effort Status" statusTypeId="WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WorkEffort" locale="zh_CN" localized="工作状态" />
+
+            
+<!--             <moqui.basic.StatusItem description="In Planning" sequenceNum="1" statusId="WeInPlanning" statusTypeId="WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeInPlanning" locale="zh_CN" localized="计划中" />
+
+<!--             <moqui.basic.StatusItem description="Approved" sequenceNum="2" statusId="WeApproved" statusTypeId="WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeApproved" locale="zh_CN" localized="已批准" />
+<!--             <moqui.basic.StatusItem description="In Progress" sequenceNum="3" statusId="WeInProgress" statusTypeId="WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeInProgress" locale="zh_CN" localized="进行中" />
+<!--             <moqui.basic.StatusItem description="On Hold" sequenceNum="5" statusId="WeOnHold" statusTypeId="WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeOnHold" locale="zh_CN" localized="暂停" />
+<!--             <moqui.basic.StatusItem description="Complete" sequenceNum="9" statusId="WeComplete" statusTypeId="WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeComplete" locale="zh_CN" localized="完成" />
+		
+<!--             <moqui.basic.StatusItem description="Closed" sequenceNum="10" statusId="WeClosed" statusTypeId="WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeClosed" locale="zh_CN" localized="关闭" />
+		
+<!--             <moqui.basic.StatusItem description="Cancelled" sequenceNum="99" statusId="WeCancelled" statusTypeId="WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeCancelled" locale="zh_CN" localized="取消" />
+		
+
+<!--             <moqui.basic.StatusFlow statusFlowId="WorkEffortOther" description="Other, more lenient, status transitions for WorkEffort"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusFlow" fieldName="description"
+		pkValue="WorkEffortOther" locale="zh_CN" localized="其他更宽松的工作状态转换" />
+		
+            <!-- Work Effort Visibility -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Visibility" enumTypeId="WorkEffortVisibility"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortVisibility" locale="zh_CN" localized="工作可见性" />     
+		      
+            <!-- if set to all users then may show in calendars/etc for all users -->
+<!--             <moqui.basic.Enumeration description="All Users" enumId="WevAllUsers" enumTypeId="WorkEffortVisibility"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WevAllUsers" locale="zh_CN" localized="所有用户" />     
+
+            <!-- for these settings will show only if associated with something, but will have limited visibility based on this setting -->
+<!--             <moqui.basic.Enumeration description="General (public access)" enumId="WevGeneral" enumTypeId="WorkEffortVisibility"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WevGeneral" locale="zh_CN" localized="一般(公众查阅)" />  
+		   
+<!--             <moqui.basic.Enumeration description="Work Group (group only access)" enumId="WevWorkGroup" enumTypeId="WorkEffortVisibility"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WevWorkGroup" locale="zh_CN" localized="工作组(仅组访问)" />     
+		
+<!--             <moqui.basic.Enumeration description="Restricted (private access)" enumId="WevRestricted" enumTypeId="WorkEffortVisibility"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WevRestricted" locale="zh_CN" localized="受限(私人访问)" />   
+		  
+<!--             <moqui.basic.Enumeration description="Top Secret (confidential access)" enumId="WevConfidential" enumTypeId="WorkEffortVisibility"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WevConfidential" locale="zh_CN" localized="绝密(机密访问)" />     
+				
+
+            <!-- Work Effort Asset Assignment Status -->
+<!--             <moqui.basic.StatusType description="Work Effort Asset Assignment Status" statusTypeId="WorkEffortAssetAssign"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WorkEffortAssetAssign" locale="zh_CN" localized="工作关联资产分配状态" />     
+
+<!--             <moqui.basic.StatusItem description="Requested" sequenceNum="1" statusId="WeaaRequested" statusTypeId="WorkEffortAssetAssign"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeaaRequested" locale="zh_CN" localized="已申请" />     
+
+<!--             <moqui.basic.StatusItem description="Assigned" sequenceNum="2" statusId="WeaaAssigned" statusTypeId="WorkEffortAssetAssign"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeaaAssigned" locale="zh_CN" localized="已分配" />
+		     
+<!--             <moqui.basic.StatusItem description="Arrived" sequenceNum="3" statusId="WeaaArrived" statusTypeId="WorkEffortAssetAssign"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeaaArrived" locale="zh_CN" localized="已抵达" />
+		     
+<!--             <moqui.basic.StatusItem description="Departed" sequenceNum="4" statusId="WeaaDeparted" statusTypeId="WorkEffortAssetAssign"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeaaDeparted" locale="zh_CN" localized="已离开" />  
+		   
+<!--             <moqui.basic.StatusItem description="Request Denied" sequenceNum="9" statusId="WeaaRequestDenied" statusTypeId="WorkEffortAssetAssign"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WeaaRequestDenied" locale="zh_CN" localized="申请被拒绝" />     
+
+            <!-- Work Effort Association Type -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Association Type" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortAssocType" locale="zh_CN" localized="工作之间关系类型" />     
+
+
+<!--             <moqui.basic.Enumeration description="Relates To" enumId="WeatRelatesTo" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatRelatesTo" locale="zh_CN" localized="与...有关" />
+		     
+<!--             <moqui.basic.Enumeration description="Depends On (Blocked By)" enumId="WeatDependsOn" parentEnumId="WeatRelatesTo" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatDependsOn" locale="zh_CN" localized="依赖（被...阻断）" />
+		
+<!--             <moqui.basic.Enumeration description="Duplicates" enumId="WeatDuplicates" parentEnumId="WeatRelatesTo" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatDuplicates" locale="zh_CN" localized="重复" />
+		
+<!--             <moqui.basic.Enumeration description="Based On" enumId="WeatBasedOn" parentEnumId="WeatRelatesTo" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatBasedOn" locale="zh_CN" localized="建立在...之上" />
+		
+<!--             <moqui.basic.Enumeration description="Clones" enumId="WeatClone" parentEnumId="WeatRelatesTo" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatClone" locale="zh_CN" localized="克隆" />
+		
+<!--             <moqui.basic.Enumeration description="Caused By" enumId="WeatCausedBy" parentEnumId="WeatRelatesTo" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatCausedBy" locale="zh_CN" localized="被...导致" />
+		
+<!--             <moqui.basic.Enumeration description="Independent Of (Concurrent)" enumId="WeatIndependentOf" parentEnumId="WeatRelatesTo" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatIndependentOf" locale="zh_CN" localized="不受...支配（并行）" />
+
+<!--             <moqui.basic.Enumeration description="Routing Component" enumId="WeatRoutingComp" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatRoutingComp" locale="zh_CN" localized="工艺组件" />
+		
+<!--             <moqui.basic.Enumeration description="Milestone" enumId="WeatMilestone" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatMilestone" locale="zh_CN" localized="里程碑" />
+		
+<!--             <moqui.basic.Enumeration description="Release" enumId="WeatRelease" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatRelease" locale="zh_CN" localized="发布" />
+		
+<!--             <moqui.basic.Enumeration description="Component" enumId="WeatComponent" enumTypeId="WorkEffortAssocType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeatComponent" locale="zh_CN" localized="组件" />
+            
+            <!-- Work Effort Content Type -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Content Type" enumTypeId="WorkEffortContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortContentType" locale="zh_CN" localized="工作介绍内容类型" />
+
+<!--             <moqui.basic.Enumeration enumId="WectProjectUpdate" description="Project Update" enumTypeId="WorkEffortContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WectProjectUpdate" locale="zh_CN" localized="项目更新" />
+		
+<!--             <moqui.basic.Enumeration enumId="WectDiscussion" description="Discussion" enumTypeId="WorkEffortContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WectDiscussion" locale="zh_CN" localized="讨论" />
+		
+<!--             <moqui.basic.Enumeration enumId="WectRequirement" description="Requirement" enumTypeId="WorkEffortContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WectRequirement" locale="zh_CN" localized="需求" />
+		
+<!--             <moqui.basic.Enumeration enumId="WectDesign" description="Design" enumTypeId="WorkEffortContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WectDesign" locale="zh_CN" localized="设计" />
+		
+<!--             <moqui.basic.Enumeration enumId="WectProposal" description="Proposal" enumTypeId="WorkEffortContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WectProposal" locale="zh_CN" localized="建议" />
+		
+<!--             <moqui.basic.Enumeration enumId="WectSupportingMedia" description="Supporting Media" enumTypeId="WorkEffortContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WectSupportingMedia" locale="zh_CN" localized="支持媒体" />
+		
+<!--             <moqui.basic.Enumeration enumId="WectCreatedMedia" description="Created Media" enumTypeId="WorkEffortContentType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WectCreatedMedia" locale="zh_CN" localized="已创建的媒体" />
+
+            <!-- Work Effort Facility Type -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Facility Type" enumTypeId="WorkEffortFacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortFacilityType" locale="zh_CN" localized="工作相关设施类型" />
+		            
+<!--             <moqui.basic.Enumeration enumId="WeftOrigin" description="Inventory Origin" enumTypeId="WorkEffortFacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeftOrigin" locale="zh_CN" localized="库存来源" />
+
+<!--             <moqui.basic.Enumeration enumId="WeftUsed" description="Also Used" enumTypeId="WorkEffortFacilityType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeftUsed" locale="zh_CN" localized="用到" />
+            
+            <!-- Work Effort Party Status -->
+<!--             <moqui.basic.StatusType description="Work Effort Party Status" statusTypeId="WorkEffortParty"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WorkEffortParty" locale="zh_CN" localized="工作人力资源状态" />
+
+<!--             <moqui.basic.StatusItem description="Offered" sequenceNum="1" statusId="WeptOffered" statusTypeId="WorkEffortParty"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WeptOffered" locale="zh_CN" localized="已提供" />
+		
+<!--             <moqui.basic.StatusItem description="Assigned" sequenceNum="2" statusId="WeptAssigned" statusTypeId="WorkEffortParty"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WeptAssigned" locale="zh_CN" localized="已分配" />
+		
+<!--             <moqui.basic.StatusItem description="Arrived" sequenceNum="3" statusId="WeptArrived" statusTypeId="WorkEffortParty"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WeptArrived" locale="zh_CN" localized="已抵达" />
+		
+<!--             <moqui.basic.StatusItem description="Departed" sequenceNum="4" statusId="WeptDeparted" statusTypeId="WorkEffortParty"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WeptDeparted" locale="zh_CN" localized="已离开" />
+		
+<!--             <moqui.basic.StatusItem description="Declined" sequenceNum="10" statusId="WeptDeclined" statusTypeId="WorkEffortParty"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WeptDeclined" locale="zh_CN" localized="已拒绝" />
+		
+<!--             <moqui.basic.StatusItem description="Unassigned" sequenceNum="11" statusId="WeptUnassigned" statusTypeId="WorkEffortParty"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WeptUnassigned" locale="zh_CN" localized="未分配" />
+
+            <!-- Work Effort Party Availability -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Party Availability" enumTypeId="WorkEffortPartyAvailability"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortPartyAvailability" locale="zh_CN" localized="工作人力资源可用性类型" />
+		
+<!--             <moqui.basic.Enumeration description="Available" enumId="WeptaAvailable" enumTypeId="WorkEffortPartyAvailability"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeptaAvailable" locale="zh_CN" localized="可用" />
+		
+<!--             <moqui.basic.Enumeration description="Busy" enumId="WeptaBusy" enumTypeId="WorkEffortPartyAvailability"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WeptaBusy" locale="zh_CN" localized="忙碌" />
+		
+<!--             <moqui.basic.Enumeration description="Away" enumId="WeptaAway" enumTypeId="WorkEffortPartyAvailability"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WeptaAway" locale="zh_CN" localized="离开" />
+
+            <!-- Work Effort Party Delegate Reason -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Party Delegate Reason" enumTypeId="WorkEffortPartyDelegateReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortPartyDelegateReason" locale="zh_CN" localized="工作人力资源委托原因类型" />
+
+<!--             <moqui.basic.Enumeration description="Need Support or Help" enumId="WepdrNeedSupport" enumTypeId="WorkEffortPartyDelegateReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WepdrNeedSupport" locale="zh_CN" localized="需要支持或帮助" />
+
+<!--             <moqui.basic.Enumeration description="My Part Finished" enumId="WepdrPartFinished" enumTypeId="WorkEffortPartyDelegateReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WepdrPartFinished" locale="zh_CN" localized="自己负责的部分已完成" />
+		
+<!--             <moqui.basic.Enumeration description="Completely Finished" enumId="WepdrCompleted" enumTypeId="WorkEffortPartyDelegateReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WepdrCompleted" locale="zh_CN" localized="全部完成" />
+
+            <!-- Work Effort Party Expectation -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Party Expectation" enumTypeId="WorkEffortPartyExpectation"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortPartyExpectation" locale="zh_CN" localized="期望互动类型" />
+		
+<!--             <moqui.basic.Enumeration description="For Your Information" enumId="WepeFyi" enumTypeId="WorkEffortPartyExpectation"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepeFyi" locale="zh_CN" localized="供了解" />
+
+<!--             <moqui.basic.Enumeration description="Involvement Required" enumId="WepeInvRequired" enumTypeId="WorkEffortPartyExpectation"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepeInvRequired" locale="zh_CN" localized="要求参与" />
+		
+<!--             <moqui.basic.Enumeration description="Involvement Requested" enumId="WepeInvRequested" enumTypeId="WorkEffortPartyExpectation"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepeInvRequested" locale="zh_CN" localized="请求参与" />
+		
+<!--             <moqui.basic.Enumeration description="Immediate Response Requested" enumId="WepeImmediate" enumTypeId="WorkEffortPartyExpectation"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WepeImmediate" locale="zh_CN" localized="请立即响应" />
+
+            <!-- Some WorkEffort-specific role groups -->
+<!--             <moqui.basic.Enumeration description="Project" enumId="RgpProject" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpProject" locale="zh_CN" localized="项目角色组" />
+
+<!--             <moqui.basic.Enumeration description="Task" enumId="RgpTask" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpTask" locale="zh_CN" localized="任务角色组" />
+
+<!--             <moqui.basic.Enumeration description="Project Client" enumId="RgpProjectClient" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpProjectClient" locale="zh_CN" localized="项目客户角色组" />
+
+<!--             <moqui.basic.Enumeration description="Project Vendor" enumId="RgpProjectVendor" enumTypeId="RoleGroup"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="RgpProjectVendor" locale="zh_CN" localized="项目供应商角色组" />
+
+            <!-- Work Effort Product Type -->
+<!--             <moqui.basic.EnumerationType description="Work Effort Product Type" enumTypeId="WorkEffortProductType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="WorkEffortProductType" locale="zh_CN" localized="工作产出类型" />
+            
+<!--             <moqui.basic.Enumeration enumId="WeptRouting" description="Routing" enumTypeId="WorkEffortProductType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeptRouting" locale="zh_CN" localized="生产工艺" />
+		
+<!--             <moqui.basic.Enumeration enumId="WeptProduce" description="Produce" enumTypeId="WorkEffortProductType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeptProduce" locale="zh_CN" localized="产品" />
+
+<!--             <moqui.basic.Enumeration enumId="WeptConsume" description="Consume" enumTypeId="WorkEffortProductType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeptConsume" locale="zh_CN" localized="消费" />
+		
+<!--             <moqui.basic.Enumeration enumId="WeptSales" description="Sales" enumTypeId="WorkEffortProductType"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+		pkValue="WeptSales" locale="zh_CN" localized="销售" />
+
+            <!--  Work Effort Product Status -->
+<!--             <moqui.basic.StatusType description="Work Effort Product Status" statusTypeId="WorkEffortProduct"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="WorkEffortProduct" locale="zh_CN" localized="工作产出状态" />
+		
+<!--             <moqui.basic.StatusItem description="Created" sequenceNum="1" statusId="WepdCreated" statusTypeId="WorkEffortProduct"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WepdCreated" locale="zh_CN" localized="已创建" />
+
+<!--             <moqui.basic.StatusItem description="Completed" sequenceNum="2" statusId="WepdCompleted" statusTypeId="WorkEffortProduct"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WepdCompleted" locale="zh_CN" localized="已完成" />
+		
+<!--             <moqui.basic.StatusItem description="Cancelled" sequenceNum="3" statusId="WepdCancelled" statusTypeId="WorkEffortProduct"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="WepdCancelled" locale="zh_CN" localized="已取消" />
+            
+            <!-- Timesheet Status -->
+<!--             <moqui.basic.StatusType description="Timesheet" statusTypeId="Timesheet"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+		pkValue="Timesheet" locale="zh_CN" localized="时间表" />
+
+<!--             <moqui.basic.StatusItem description="In-Process" sequenceNum="1" statusId="TmshInProcess" statusTypeId="Timesheet"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="TmshInProcess" locale="zh_CN" localized="处理中" />
+		
+<!--             <moqui.basic.StatusItem description="Completed" sequenceNum="2" statusId="TmshCompleted" statusTypeId="Timesheet"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="TmshCompleted" locale="zh_CN" localized="已完成" />
+		
+<!--             <moqui.basic.StatusItem description="Approved" sequenceNum="3" statusId="TmshApproved" statusTypeId="Timesheet"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+		pkValue="TmshApproved" locale="zh_CN" localized="已核准" />
+		
+        <!-- Measurement Reason -->
+<!--  <moqui.basic.EnumerationType description="Measurement Reason" enumTypeId="MeasurementReason"/> -->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+		pkValue="MeasurementReason" locale="zh_CN" localized="测量的原因" />                        
+		
+		
+</entity-facade-xml>
+            

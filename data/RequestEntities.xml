@@ -9,7 +9,7 @@
             <!-- Request Type -->
 <!--             <moqui.basic.EnumerationType description="Request Type" enumTypeId="RequestType"/> -->
 	<moqui.basic.LocalizedEntityField  entityName="moqui.basic.EnumerationType" fieldName="description"
-		pkValue="AssetReservationOrder" locale="zh_CN" localized="需求类型" />            
+		pkValue="RequestType" locale="zh_CN" localized="需求类型" />
 
             
 <!--             <moqui.basic.Enumeration enumId="RqtBugFix" description="Bug Fix" enumTypeId="RequestType"/> -->

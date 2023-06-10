@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a 
+	Grant of Patent License. To the extent possible under law, the author(s) 
+	have dedicated all copyright and related and neighboring rights to this software 
+	to the public domain worldwide. This software is distributed without any 
+	warranty. You should have received a copy of the CC0 Public Domain Dedication 
+	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
+<entity-facade-xml type="seed">
+	<!-- Asset Type -->
+<!--	<moqui.basic.EnumerationType description="Asset Type" enumTypeId="AssetType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="AssetType" locale="zh_CN" localized="资产类型" />
+
+<!--	<moqui.basic.Enumeration description="Inventory" enumId="AstTpInventory" enumTypeId="AssetType"/>&lt;!&ndash; IAS 2 &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpInventory" locale="zh_CN" localized="库存" />
+
+<!--	<moqui.basic.Enumeration description="Supplies" enumId="AstTpSupplies" enumTypeId="AssetType"/>&lt;!&ndash; IAS? &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpSupplies" locale="zh_CN" localized="辅料/易耗品" />
+<!--	翻译参考：https://www.chinaacc.com/aicpa/fxzd/we1412117693.shtml-->
+<!--	<moqui.basic.Enumeration description="Fixed Asset" enumId="AstTpFixed" enumTypeId="AssetType"/>&lt;!&ndash; IAS 16 &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpFixed" locale="zh_CN" localized="固定资产" />
+
+<!--	<moqui.basic.Enumeration description="Equipment" enumId="AstTpEquipment" parentEnumId="AstTpFixed" enumTypeId="AssetType"/>&lt;!&ndash; IAS 16 &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpEquipment" locale="zh_CN" localized="设备资产" />
+<!--	<moqui.basic.Enumeration description="Rental Equipment Asset" enumId="AstTpRental" parentEnumId="AstTpFixed" enumTypeId="AssetType"/>&lt;!&ndash; IAS? &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpRental" locale="zh_CN" localized="出租设备资产" />
+<!--	<moqui.basic.Enumeration description="Real Estate" enumId="AstTpRealEstate" parentEnumId="AstTpFixed" enumTypeId="AssetType"/>&lt;!&ndash; IAS 16 &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpRealEstate" locale="zh_CN" localized="不动产" />
+<!--	<moqui.basic.Enumeration description="Investment Real Estate" enumId="AstTpInvRealEstate" parentEnumId="AstTpFixed" enumTypeId="AssetType"/>&lt;!&ndash; IAS 40 &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpInvRealEstate" locale="zh_CN" localized="投资性不动产" />
+<!--	<moqui.basic.Enumeration description="Bearer Biological" enumId="AstTpBearerBiological" parentEnumId="AstTpFixed" enumTypeId="AssetType"/>&lt;!&ndash; IAS 16 &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpBearerBiological" locale="zh_CN" localized="生产性生物资产" />
+<!--	<moqui.basic.Enumeration description="Biological" enumId="AstTpBiological" enumTypeId="AssetType"/>&lt;!&ndash; IAS 41 &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpBiological" locale="zh_CN" localized="生物资产" />
+<!--	<moqui.basic.Enumeration description="Intangible" enumId="AstTpIntangible" enumTypeId="AssetType"/>&lt;!&ndash; IAS 38 &ndash;&gt;-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AstTpIntangible" locale="zh_CN" localized="无形资产" />
+	<!-- Asset Class -->
+<!--	<moqui.basic.EnumerationType description="Asset Class" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="AssetClass" locale="zh_CN" localized="资产门类" />
+
+<!--	<moqui.basic.Enumeration description="Inventory" enumId="AsClsInventory" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsInventory" locale="zh_CN" localized="库存" />
+<!--	<moqui.basic.Enumeration description="Inventory - Raw Material" enumId="AsClsInventoryRaw"-->
+<!--							 parentEnumId="AsClsInventory" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsInventoryRaw" locale="zh_CN" localized="库存-原材料" />
+
+<!--	<moqui.basic.Enumeration description="Inventory - Sub-assembly" enumId="AsClsInventorySub"-->
+<!--							 parentEnumId="AsClsInventory" enumTypeId="AssetClass"/>-->
+
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsInventorySub" locale="zh_CN" localized="库存-部件" />
+
+<!--	<moqui.basic.Enumeration description="Inventory - Finished Good" enumId="AsClsInventoryFin"-->
+<!--							 parentEnumId="AsClsInventory" enumTypeId="AssetClass"/>-->
+
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsInventoryFin" locale="zh_CN" localized="库存-成品" />
+
+<!--	<moqui.basic.Enumeration description="Inventory - Digital Good" enumId="AsClsInventoryDig"-->
+<!--							 parentEnumId="AsClsInventory" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsInventoryDig" locale="zh_CN" localized="库存-数据商品" />
+
+<!--	<moqui.basic.Enumeration description="Warehouse Equipment" enumId="AsClsWhEquip" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsWhEquip" locale="zh_CN" localized="仓库设备" />
+
+<!--	<moqui.basic.Enumeration description="Manufacturing Equipment" enumId="AsClsMfgEquip" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsMfgEquip" locale="zh_CN" localized="生产设备" />
+
+<!--	<moqui.basic.Enumeration description="Boat" enumId="AsClsBoat" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsBoat" locale="zh_CN" localized="船只" />
+
+<!--	<moqui.basic.Enumeration description="Forklift" enumId="AsClsForklift" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsForklift" locale="zh_CN" localized="铲车" />
+
+
+<!--	<moqui.basic.Enumeration description="Digger" enumId="AsClsDigger" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsDigger" locale="zh_CN" localized="挖掘机" />
+
+
+<!--	<moqui.basic.Enumeration description="Manlift" enumId="AsClsManlift" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsManlift" locale="zh_CN" localized="高空作业平台" />
+
+<!--	<moqui.basic.Enumeration description="Service Body" enumId="AsClsServiceBody" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsServiceBody" locale="zh_CN" localized="服务主体" />
+
+<!--	<moqui.basic.Enumeration description="Tractor" enumId="AsClsTractor" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsTractor" locale="zh_CN" localized="拖拉机" />
+
+<!--	<moqui.basic.Enumeration description="Passenger Vehicle" enumId="AsClsPassengerVeh" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsPassengerVeh" locale="zh_CN" localized="客运车辆" />
+
+<!--	<moqui.basic.Enumeration description="Compressor" enumId="AsClsCompressor" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsCompressor" locale="zh_CN" localized="压气机" />
+
+<!--	<moqui.basic.Enumeration description="Trencher" enumId="AsClsTrencher" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsTrencher" locale="zh_CN" localized="挖沟机" />
+
+<!--	<moqui.basic.Enumeration description="Puller" enumId="AsClsPuller" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsPuller" locale="zh_CN" localized="拉出器" />
+
+<!--	<moqui.basic.Enumeration description="Tanker" enumId="AsClsTanker" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsTanker" locale="zh_CN" localized="Tanker" />
+
+<!--	<moqui.basic.Enumeration description="Reel Stand" enumId="AsClsReelStand" enumTypeId="AssetClass"/>-->
+
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsReelStand" locale="zh_CN" localized="绳车架" />
+
+<!--	<moqui.basic.Enumeration description="Cargo Vehicle" enumId="AsClsCargoVehicle" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsCargoVehicle" locale="zh_CN" localized="载重卡车" />
+
+<!--	<moqui.basic.Enumeration description="Truck" enumId="AsClsTruck" parentEnumId="AsClsCargoVehicle" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsTruck" locale="zh_CN" localized="卡车" />
+
+<!--	<moqui.basic.Enumeration description="Trailer" enumId="AsClsTrailer" parentEnumId="AsClsCargoVehicle" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsTrailer" locale="zh_CN" localized=" 挂车" />
+
+<!--	<moqui.basic.Enumeration description="Container" enumId="AsClsContainer" parentEnumId="AsClsCargoVehicle" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsContainer" locale="zh_CN" localized="集装箱" />
+
+<!--	<moqui.basic.Enumeration description="Computer Hardware" enumId="AsClsComputerHard" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsComputerHard" locale="zh_CN" localized="计算机硬件" />
+
+<!--	<moqui.basic.Enumeration description="Desktop" enumId="AsClsDesktop" parentEnumId="AsClsComputerHard" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsDesktop" locale="zh_CN" localized="台式机" />
+
+<!--	<moqui.basic.Enumeration description="Laptop" enumId="AsClsLaptop" parentEnumId="AsClsComputerHard" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsLaptop" locale="zh_CN" localized="笔记本" />
+
+<!--	<moqui.basic.Enumeration description="Tablet" enumId="AsClsTablet" parentEnumId="AsClsComputerHard" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsTablet" locale="zh_CN" localized="平板电脑" />
+
+<!--	<moqui.basic.Enumeration description="Monitor" enumId="AsClsMonitor" parentEnumId="AsClsComputerHard" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsMonitor" locale="zh_CN" localized="显示器" />
+
+<!--	<moqui.basic.Enumeration description="Computer Software" enumId="AsClsComputerSoft" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsComputerSoft" locale="zh_CN" localized="计算机软件" />
+
+<!--	<moqui.basic.Enumeration description="Programming Software" enumId="AsClsSoftProgramming" parentEnumId="AsClsComputerSoft" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsSoftProgramming" locale="zh_CN" localized="编程软件" />
+
+<!--	<moqui.basic.Enumeration description="System Software" enumId="AsClsSoftSystem" parentEnumId="AsClsComputerSoft" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsSoftSystem" locale="zh_CN" localized="系统软件" />
+
+<!--	<moqui.basic.Enumeration description="Application Software" enumId="AsClsSoftApp" parentEnumId="AsClsComputerSoft" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsSoftApp" locale="zh_CN" localized="应用软件" />
+
+<!--	<moqui.basic.Enumeration description="Utility Software" enumId="AsClsSoftUtility" parentEnumId="AsClsComputerSoft" enumTypeId="AssetClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AsClsSoftUtility" locale="zh_CN" localized="工具软件" />
+
+	<!-- Asset Status -->
+	<moqui.basic.StatusType description="Asset" statusTypeId="Asset"/>
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusType" fieldName="description"
+			pkValue="Asset" locale="zh_CN" localized="资产" />
+
+<!--	<moqui.basic.StatusItem description="Incoming" sequenceNum="1" statusId="AstIncoming" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstIncoming" locale="zh_CN" localized="入库" />
+
+<!--	<moqui.basic.StatusItem description="Available" sequenceNum="2" statusId="AstAvailable" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstAvailable" locale="zh_CN" localized="可用" />
+
+<!--	<moqui.basic.StatusItem description="Promised" sequenceNum="3" statusId="AstPromised" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstPromised" locale="zh_CN" localized="已预定" />
+
+<!--	<moqui.basic.StatusItem description="Delivered" sequenceNum="4" statusId="AstDelivered" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstDelivered" locale="zh_CN" localized="已交货" />
+
+	<moqui.basic.StatusItem description="Activated" sequenceNum="5" statusId="AstActivated" statusTypeId="Asset"/>
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstActivated" locale="zh_CN" localized="已激活" />
+
+<!--	<moqui.basic.StatusItem description="Deactivated" sequenceNum="6" statusId="AstDeactivated" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstDeactivated" locale="zh_CN" localized="已失效" />
+
+
+<!--	<moqui.basic.StatusItem description="On Hold" sequenceNum="7" statusId="AstOnHold" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstOnHold" locale="zh_CN" localized="暂停" />
+
+<!--	<moqui.basic.StatusItem description="In Use" sequenceNum="8" statusId="AstInUse" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstInUse" locale="zh_CN" localized="使用中" />
+<!--	<moqui.basic.StatusItem description="In Storage" sequenceNum="9" statusId="AstInStorage" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstInStorage" locale="zh_CN" localized="存储中" />
+
+<!--	<moqui.basic.StatusItem description="In Transfer" sequenceNum="10" statusId="AstInTransfer" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstInTransfer" locale="zh_CN" localized="转移中" />
+
+	<moqui.basic.StatusItem description="In Transfer (Promised)" sequenceNum="11" statusId="AstInTransferPromise" statusTypeId="Asset"/>
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstInTransferPromise" locale="zh_CN" localized="转移中（已确认）" />
+
+<!--	<moqui.basic.StatusItem description="Returned" sequenceNum="20" statusId="AstReturned" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstReturned" locale="zh_CN" localized="已退回" />
+
+<!--	<moqui.basic.StatusItem description="Defective" sequenceNum="21" statusId="AstDefective" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstDefective" locale="zh_CN" localized="次品" />
+
+<!--	<moqui.basic.StatusItem description="Quarantine" sequenceNum="30" statusId="AstQuarantine" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstQuarantine" locale="zh_CN" localized="隔离中" />
+
+<!--	<moqui.basic.StatusItem description="Morgue" sequenceNum="31" statusId="AstMorgue" statusTypeId="Asset"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AstMorgue" locale="zh_CN" localized="Morgue" />
+
+	<!-- Depreciation Type -->
+<!--	<moqui.basic.EnumerationType description="Depreciation Type" enumTypeId="DepreciationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="DepreciationType" locale="zh_CN" localized="折旧类型" />
+
+<!--	<moqui.basic.Enumeration description="Straight Line" enumId="DtpStraightLine" enumTypeId="DepreciationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="DtpStraightLine" locale="zh_CN" localized="直线折旧" />
+
+<!--	<moqui.basic.Enumeration description="Double Declining Balance" enumId="DtpDoubleDeclining" enumTypeId="DepreciationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="DtpDoubleDeclining" locale="zh_CN" localized="加倍余额折旧" />
+
+<!--	<moqui.basic.Enumeration description="Sum of Years Digits" enumId="DtpSumYearsDigits" enumTypeId="DepreciationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="DtpSumYearsDigits" locale="zh_CN" localized="总和年数折旧" />
+
+	<!-- not yet supported: <moqui.basic.Enumeration description="Units of Production" enumId="DtpUnitsProduction" enumTypeId="DepreciationType"/> -->
+
+	<!-- Tax Depreciation Type -->
+	<!-- NOTE: there are many variations, especially for USA MACRS ADS; future effort to model all of them -->
+	<!-- For a summary of USA IRS MACRS deprecations see: https://en.wikipedia.org/wiki/MACRS -->
+<!--	<moqui.basic.EnumerationType description="Tax Depreciation Type" enumTypeId="TaxDepreciationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="TaxDepreciationType" locale="zh_CN" localized="税收折旧类型" />
+
+<!--	<moqui.basic.Enumeration description="MACRS GDS 5 Year" enumId="TxdtMacrsGds5Yr" enumTypeId="TaxDepreciationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="TxdtMacrsGds5Yr" locale="zh_CN" localized="MACRS GDS 5 Year" />
+
+<!--	<moqui.basic.Enumeration description="MACRS GDS 7 Year" enumId="TxdtMacrsGds7Yr" enumTypeId="TaxDepreciationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="TxdtMacrsGds7Yr" locale="zh_CN" localized="MACRS GDS 7 Year" />
+
+	<!-- Inventory Variance Reason -->
+<!--	<moqui.basic.EnumerationType description="Inventory Variance Reason" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="InventoryVarianceReason" locale="zh_CN" localized="库存差异原因" />
+
+<!--	<moqui.basic.Enumeration enumId="InVrLost" description="Lost" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="InVrLost" locale="zh_CN" localized="丢失" />
+
+<!--	<moqui.basic.Enumeration enumId="InVrStolen" description="Stolen" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="InVrStolen" locale="zh_CN" localized="偷盗" />
+
+<!--	<moqui.basic.Enumeration enumId="InVrFound" description="Found" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="InVrFound" locale="zh_CN" localized="Found" />
+
+<!--	<moqui.basic.Enumeration enumId="InVrDamaged" description="Damaged" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="InVrDamaged" locale="zh_CN" localized="损坏" />
+
+<!--	<moqui.basic.Enumeration enumId="InVrIntegration" description="Integration" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="InVrIntegration" locale="zh_CN" localized="整合" />
+
+<!--	<moqui.basic.Enumeration enumId="InVrSample" description="Sample (Giveaway)" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="InVrSample" locale="zh_CN" localized="免费样品" />
+
+<!--	<moqui.basic.Enumeration enumId="InVrMisShipOrdered" description="Mis-shipped Item Ordered (+)" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="InVrMisShipOrdered" locale="zh_CN" localized="Mis-shipped Item Ordered (+)" />
+
+<!--	<moqui.basic.Enumeration enumId="InVrMisShipShipped" description="Mis-shipped Item Shipped (-)" enumTypeId="InventoryVarianceReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="InVrMisShipShipped" locale="zh_CN" localized="Mis-shipped Item Shipped (-)" />
+
+	<!-- Asset Identification Type -->
+<!--	<moqui.basic.EnumerationType description="Asset Identification Type" enumTypeId="AssetIdentificationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="AssetIdentificationType" locale="zh_CN" localized="资产识别类型" />
+
+<!--	<moqui.basic.Enumeration description="Manufacturer Serial Number" enumId="AitMfgSerial" enumTypeId="AssetIdentificationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AitMfgSerial" locale="zh_CN" localized="生产商序列号" />
+
+<!--	<moqui.basic.Enumeration description="Media Access Control (MAC) Address" enumId="AitMac" enumTypeId="AssetIdentificationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AitMac" locale="zh_CN" localized="MAC地址" />
+
+<!--	<moqui.basic.Enumeration description="Vendor Inventory/Tracking" enumId="AitVendorInventory" enumTypeId="AssetIdentificationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AitVendorInventory" locale="zh_CN" localized="供应商库存跟踪" />
+
+<!--	<moqui.basic.Enumeration description="Tracking Label Number" enumId="AitTrackingLabel" enumTypeId="AssetIdentificationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AitTrackingLabel" locale="zh_CN" localized="追踪标签编号" />
+
+
+<!--	<moqui.basic.Enumeration description="Vehicle Identification Number (VIN)" enumId="AitVin" enumTypeId="AssetIdentificationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AitVin" locale="zh_CN" localized="车辆识别代码(VIN)" />
+
+<!--	<moqui.basic.Enumeration description="Gas Card Number" enumId="AitGasCard" enumTypeId="AssetIdentificationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AitGasCard" locale="zh_CN" localized="加油卡号" />
+
+<!--	<moqui.basic.Enumeration description="License Plate Number" enumId="AitLicensePlate" enumTypeId="AssetIdentificationType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="AitLicensePlate" locale="zh_CN" localized="车牌号" />
+
+<!--	<moqui.basic.EnumerationType description="Asset Payment Method Type" enumTypeId="AssetPaymentMethodType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="AssetPaymentMethodType" locale="zh_CN" localized="资产支付方式类型" />
+
+<!--	<moqui.basic.Enumeration enumId="ApmtSecuredLoan" description="Secured Loan" enumTypeId="AssetPaymentMethodType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ApmtSecuredLoan" locale="zh_CN" localized="抵押贷款" />
+
+	<!-- Container Type -->
+<!--	<moqui.basic.EnumerationType description="Container Type" enumTypeId="ContainerType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="ContainerType" locale="zh_CN" localized="集装箱类型" />
+
+
+<!--	展示不翻译了-->
+	<!--	<moqui.basic.Enumeration description="Bin - Shelf Std" enumId="CtBinShelf" enumTypeId="ContainerType"/>-->
+	<!--	<moqui.basic.Enumeration description="Pallet US 40x48in" enumId="CtPalletUs4048" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Pallet US 40x40in" enumId="CtPalletUs4040" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Pallet US 42x42in" enumId="CtPalletUs4242" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Pallet US 48x40in" enumId="CtPalletUs4840" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Pallet US 48x48in" enumId="CtPalletUs4848" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Pallet ISO1/EUR1 0.8x1.2m" enumId="CtPalletIso1" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Pallet ISO2/EUR2 1.2x1.0m" enumId="CtPalletIso2" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Pallet ISO0/EUR6 0.8x0.6m" enumId="CtPalletIso0" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Pallet EUR3 1.0x1.2m" enumId="CtPalletEur3" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Container ISO 40ft" enumId="CtContainerIso40" enumTypeId="ContainerType"/>-->
+<!--	<moqui.basic.Enumeration description="Container ISO 20ft" enumId="CtContainerIso20" enumTypeId="ContainerType"/>-->
+
+	<!--	<moqui.basic.StatusType description="Physical Inventory Status" statusTypeId="PhysicalInventory"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusType" fieldName="description"
+			pkValue="PhysicalInventory" locale="zh_CN" localized="库存判断状态" />
+
+<!--	<moqui.basic.StatusItem description="In Planning" sequenceNum="1" statusId="PIInPlanning" statusTypeId="PhysicalInventory"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="PIInPlanning" locale="zh_CN" localized="计划中" />
+
+<!--	<moqui.basic.StatusItem description="In Progress" sequenceNum="2" statusId="PIInProgress" statusTypeId="PhysicalInventory"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="PIInProgress" locale="zh_CN" localized="盘点中" />
+
+<!--	<moqui.basic.StatusItem description="In Validation" sequenceNum="3" statusId="PIInValidation" statusTypeId="PhysicalInventory"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="PIInValidation" locale="zh_CN" localized="验证中" />
+
+<!--	<moqui.basic.StatusItem description="Complete" sequenceNum="4" statusId="PIComplete" statusTypeId="PhysicalInventory"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="PIComplete" locale="zh_CN" localized="已完成" />
+
+	<!-- Asset Maintenance Status -->
+<!--	<moqui.basic.StatusType description="Asset Maintenance Status" statusTypeId="AssetMaintenance"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusType" fieldName="description"
+			pkValue="AssetMaintenance" locale="zh_CN" localized="资产维护状态" />
+
+<!--	<moqui.basic.StatusItem description="Created" sequenceNum="1" statusId="AsMntCreated" statusTypeId="AssetMaintenance"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AsMntCreated" locale="zh_CN" localized="已创建" />
+
+<!--	<moqui.basic.StatusItem description="Scheduled" sequenceNum="3" statusId="AsMntScheduled" statusTypeId="AssetMaintenance"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AsMntScheduled" locale="zh_CN" localized="已计划" />
+
+<!--	<moqui.basic.StatusItem description="In Process" sequenceNum="5" statusId="AsMntInProcess" statusTypeId="AssetMaintenance"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AsMntInProcess" locale="zh_CN" localized="进行中" />
+
+<!--	<moqui.basic.StatusItem description="Completed" sequenceNum="10" statusId="AsMntCompleted" statusTypeId="AssetMaintenance"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AsMntCompleted" locale="zh_CN" localized="已完成" />
+
+<!--	<moqui.basic.StatusItem description="Cancelled" sequenceNum="99" statusId="AsMntCancelled" statusTypeId="AssetMaintenance"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.StatusItem" fieldName="description"
+			pkValue="AsMntCancelled" locale="zh_CN" localized="已取消" />
+
+	<!-- Maintenance Type -->
+<!--	<moqui.basic.EnumerationType description="Maintenance Type" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="MaintenanceType" locale="zh_CN" localized="资产维护类型" />
+
+<!--	<moqui.basic.Enumeration description="Vehicle Maintenance" enumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpVehicle" locale="zh_CN" localized="车辆保养" />
+
+
+<!--	<moqui.basic.Enumeration description="Oil Change" enumId="MntTpOilChange" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpOilChange" locale="zh_CN" localized="换油" />
+
+<!--	<moqui.basic.Enumeration description="Belt Replacement" enumId="MntTpBeltReplace" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpBeltReplace" locale="zh_CN" localized="皮带更换" />
+
+<!--	<moqui.basic.Enumeration description="Re-Fuel" enumId="MntTpRefuel" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpRefuel" locale="zh_CN" localized="加油" />
+
+<!--	<moqui.basic.Enumeration description="Tune Up" enumId="MntTpTuneUp" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpTuneUp" locale="zh_CN" localized="发动机调整" />
+
+<!--	<moqui.basic.Enumeration description="Battery Replace" enumId="MntTpBatteryReplace" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpBatteryReplace" locale="zh_CN" localized="更换电池" />
+
+<!--	<moqui.basic.Enumeration description="Battery Check" enumId="MntTpBatteryCheck" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpBatteryCheck" locale="zh_CN" localized="电池检查" />
+
+<!--	<moqui.basic.Enumeration description="Lubricate Chassis" enumId="MntTpLubeChassis" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpLubeChassis" locale="zh_CN" localized="润滑底盘" />
+
+<!--	<moqui.basic.Enumeration description="Tires Rotate" enumId="MntTpTiresRotate" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpTiresRotate" locale="zh_CN" localized="轮胎轮换" />
+
+<!--	<moqui.basic.Enumeration description="Tire Replacement" enumId="MntTpTireReplacement" parentEnumId="MntTpVehicle" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpTireReplacement" locale="zh_CN" localized="轮胎更换" />
+
+<!--	<moqui.basic.Enumeration description="HVAC Maintenance" enumId="MntTpHvac" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpHvac" locale="zh_CN" localized="暖通空调维护" />
+
+<!--	<moqui.basic.Enumeration description="Air Filter Replace" enumId="MntTpAirFilterRepl" parentEnumId="MntTpHvac" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpAirFilterRepl" locale="zh_CN" localized="空气过滤器更换" />
+
+<!--	<moqui.basic.Enumeration description="Refrigerant Check/Recharge" enumId="MntTpRefrChkChrg" parentEnumId="MntTpHvac" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpRefrChkChrg" locale="zh_CN" localized="制冷剂检查/补充" />
+
+<!--	<moqui.basic.Enumeration description="Cleaning" enumId="MntTpCleaning" enumTypeId="MaintenanceType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="MntTpCleaning" locale="zh_CN" localized="清洁" />
+
+<!--	<moqui.basic.EnumerationType description="Rejection Reason" enumTypeId="RejectionReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="RejectionReason" locale="zh_CN" localized="拒收原因" />
+
+<!--	<moqui.basic.Enumeration enumId="ArjDamaged" description="Damaged" enumTypeId="RejectionReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ArjDamaged" locale="zh_CN" localized="损坏" />
+
+<!--	<moqui.basic.Enumeration enumId="ArjLost" description="Lost in Transit" enumTypeId="RejectionReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ArjLost" locale="zh_CN" localized="运输丢失" />
+
+<!--	<moqui.basic.Enumeration enumId="ArjNotOrdered" description="Not Ordered" enumTypeId="RejectionReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ArjNotOrdered" locale="zh_CN" localized="未订货" />
+
+<!--	<moqui.basic.Enumeration enumId="ArjOverShipped" description="Over Shipped" enumTypeId="RejectionReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ArjOverShipped" locale="zh_CN" localized="超额发货" />
+
+<!--	<moqui.basic.Enumeration enumId="ArjNotToSpec" description="Not to Specification" enumTypeId="RejectionReason"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="ArjNotToSpec" locale="zh_CN" localized="不符合规范" />
+
+</entity-facade-xml>
+            

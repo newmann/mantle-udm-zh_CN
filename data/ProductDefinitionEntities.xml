@@ -6,7 +6,73 @@
 	warranty. You should have received a copy of the CC0 Public Domain Dedication 
 	along with this software (see the LICENSE.md file). If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. -->
 <entity-facade-xml type="seed">
+	<!-- Product Type -->
+<!--	<moqui.basic.EnumerationType description="Product Type" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="ProductType" locale="zh_CN" localized="产品类型" />
 
+<!--	<moqui.basic.Enumeration description="Asset (Good)" enumId="PtAsset" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtAsset" locale="zh_CN" localized="资产(商品）" />
+
+<!--	<moqui.basic.Enumeration description="Digital and Asset" enumId="PtDigitalAsset" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtDigitalAsset" locale="zh_CN" localized="数字资产" />
+
+<!--	<moqui.basic.Enumeration description="Digital (download)" enumId="PtDigital" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtDigital" locale="zh_CN" localized="数据（下载）" />
+
+<!--	<moqui.basic.Enumeration description="Asset Use" enumId="PtAssetUse" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtAssetUse" locale="zh_CN" localized="资产使用" />
+
+<!--	<moqui.basic.Enumeration description="Facility Use" enumId="PtFacilityUse" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtFacilityUse" locale="zh_CN" localized="设施使用" />
+
+<!--	<moqui.basic.Enumeration description="Service" enumId="PtService" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtService" locale="zh_CN" localized="服务" />
+
+<!--	<moqui.basic.Enumeration description="Virtual (with variants)" enumId="PtVirtual" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtVirtual" locale="zh_CN" localized="虚拟（带变体）" />
+
+<!--	<moqui.basic.Enumeration description="Pick Assembly" enumId="PtPickAssembly" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtPickAssembly" locale="zh_CN" localized="捡拾器组件" />
+
+<!--	<moqui.basic.Enumeration description="Configurable Good" enumId="PtConfigurable" enumTypeId="ProductType"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PtConfigurable" locale="zh_CN" localized="可配置商品" />
+
+	<!-- Product Status -->
+<!--	<moqui.basic.StatusType description="Product" statusTypeId="Product"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+									  pkValue="Product" locale="zh_CN" localized="产品" />
+
+	<!-- Product Class - used to classify products with similar Content types, Dimension types, Feature types, and Feature Groups -->
+<!--	<moqui.basic.EnumerationType description="Product Class" enumTypeId="ProductClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.EnumerationType" fieldName="description"
+			pkValue="ProductClass" locale="zh_CN" localized="产品门类" />
+
+	<!-- A gift card may a Asset, Digital, or Digital and Asset type of product, to distinguish from other products use this class -->
+<!--	<moqui.basic.Enumeration description="Gift Card or Certificate" enumId="PclsGiftCard" enumTypeId="ProductClass"/>-->
+	<moqui.basic.LocalizedEntityField
+			entityName="moqui.basic.Enumeration" fieldName="description"
+			pkValue="PclsGiftCard" locale="zh_CN" localized="礼品卡或证书" />
 
             <!-- Product Assoc Type -->
 <!--             <moqui.basic.EnumerationType description="Product Association Type" enumTypeId="ProductAssocType"/> -->
@@ -17,12 +83,12 @@
 <!--             <moqui.basic.Enumeration description="Up-Sell (Upgrade)" enumId="PatUpsell" enumTypeId="ProductAssocType"/> -->
 	<moqui.basic.LocalizedEntityField
 		entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="PatUpsell" locale="zh_CN" localized="相关产品(更高档次)" />
+		pkValue="PatUpsell" locale="zh_CN" localized="向上销售(更贵)" />
 		            
 <!--             <moqui.basic.Enumeration description="Down-Sell (Downgrade)" enumId="PatDownSell" enumTypeId="ProductAssocType"/> -->
 	<moqui.basic.LocalizedEntityField
 		entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="PatDownSell" locale="zh_CN" localized="相关产品(稍低档次)" />
+		pkValue="PatDownSell" locale="zh_CN" localized="向下销售(更便宜)" />
 
 <!--             <moqui.basic.Enumeration description="New Version, Replacement" enumId="PatReplacement" enumTypeId="ProductAssocType"/> -->
 	<moqui.basic.LocalizedEntityField
@@ -55,7 +121,7 @@
 <!--             <moqui.basic.Enumeration description="Cross-Sell (Complementary)" enumId="PatCrossSell" enumTypeId="ProductAssocType"/> -->
 	<moqui.basic.LocalizedEntityField
 		entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="PatCrossSell" locale="zh_CN" localized="交叉销售（互补）" />
+		pkValue="PatCrossSell" locale="zh_CN" localized="交叉销售（补充）" />
 		
 		
 <!--             <moqui.basic.Enumeration description="Also Bought" enumId="PatAlsoBought" enumTypeId="ProductAssocType"/> -->

@@ -11,53 +11,53 @@
 <!--             <moqui.basic.EnumerationType description="Asset (Inventory) Reservation Order" enumTypeId="AssetReservationOrder"/> -->
 	<moqui.basic.LocalizedEntityField
 		entityName="moqui.basic.EnumerationType" fieldName="description"
-		pkValue="AssetReservationOrder" locale="zh_CN" localized="资产（库存）预留订单" />            
+		pkValue="AssetReservationOrder" locale="zh_CN" localized="资产（库存）预留次序" />
             <!-- for these records enumCode is the order by field (on mantle.product.asset.Asset), makes it easy to add new ones -->
 <!--             <moqui.basic.Enumeration description="FIFO Receive" enumId="AsResOrdFifoRec" enumCode="receivedDate" enumTypeId="AssetReservationOrder"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResOrdFifoRec" locale="zh_CN" localized="先进先出接收" />         
+		pkValue="AsResOrdFifoRec" locale="zh_CN" localized="按收货日期先进先出" />
 		   
 <!--             <moqui.basic.Enumeration description="LIFO Receive" enumId="AsResOrdLifoRec" enumCode="-receivedDate" enumTypeId="AssetReservationOrder"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResOrdLifoRec" locale="zh_CN" localized="后进先出接收" />            
+		pkValue="AsResOrdLifoRec" locale="zh_CN" localized="按收货日期后进先出" />
             
 <!--             <moqui.basic.Enumeration description="FIFO Expire" enumId="AsResOrdFifoExp" enumCode="expectedEndOfLife" enumTypeId="AssetReservationOrder"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResOrdFifoExp" locale="zh_CN" localized="先进先出过期" />            
+		pkValue="AsResOrdFifoExp" locale="zh_CN" localized="按到效期先进先出" />
 
 <!--             <moqui.basic.Enumeration description="LIFO Expire" enumId="AsResOrdLifoExp" enumCode="-expectedEndOfLife" enumTypeId="AssetReservationOrder"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResOrdLifoExp" locale="zh_CN" localized="后进先出过期" />            
+		pkValue="AsResOrdLifoExp" locale="zh_CN" localized="按到效期后进先出" />
 
 <!--             <moqui.basic.Enumeration description="Greatest Unit Cost" enumId="AsResOrdCostGr" enumCode="-acquireCost" enumTypeId="AssetReservationOrder"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResOrdCostGr" locale="zh_CN" localized="最大单位成本" />            
+		pkValue="AsResOrdCostGr" locale="zh_CN" localized="最大单位成本先出" />
 
 <!--             <moqui.basic.Enumeration description="Lowest Unit Cost" enumId="AsResOrdCostLw" enumCode="acquireCost" enumTypeId="AssetReservationOrder"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResOrdCostLw" locale="zh_CN" localized="最低单位成本" />            
+		pkValue="AsResOrdCostLw" locale="zh_CN" localized="最低单位成本先出" />
 
 <!--             <moqui.basic.Enumeration description="No Reservation" enumId="AsResOrdNoRes" enumTypeId="AssetReservationOrder"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResOrdNoRes" locale="zh_CN" localized="没有预订" />            
+		pkValue="AsResOrdNoRes" locale="zh_CN" localized="不预留" />
 
             <!-- Asset (Inventory) Auto Reservation Trigger -->
 <!--             <moqui.basic.EnumerationType description="Asset Auto Reservation" enumTypeId="AssetReservationAuto"/> -->
 	<moqui.basic.LocalizedEntityField
 		entityName="moqui.basic.EnumerationType" fieldName="description"
-		pkValue="AssetReservationAuto" locale="zh_CN" localized="资产自动预订" />            
+		pkValue="AssetReservationAuto" locale="zh_CN" localized="资产自动预留" />
 
 <!--             <moqui.basic.Enumeration description="No Auto Reserve" enumId="AsResAutoNone" enumTypeId="AssetReservationAuto"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResAutoNone" locale="zh_CN" localized="没有自动预订" />            
+		pkValue="AsResAutoNone" locale="zh_CN" localized="不自动预留" />
 
 <!--             <moqui.basic.Enumeration description="On Order Placed" enumId="AsResAutoPlaced" enumTypeId="AssetReservationAuto"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResAutoPlaced" locale="zh_CN" localized="预订中" />            
+		pkValue="AsResAutoPlaced" locale="zh_CN" localized="下单后预留" />
 
 <!--             <moqui.basic.Enumeration description="On Order Approved" enumId="AsResAutoApproved" enumTypeId="AssetReservationAuto"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="AsResAutoApproved" locale="zh_CN" localized="预订已批准" />
+		pkValue="AsResAutoApproved" locale="zh_CN" localized="审批后预留" />
 		            
         <!-- Product Store Approve -->            
 <!-- 	<moqui.basic.Enumeration description="Order Approve Validate" enumId="OrderValidate" enumTypeId="ServiceRegisterType"/> -->       
@@ -68,7 +68,7 @@
 <!--             <moqui.basic.EnumerationType description="Product Store Category Type" enumTypeId="ProductStoreCategoryType"/> -->
 	<moqui.basic.LocalizedEntityField
 		entityName="moqui.basic.EnumerationType" fieldName="description"
-		pkValue="ProductStoreCategoryType" locale="zh_CN" localized="产品门店目录类型" />    
+		pkValue="ProductStoreCategoryType" locale="zh_CN" localized="门店（网站）目录类型" />
 		            
 <!--             <moqui.basic.Enumeration description="Home Page (One)" enumId="PsctHomePage" enumTypeId="ProductStoreCategoryType"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"

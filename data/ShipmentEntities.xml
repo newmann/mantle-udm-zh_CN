@@ -79,7 +79,56 @@
 <!--             <moqui.basic.StatusItem description="Cancelled" sequenceNum="99" statusId="ShipCancelled" statusTypeId="Shipment"/>Cancelled by sender -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
 		pkValue="ShipCancelled" locale="zh_CN" localized="已取消" />
-            
-                                		                                            		            
+
+	<!-- Shipment Item Pick Status -->
+<!--	<moqui.basic.StatusType description="Shipment Item Pick Status" statusTypeId="ShipmentItemSource"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+									  pkValue="ShipmentItemSource" locale="zh_CN" localized="装运物料拣选状态" />
+
+<!--	<moqui.basic.StatusItem description="Pending" sequenceNum="1" statusId="SisPending" statusTypeId="ShipmentItemSource"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="SisPending" locale="zh_CN" localized="暂停" />
+
+<!--	<moqui.basic.StatusItem description="Picked" sequenceNum="5" statusId="SisPicked" statusTypeId="ShipmentItemSource"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="SisPicked" locale="zh_CN" localized="已分拣" />
+
+<!--	<moqui.basic.StatusItem description="Packed" sequenceNum="9" statusId="SisPacked" statusTypeId="ShipmentItemSource"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="SisPacked" locale="zh_CN" localized="已装箱" />
+
+<!--	<moqui.basic.StatusItem description="Received" sequenceNum="20" statusId="SisReceived" statusTypeId="ShipmentItemSource"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="SisReceived" locale="zh_CN" localized="已收货" />
+
+<!--	<moqui.basic.StatusItem description="Cancelled" sequenceNum="99" statusId="SisCancelled" statusTypeId="ShipmentItemSource"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+									  pkValue="SisCancelled" locale="zh_CN" localized="已取消" />
+
+<!--	<moqui.basic.EnumerationType description="Shipping Tracking Status" enumTypeId="ShipmentTrackingStatus"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+									  pkValue="ShipmentTrackingStatus" locale="zh_CN" localized="运输跟踪状态" />
+
+<!--	<moqui.basic.Enumeration description="Unknown" enumId="ShTsUnknown" enumTypeId="ShipmentTrackingStatus"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="ShTsUnknown" locale="zh_CN" localized="未知" />
+
+<!--	<moqui.basic.Enumeration description="In Transit" enumId="ShTsTransit" enumTypeId="ShipmentTrackingStatus"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="ShTsTransit" locale="zh_CN" localized="运输中" />
+
+<!--	<moqui.basic.Enumeration description="Delivered" enumId="ShTsDelivered" enumTypeId="ShipmentTrackingStatus"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="ShTsDelivered" locale="zh_CN" localized="已送达" />
+
+<!--	<moqui.basic.Enumeration description="Returned" enumId="ShTsReturned" enumTypeId="ShipmentTrackingStatus"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="ShTsReturned" locale="zh_CN" localized="已退回" />
+
+<!--	<moqui.basic.Enumeration description="Failure" enumId="ShTsFailure" enumTypeId="ShipmentTrackingStatus"/>-->
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+									  pkValue="ShTsFailure" locale="zh_CN" localized="失败" />
+
+
 </entity-facade-xml>
             

@@ -28,19 +28,19 @@
             <!-- Request Quote done by Customer (or at Customer's request) -->
 <!--             <moqui.basic.StatusItem description="Quote Requested by Customer" sequenceNum="2" statusId="OrderRequested" statusTypeId="OrderHeader"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
-		pkValue="OrderRequested" locale="zh_CN" localized="客户要求报价" />        
+		pkValue="OrderRequested" locale="zh_CN" localized="报价申请" />
             <!-- Propose done by Vendor -->
 <!--             <moqui.basic.StatusItem description="Quote Proposed by Vendor" sequenceNum="3" statusId="OrderProposed" statusTypeId="OrderHeader"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
-		pkValue="OrderProposed" locale="zh_CN" localized="供应商已报价" />
+		pkValue="OrderProposed" locale="zh_CN" localized="已报价" />
             <!-- Place done by Customer (or at Customer's request) -->
 <!--             <moqui.basic.StatusItem description="Placed by Customer" sequenceNum="4" statusId="OrderPlaced" statusTypeId="OrderHeader"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
-		pkValue="OrderPlaced" locale="zh_CN" localized="客户已下单" />
+		pkValue="OrderPlaced" locale="zh_CN" localized="已下单" />
 		
 <!--             <moqui.basic.StatusItem description="Held" sequenceNum="5" statusId="OrderHold" statusTypeId="OrderHeader"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
-		pkValue="OrderHold" locale="zh_CN" localized="被冻结" />
+		pkValue="OrderHold" locale="zh_CN" localized="暂停" />
 		
 <!--             <moqui.basic.StatusItem description="Processing" sequenceNum="11" statusId="OrderProcessing" statusTypeId="OrderHeader"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
@@ -61,12 +61,12 @@
             <!-- Reject done by Vendor -->
 <!--             <moqui.basic.StatusItem description="Rejected by Vendor" sequenceNum="98" statusId="OrderRejected" statusTypeId="OrderHeader"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
-		pkValue="OrderRejected" locale="zh_CN" localized="供应商已拒绝" />
+		pkValue="OrderRejected" locale="zh_CN" localized="已拒绝" />
 		
             <!-- Cancel done by Customer (or at Customer's request) -->
 <!--             <moqui.basic.StatusItem description="Cancelled by Customer" sequenceNum="99" statusId="OrderCancelled" statusTypeId="OrderHeader"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
-		pkValue="OrderCancelled" locale="zh_CN" localized="客户已取消" />
+		pkValue="OrderCancelled" locale="zh_CN" localized="已取消" />
 		
 <!--             <moqui.basic.StatusItem description="Wish List" sequenceNum="101" statusId="OrderWishList" statusTypeId="OrderHeader"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"

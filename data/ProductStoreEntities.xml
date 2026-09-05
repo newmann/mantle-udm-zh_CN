@@ -481,5 +481,9 @@
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
 		pkValue="ProductStoreGroupType" locale="zh_CN" localized="产品门店分组类型" />  
 		            		            
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PsetPaymentRetry" locale="zh_CN" localized="付款重试" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="ProductStoreContentType" locale="zh_CN" localized="产品商店内容类型" />
 </entity-facade-xml>
             

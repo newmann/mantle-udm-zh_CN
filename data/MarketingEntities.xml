@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="MARKETING" locale="zh_CN" localized="市场营销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="NEWSLETTER" locale="zh_CN" localized="通讯" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ANNOUNCEMENT" locale="zh_CN" localized="公告" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CONT_SUB_NOT" locale="zh_CN" localized="订阅通知" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CONT_UNSUB_VER" locale="zh_CN" localized="退订验证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CONT_UNSUB_NOT" locale="zh_CN" localized="退订通知" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CONT_EMAIL_TEMPLATE" locale="zh_CN" localized="外发邮件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="MARKET_SEGMENT" locale="zh_CN" localized="市场细分" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SALES_SEGMENT" locale="zh_CN" localized="销售细分" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ACCESS" locale="zh_CN" localized="访问码" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INTERNAL" locale="zh_CN" localized="内部" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EXTERNAL" locale="zh_CN" localized="外部" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PARTNER_MGD" locale="zh_CN" localized="合作伙伴管理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TKCDSRC_COOKIE" locale="zh_CN" localized="Cookie" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TKCDSRC_URL_PARAM" locale="zh_CN" localized="URL 参数" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="ContactListType" locale="zh_CN" localized="联系人列表类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="ContactListEmailType" locale="zh_CN" localized="联系人列表邮件类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="MarketSegmentType" locale="zh_CN" localized="市场细分类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TrackingCodeType" locale="zh_CN" localized="跟踪代码类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TrackingCodeSource" locale="zh_CN" localized="跟踪代码来源" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="MKTG_CAMP_PLANNED" locale="zh_CN" localized="已计划" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="MKTG_CAMP_APPROVED" locale="zh_CN" localized="已批准" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="MKTG_CAMP_INPROGRESS" locale="zh_CN" localized="进行中" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="MKTG_CAMP_COMPLETED" locale="zh_CN" localized="已完成" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="MKTG_CAMP_CANCELLED" locale="zh_CN" localized="已取消" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="CLPT_PENDING" locale="zh_CN" localized="待接受" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="CLPT_ACCEPTED" locale="zh_CN" localized="已接受" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="CLPT_REJECTED" locale="zh_CN" localized="已拒绝" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="CLPT_IN_USE" locale="zh_CN" localized="使用中" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="CLPT_INVALID" locale="zh_CN" localized="无效" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="CLPT_UNSUBS_PENDING" locale="zh_CN" localized="退订待处理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="CLPT_UNSUBSCRIBED" locale="zh_CN" localized="已退订" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+        pkValue="MarketingCampaign" locale="zh_CN" localized="营销活动" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+        pkValue="ContactListParty" locale="zh_CN" localized="联系人列表当事人" />
+</entity-facade-xml>

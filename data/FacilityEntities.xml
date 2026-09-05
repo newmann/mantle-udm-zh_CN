@@ -61,7 +61,7 @@
 
 <!--             <moqui.basic.Enumeration description="Dock" enumId="FcTpDock" enumTypeId="FacilityType"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="FcTpDock" locale="zh_CN" localized="船坞" />  
+		pkValue="FcTpDock" locale="zh_CN" localized="装卸口" />  
 
 <!--             <moqui.basic.Enumeration description="Production Line" enumId="FcTpLine" enumTypeId="FacilityType"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
@@ -119,13 +119,13 @@
 		pkValue="FltReceiving" locale="zh_CN" localized="收货区" />              
 <!--             <moqui.basic.Enumeration description="Staging" enumId="FltStaging" enumTypeId="FacilityLocationType"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="FltStaging" locale="zh_CN" localized="安装区" />              
+		pkValue="FltStaging" locale="zh_CN" localized="暂存区" />              
 <!--             <moqui.basic.Enumeration description="Quarantine" enumId="FltQuarantine" enumTypeId="FacilityLocationType"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="FltQuarantine" locale="zh_CN" localized="检疫区" />              
+		pkValue="FltQuarantine" locale="zh_CN" localized="隔离区" />              
 <!--             <moqui.basic.Enumeration description="Morgue" enumId="FltMorgue" enumTypeId="FacilityLocationType"/> -->		
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="FltMorgue" locale="zh_CN" localized="资料室" />  
+		pkValue="FltMorgue" locale="zh_CN" localized="报废区" />  
 <!-- Facility Printer -->
 <!--             <moqui.basic.EnumerationType description="Printer Purpose" enumTypeId="PrinterPurpose"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"

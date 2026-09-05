@@ -130,5 +130,67 @@
 									  pkValue="ShTsFailure" locale="zh_CN" localized="失败" />
 
 
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RgpShipment" locale="zh_CN" localized="发运角色" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CcntMerchandise" locale="zh_CN" localized="商品" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CcntReturnMerch" locale="zh_CN" localized="退货商品" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CcntDocuments" locale="zh_CN" localized="文件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CcntGift" locale="zh_CN" localized="礼品" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CcntSample" locale="zh_CN" localized="样品" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CcntDonation" locale="zh_CN" localized="人道主义捐赠" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CcntOther" locale="zh_CN" localized="其他" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CndAbandon" locale="zh_CN" localized="弃货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CndReturn" locale="zh_CN" localized="退回" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShMthNextDayPri" locale="zh_CN" localized="次日优先" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShMthNextDay" locale="zh_CN" localized="次日标准" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShMthSecondDay" locale="zh_CN" localized="两日达" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShMthThirdDay" locale="zh_CN" localized="三日达" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShMthGround" locale="zh_CN" localized="陆运包裹" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShMthGroundCom" locale="zh_CN" localized="陆运商业" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShMthMotor" locale="zh_CN" localized="公路运输（公共承运人）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShMthPickUp" locale="zh_CN" localized="客户自提" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ShGtwyLocal" locale="zh_CN" localized="本地运输网关" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SgoApiToken" locale="zh_CN" localized="API 令牌" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SgoLabelType" locale="zh_CN" localized="标签类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="CustomsContents" locale="zh_CN" localized="海关内容类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="CustomsNonDelivery" locale="zh_CN" localized="海关无法投递" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="ShipmentMethod" locale="zh_CN" localized="运输方式" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="ShippingGatewayType" locale="zh_CN" localized="运输网关类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="ShippingGatewayOption" locale="zh_CN" localized="运输网关选项" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="ShrssNotStarted" locale="zh_CN" localized="未开始" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="ShrssConfirmed" locale="zh_CN" localized="已确认" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="ShrssAccepted" locale="zh_CN" localized="已接受" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="ShrssVoided" locale="zh_CN" localized="已作废" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+        pkValue="ShipmentRouteSegment" locale="zh_CN" localized="发运路线段状态" />
 </entity-facade-xml>
             

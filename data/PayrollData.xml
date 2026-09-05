@@ -27,7 +27,7 @@ along with this software (see the LICENSE.md file). If not, see
 <!--    <moqui.basic.Enumeration description="Workweek" enumId="PcfWorkweek" enumTypeId="PayrollCalcPer"/>-->
     <moqui.basic.LocalizedEntityField
             entityName="moqui.basic.Enumeration" fieldName="description"
-            pkValue="PcfWorkweek" locale="zh_CN" localized="工作日" />
+            pkValue="PcfWorkweek" locale="zh_CN" localized="工作周" />
 
 <!--    <moqui.basic.EnumerationType description="Payroll Wage Grouping" enumTypeId="PayrollWageGrp"/>-->
     <moqui.basic.LocalizedEntityField
@@ -58,4 +58,50 @@ along with this software (see the LICENSE.md file). If not, see
             entityName="moqui.basic.Enumeration" fieldName="description"
             pkValue="PwgTimeEntry" locale="zh_CN" localized="时间条目" />
 
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollFlsaWrkWkBegOn" locale="zh_CN" localized="工资 FLSA - 工作周开始于" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollFlsaWrkDayBegAt" locale="zh_CN" localized="工资 FLSA - 工作日开始于" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollRrpExclBreak" locale="zh_CN" localized="工资 RRP - 排除休息/非生产时间" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollRrpInclHourly" locale="zh_CN" localized="工资 RRP - 包含计时工资" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollRrpPayOnHourlyBreakNpt" locale="zh_CN" localized="工资 RRP - 计时休息/非生产时间按 RRP 支付" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollRrpPayMaxRateOnPieceBreak" locale="zh_CN" localized="工资 RRP - 计件休息按最高（计时/RRP）支付" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollRrpInclShDiff" locale="zh_CN" localized="工资 RRP - 包含班次差额" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollRrpCalcPer" locale="zh_CN" localized="工资 RRP - 计算周期" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollOtOtPrem" locale="zh_CN" localized="工资加班 - 加班溢价" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollOtDtPrem" locale="zh_CN" localized="工资加班 - 双倍工时溢价" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollOtHrNoRrp" locale="zh_CN" localized="工资加班 - 无 RRP 时按计时" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollOtHrUseRrp" locale="zh_CN" localized="工资加班 - 计时使用 RRP" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollMwCheck" locale="zh_CN" localized="工资最低工资保障 - 检查最低工资" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollMwCheckHourly" locale="zh_CN" localized="工资最低工资保障 - 检查计时条目" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollMwCalcPer" locale="zh_CN" localized="工资最低工资保障 - 计算周期" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollMwCalcGrp" locale="zh_CN" localized="工资最低工资保障 - 计算分组" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollMwMkpGrpByRate" locale="zh_CN" localized="工资最低工资保障 - 按费率分组补差" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollWcRiskClass" locale="zh_CN" localized="工资工伤保险 - 默认风险等级" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollWcDftOvrWrkTp" locale="zh_CN" localized="工资工伤保险 - 默认覆盖工作类型" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollWcOtPrem" locale="zh_CN" localized="工资工伤保险 - 包含加班溢价" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollWcShDiffPrem" locale="zh_CN" localized="工资工伤保险 - 包含班次差额溢价" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollStubCombineBrHr" locale="zh_CN" localized="工资条 - 合并休息/计时" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartySettingType" fieldName="description"
+        pkValue="PayrollEmployeePartyIdType" locale="zh_CN" localized="员工使用的当事人标识类型" />
 </entity-facade-xml>

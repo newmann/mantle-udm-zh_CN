@@ -1076,15 +1076,15 @@
 									  pkValue="CommunicationContentType" locale="zh_CN" localized="通讯内容类型" />
 
 <!--	<moqui.basic.Enumeration description="Plain Text" enumId="CmctPlainText" enumTypeId="CommunicationContentType"/>-->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 									  pkValue="CmctPlainText" locale="zh_CN" localized="纯文本" />
 
 <!--	<moqui.basic.Enumeration description="HTML Text" enumId="CmctHtmlText" enumTypeId="CommunicationContentType"/>-->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 									  pkValue="CmctHtmlText" locale="zh_CN" localized="HTML文本" />
 
 <!--	<moqui.basic.Enumeration description="Attachment" enumId="CmctAttachment" enumTypeId="CommunicationContentType"/>-->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 									  pkValue="CmctAttachment" locale="zh_CN" localized="附件" />
 
 <!--	<moqui.basic.StatusType description="Communication Event Party" statusTypeId="CommunicationEventParty"/>-->
@@ -1619,5 +1619,13 @@
 	<moqui.basic.LocalizedEntityField entityName="mantle.party.time.TimePeriodType" fieldName="description"
 									  pkValue="TaxMonth" locale="zh_CN" localized="税务月度" />
 
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntInvoiceMessageFrom" locale="zh_CN" localized="发票留言 - 作为开票方时" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntInvoiceMessageTo" locale="zh_CN" localized="发票留言 - 作为收票方时" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RgpAgreement" locale="zh_CN" localized="协议角色" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="RoleGroup" locale="zh_CN" localized="角色组" />
 </entity-facade-xml>
             

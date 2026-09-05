@@ -409,27 +409,27 @@
 		pkValue="WorkEffortParty" locale="zh_CN" localized="工作人力资源状态" />
 
 <!--             <moqui.basic.StatusItem description="Offered" sequenceNum="1" statusId="WeptOffered" statusTypeId="WorkEffortParty"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
 		pkValue="WeptOffered" locale="zh_CN" localized="已提供" />
 		
 <!--             <moqui.basic.StatusItem description="Assigned" sequenceNum="2" statusId="WeptAssigned" statusTypeId="WorkEffortParty"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
 		pkValue="WeptAssigned" locale="zh_CN" localized="已分配" />
 		
 <!--             <moqui.basic.StatusItem description="Arrived" sequenceNum="3" statusId="WeptArrived" statusTypeId="WorkEffortParty"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
 		pkValue="WeptArrived" locale="zh_CN" localized="已抵达" />
 		
 <!--             <moqui.basic.StatusItem description="Departed" sequenceNum="4" statusId="WeptDeparted" statusTypeId="WorkEffortParty"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
 		pkValue="WeptDeparted" locale="zh_CN" localized="已离开" />
 		
 <!--             <moqui.basic.StatusItem description="Declined" sequenceNum="10" statusId="WeptDeclined" statusTypeId="WorkEffortParty"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
 		pkValue="WeptDeclined" locale="zh_CN" localized="已拒绝" />
 		
 <!--             <moqui.basic.StatusItem description="Unassigned" sequenceNum="11" statusId="WeptUnassigned" statusTypeId="WorkEffortParty"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
 		pkValue="WeptUnassigned" locale="zh_CN" localized="未分配" />
 
             <!-- Work Effort Party Availability -->
@@ -442,11 +442,11 @@
 		pkValue="WeptaAvailable" locale="zh_CN" localized="可用" />
 		
 <!--             <moqui.basic.Enumeration description="Busy" enumId="WeptaBusy" enumTypeId="WorkEffortPartyAvailability"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 		pkValue="WeptaBusy" locale="zh_CN" localized="忙碌" />
 		
 <!--             <moqui.basic.Enumeration description="Away" enumId="WeptaAway" enumTypeId="WorkEffortPartyAvailability"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 		pkValue="WeptaAway" locale="zh_CN" localized="离开" />
 
             <!-- Work Effort Party Delegate Reason -->
@@ -455,15 +455,15 @@
 		pkValue="WorkEffortPartyDelegateReason" locale="zh_CN" localized="工作人力资源委托原因类型" />
 
 <!--             <moqui.basic.Enumeration description="Need Support or Help" enumId="WepdrNeedSupport" enumTypeId="WorkEffortPartyDelegateReason"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 		pkValue="WepdrNeedSupport" locale="zh_CN" localized="需要支持或帮助" />
 
 <!--             <moqui.basic.Enumeration description="My Part Finished" enumId="WepdrPartFinished" enumTypeId="WorkEffortPartyDelegateReason"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 		pkValue="WepdrPartFinished" locale="zh_CN" localized="自己负责的部分已完成" />
 		
 <!--             <moqui.basic.Enumeration description="Completely Finished" enumId="WepdrCompleted" enumTypeId="WorkEffortPartyDelegateReason"/> -->
-	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 		pkValue="WepdrCompleted" locale="zh_CN" localized="全部完成" />
 
             <!-- Work Effort Party Expectation -->
@@ -565,5 +565,39 @@
 		pkValue="MeasurementReason" locale="zh_CN" localized="测量的原因" />                        
 		
 		
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_N" locale="zh_CN" localized="北 (0°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_NNE" locale="zh_CN" localized="北东北 (22.5°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_NE" locale="zh_CN" localized="东北 (45°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_ENE" locale="zh_CN" localized="东东北 (67.5°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_E" locale="zh_CN" localized="东 (90°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_ESE" locale="zh_CN" localized="东东南 (112.5°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_SE" locale="zh_CN" localized="东南 (135°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_SSE" locale="zh_CN" localized="南东南 (157.5°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_S" locale="zh_CN" localized="南 (180°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_SSW" locale="zh_CN" localized="南西南 (202.5°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_SW" locale="zh_CN" localized="西南 (225°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_WSW" locale="zh_CN" localized="西西南 (247.5°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_W" locale="zh_CN" localized="西 (270°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_WNW" locale="zh_CN" localized="西西北 (292.5°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_NW" locale="zh_CN" localized="西北 (315°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SPC_NNW" locale="zh_CN" localized="北西北 (337.5°)" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="SixteenPointCompass" locale="zh_CN" localized="十六方位罗盘" />
 </entity-facade-xml>
             

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="install">
+    <moqui.basic.LocalizedEntityField entityName="mantle.other.tax.TaxAuthority" fieldName="description"
+        pkValue="UsaIrs" locale="zh_CN" localized="美国国税局" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.other.tax.TaxAuthority" fieldName="description"
+        pkValue="CaEdd" locale="zh_CN" localized="加州就业发展局" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsSocSec2015" locale="zh_CN" localized="美国社会保障预扣 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsMedicare2015" locale="zh_CN" localized="美国医疗保险预扣 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsAddtlMedicare2015" locale="zh_CN" localized="美国额外医疗保险预扣 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsSocSecEmpr2015" locale="zh_CN" localized="美国社会保障雇主 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsMedicareEmpr2015" locale="zh_CN" localized="美国医疗保险雇主 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsFitBiWeekSingle2015" locale="zh_CN" localized="美国联邦所得税预扣 双周 单身 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsFitBiWeekMarried2015" locale="zh_CN" localized="美国联邦所得税预扣 双周 已婚 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsFitWeekSingle2015" locale="zh_CN" localized="美国联邦所得税预扣 每周 单身 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="UsFitWeekMarried2015" locale="zh_CN" localized="美国联邦所得税预扣 每周 已婚 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaUnInsEmpr2015" locale="zh_CN" localized="CA 失业保险雇主 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaEttEmpr2015" locale="zh_CN" localized="CA 就业培训税雇主 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaSdiEmpe2015" locale="zh_CN" localized="CA 州伤残保险员工 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaPitBiWeekSingle2015" locale="zh_CN" localized="CA 个人所得税预扣 双周 单身 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaPitBiWeekMarried2015" locale="zh_CN" localized="CA 个人所得税预扣 双周 已婚 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaPitBiWeekHead2015" locale="zh_CN" localized="CA 个人所得税预扣 双周 户主 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaPitWeekSingle2015" locale="zh_CN" localized="CA 个人所得税预扣 每周 单身 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaPitWeekMarried2015" locale="zh_CN" localized="CA 个人所得税预扣 每周 已婚 2015" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.PayrollAdjustment" fieldName="description"
+        pkValue="CaPitWeekHead2015" locale="zh_CN" localized="CA 个人所得税预扣 每周 户主 2015" />
+</entity-facade-xml>

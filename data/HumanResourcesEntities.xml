@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TfsDoNotWithhold" locale="zh_CN" localized="不预扣" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TfsMarriedJoint" locale="zh_CN" localized="已婚联合申报" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TfsSingle" locale="zh_CN" localized="单身或已婚分别申报" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TssDoNotWithhold" locale="zh_CN" localized="不预扣" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TssMarriedFileJoint1" locale="zh_CN" localized="已婚联合申报（1份收入）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TssMarriedFileJoint2" locale="zh_CN" localized="已婚联合申报（2份及以上收入）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TssMarriedSeparate" locale="zh_CN" localized="已婚分别申报" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TssHeadHousehold" locale="zh_CN" localized="未婚户主" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TssSingle" locale="zh_CN" localized="单身" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TtResigned" locale="zh_CN" localized="辞职" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TtFired" locale="zh_CN" localized="解雇" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TtLayoff" locale="zh_CN" localized="裁员" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TtRetired" locale="zh_CN" localized="退休" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpLocalPassport" locale="zh_CN" localized="本国护照" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpForeignPassport" locale="zh_CN" localized="外国护照" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpResidentCard" locale="zh_CN" localized="永久居民卡" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpAlienCard" locale="zh_CN" localized="外国人登记收据卡" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpEmplAuthzDoc" locale="zh_CN" localized="就业授权文件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpLclDriverLicense" locale="zh_CN" localized="本国驾驶证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpFrnDriverLicense" locale="zh_CN" localized="外国驾驶证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpGovtIdCard" locale="zh_CN" localized="政府身份证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpSchoolIdCard" locale="zh_CN" localized="学生证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpVoterReg" locale="zh_CN" localized="选民登记" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpMilitaryId" locale="zh_CN" localized="军人证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpMilDepId" locale="zh_CN" localized="军人家属证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpMerchMarCard" locale="zh_CN" localized="商船船员证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpNativeDoc" locale="zh_CN" localized="原住民部落文件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpSchoolRecord" locale="zh_CN" localized="学校记录" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpMedicalRecord" locale="zh_CN" localized="医疗记录" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="IdTpDaycareRecord" locale="zh_CN" localized="托儿记录" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatLocalPassport" locale="zh_CN" localized="本国护照" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatForeignPassportVisa" locale="zh_CN" localized="外国护照加签证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatResidentCard" locale="zh_CN" localized="永久居民卡" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatAlienCard" locale="zh_CN" localized="外国人登记收据卡" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatEmplAuthzDoc" locale="zh_CN" localized="就业授权文件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatSocSecCard" locale="zh_CN" localized="社会保障卡" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatCertBirthAbroad" locale="zh_CN" localized="海外出生证明" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatCertRepOfBirth" locale="zh_CN" localized="出生报告证明" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatBirthCert" locale="zh_CN" localized="出生证明" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatNativeDoc" locale="zh_CN" localized="原住民部落文件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatCitizenId" locale="zh_CN" localized="公民身份证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EatResCitizenId" locale="zh_CN" localized="居民公民身份证" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EarbNewspaper" locale="zh_CN" localized="报纸" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EarbPersonal" locale="zh_CN" localized="个人推荐" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EarbInternet" locale="zh_CN" localized="互联网" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EarbAdvertisement" locale="zh_CN" localized="广告" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EltEarned" locale="zh_CN" localized="已获假期" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EltLossOfPay" locale="zh_CN" localized="无薪假" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EltHoliday" locale="zh_CN" localized="节假日" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EltSpecialDayOff" locale="zh_CN" localized="特殊休假" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ElrMedical" locale="zh_CN" localized="医疗" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ElrPersonal" locale="zh_CN" localized="个人" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrphBonus" locale="zh_CN" localized="激励奖金" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrphBreak" locale="zh_CN" localized="休息调整（计件等）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrphOvertime" locale="zh_CN" localized="加班" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrphDeductible" locale="zh_CN" localized="可扣除、酌情奖金" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrphTax" locale="zh_CN" localized="税费、工伤保险等" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrphGarnish" locale="zh_CN" localized="扣押" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrphExpenses" locale="zh_CN" localized="费用、报销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrbsIncome" locale="zh_CN" localized="应税收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrbsSocial" locale="zh_CN" localized="社会保障应税" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrbsMedical" locale="zh_CN" localized="医疗保险应税" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrbsGross" locale="zh_CN" localized="总额" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrbsStraightGross" locale="zh_CN" localized="正常工时总额" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PrbsHours" locale="zh_CN" localized="工作小时" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PayrollAdjustmentCalc" locale="zh_CN" localized="工资调整计算" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PaatDeduction" locale="zh_CN" localized="扣除" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PaatExemption" locale="zh_CN" localized="豁免" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EtxResidentRegular" locale="zh_CN" localized="居民常规" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EtxContract" locale="zh_CN" localized="合同工（仅1099）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EtxForeignAg" locale="zh_CN" localized="外国农业（H-2A）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EtxForeignGeneral" locale="zh_CN" localized="外国一般（H-2B）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EtxForeignSpecialty" locale="zh_CN" localized="外国专业（H-1B）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="WktpManagement" locale="zh_CN" localized="管理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="WktpGeneralLabor" locale="zh_CN" localized="一般劳务" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="WktpGeneralOffice" locale="zh_CN" localized="一般办公" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="WktpPaidBreak" locale="zh_CN" localized="带薪休息" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="WktpPaidNpt" locale="zh_CN" localized="带薪非生产时间" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmRspFinanceMgmt" locale="zh_CN" localized="财务管理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmRspInventoryMgmt" locale="zh_CN" localized="库存管理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmRspPurchaseMgmt" locale="zh_CN" localized="采购管理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmRspResourceMgmt" locale="zh_CN" localized="资源管理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmRspProductionMgmt" locale="zh_CN" localized="生产管理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmRspSalesMgmt" locale="zh_CN" localized="销售管理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpStandard" locale="zh_CN" localized="标准" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPieceMinWageAdj" locale="zh_CN" localized="最低工资调整" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPaidBreakStd" locale="zh_CN" localized="带薪休息 STD" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPaidBreakRrp" locale="zh_CN" localized="带薪休息 RRP" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPaidNptStd" locale="zh_CN" localized="非生产时间 - STD" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPaidNptRrp" locale="zh_CN" localized="非生产时间 - RRP" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpVacation" locale="zh_CN" localized="带薪休假 - 年假" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpHoliday" locale="zh_CN" localized="带薪休假 - 节假日" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpSick" locale="zh_CN" localized="带薪休假 - 病假" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPtoOther" locale="zh_CN" localized="带薪休假 - 其他" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPieceOrHour" locale="zh_CN" localized="计件或计时" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPieceOnly" locale="zh_CN" localized="计件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpPiecePlusHour" locale="zh_CN" localized="计件加计时" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpUnpaid" locale="zh_CN" localized="无薪" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpNoCharge" locale="zh_CN" localized="不计费" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpDiscounted" locale="zh_CN" localized="折扣" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpOnsite" locale="zh_CN" localized="现场" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpEvening" locale="zh_CN" localized="班次 - 晚班" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpNight" locale="zh_CN" localized="班次 - 夜班" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpWeekend" locale="zh_CN" localized="班次 - 周末" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatpShHoliday" locale="zh_CN" localized="班次 - 节假日" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatmRegular" locale="zh_CN" localized="常规" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatmOvertime" locale="zh_CN" localized="加班" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RatmDouble" locale="zh_CN" localized="双倍工时" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngRateCommonEntry" locale="zh_CN" localized="常用手工工时费率类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngRateCommonConfig" locale="zh_CN" localized="常用配置费率类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngHourlyRateType" locale="zh_CN" localized="计时费率类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngPieceRateType" locale="zh_CN" localized="计件费率类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngPayRateModifierType" locale="zh_CN" localized="薪酬费率调整类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RaprClient" locale="zh_CN" localized="客户计费" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RaprVendor" locale="zh_CN" localized="工人/供应商付款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="SkillType" locale="zh_CN" localized="技能类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TaxFederalStatus" locale="zh_CN" localized="联邦税务状态" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TaxStateStatus" locale="zh_CN" localized="州税务状态" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TerminationType" locale="zh_CN" localized="离职类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TerminationReason" locale="zh_CN" localized="离职原因" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="IdentityType" locale="zh_CN" localized="身份证件类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="EmplAuthzType" locale="zh_CN" localized="就业授权类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="EmploymentApplicationReferredBy" locale="zh_CN" localized="求职申请推荐来源" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="EmploymentLeaveType" locale="zh_CN" localized="员工休假类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="EmploymentLeaveReason" locale="zh_CN" localized="员工休假原因" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="PayrollPhase" locale="zh_CN" localized="工资计算阶段" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="PayrollRateBasis" locale="zh_CN" localized="工资费率基数" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="PayrollAllowanceAmountType" locale="zh_CN" localized="工资津贴金额类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="RiskClassType" locale="zh_CN" localized="风险等级类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="EmplTaxExempt" locale="zh_CN" localized="就业免税类别" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="WorkType" locale="zh_CN" localized="工作类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="EmploymentResponsibility" locale="zh_CN" localized="岗位职责" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="RateType" locale="zh_CN" localized="计时费率类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="PieceRateType" locale="zh_CN" localized="计件费率类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="RateModifier" locale="zh_CN" localized="薪酬费率调整" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="RatePurpose" locale="zh_CN" localized="费率用途" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="EmpsPlanned" locale="zh_CN" localized="已计划" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="EmpsActive" locale="zh_CN" localized="有效/开放" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="EmpsInactive" locale="zh_CN" localized="无效/已关闭" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+        pkValue="EmploymentApplication" locale="zh_CN" localized="求职申请状态" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+        pkValue="UnemploymentClaim" locale="zh_CN" localized="失业索赔状态" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+        pkValue="EmplPosition" locale="zh_CN" localized="岗位状态" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title"
+        pkValue="ProjectManager" locale="zh_CN" localized="项目经理" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title"
+        pkValue="GeneralManager" locale="zh_CN" localized="总经理" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.BenefitType" fieldName="description"
+        pkValue="Health" locale="zh_CN" localized="医疗保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.BenefitType" fieldName="description"
+        pkValue="Vacation" locale="zh_CN" localized="带薪年假" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.humanres.employment.BenefitType" fieldName="description"
+        pkValue="Sick" locale="zh_CN" localized="带薪病假" />
+</entity-facade-xml>

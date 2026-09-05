@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="install">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="REVENUE" locale="zh_CN" localized="营业收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="COST_OF_SALES" locale="zh_CN" localized="销售成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EXPENSE" locale="zh_CN" localized="营业费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INCOME" locale="zh_CN" localized="营业外收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="NON_OP_EXPENSE" locale="zh_CN" localized="营业外支出" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ASSET" locale="zh_CN" localized="资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="LIABILITY" locale="zh_CN" localized="负债" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EQUITY" locale="zh_CN" localized="所有者权益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="DISTRIBUTION" locale="zh_CN" localized="权益分配" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CURRENT_ASSET" locale="zh_CN" localized="流动资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CASH_EQUIVALENT" locale="zh_CN" localized="货币资金" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INVENTORY_ASSET" locale="zh_CN" localized="存货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ACCOUNTS_RECEIVABLE" locale="zh_CN" localized="应收账款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="LOANS_RECEIVABLE" locale="zh_CN" localized="应收借款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PREPAID_EXPENSE" locale="zh_CN" localized="预付费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PREPAID_INVENTORY" locale="zh_CN" localized="预付存货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ACCRUED_REVENUE" locale="zh_CN" localized="应计收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ALLOWANCE_BAD_DEBT" locale="zh_CN" localized="坏账准备" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="LONG_TERM_ASSET" locale="zh_CN" localized="长期资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="LAND_BUILDING" locale="zh_CN" localized="土地及建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EQUIPMENT" locale="zh_CN" localized="设备" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ACCUM_DEPRECIATION" locale="zh_CN" localized="累计折旧" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="OTHER_ASSET" locale="zh_CN" localized="其他资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INTANGIBLE_ASSET" locale="zh_CN" localized="无形资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ACCUM_AMORTIZATION" locale="zh_CN" localized="累计摊销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RETURN_OF_CAPITAL" locale="zh_CN" localized="资本返还" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="DIVIDEND" locale="zh_CN" localized="股利" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="COST_SERVICES_SOLD" locale="zh_CN" localized="服务成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="COST_GOODS_SOLD" locale="zh_CN" localized="销货成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GOOD_MATERIAL_COST" locale="zh_CN" localized="商品及材料成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GOOD_FREIGHT_COST" locale="zh_CN" localized="商品运费成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GOOD_ROYALTIES_COST" locale="zh_CN" localized="商品特许权使用费成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INVENTORY_SHRINKAGE" locale="zh_CN" localized="存货盘亏" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="OTHER_COST_SALES" locale="zh_CN" localized="其他销售成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GEN_ADMIN_EXPENSE" locale="zh_CN" localized="管理费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="COMPENSATION" locale="zh_CN" localized="职工薪酬" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="NON_EMP_COMPENSATION" locale="zh_CN" localized="非雇员薪酬" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PROF_SERVICES" locale="zh_CN" localized="专业服务" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="BANKING_CHARGES" locale="zh_CN" localized="银行服务费" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="DATA_PROCESSING" locale="zh_CN" localized="数据处理" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="DUES_SUBSCRIPTIONS" locale="zh_CN" localized="会费及订阅" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EDUCATION_EXPENSE" locale="zh_CN" localized="教育培训费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="FACILITY_EXPENSE" locale="zh_CN" localized="场地费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INSURANCE_EXPENSE" locale="zh_CN" localized="保险费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="MISC_EXPENSE" locale="zh_CN" localized="杂项费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="OFFICE_EXPENSE" locale="zh_CN" localized="办公及用品" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INCOME_TAX_EXPENSE" locale="zh_CN" localized="所得税费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="OTHER_TAX_EXPENSE" locale="zh_CN" localized="其他税费" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TRAVEL_ENT" locale="zh_CN" localized="差旅及招待" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="UTILITIES_EXPENSE" locale="zh_CN" localized="水电费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="VEHICLE_EXPENSE" locale="zh_CN" localized="车辆费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SALES_EXPENSE" locale="zh_CN" localized="销售及营销费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SALES_COMPENSATION" locale="zh_CN" localized="销售薪酬" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ADVERTISING" locale="zh_CN" localized="广告费" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PROMOTIONAL_MATERIALS" locale="zh_CN" localized="促销物料" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SALES_TRAVEL" locale="zh_CN" localized="销售差旅" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CONTRIBUTIONS" locale="zh_CN" localized="出资" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="NON_CASH_EXPENSE" locale="zh_CN" localized="非现金费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="AMORTIZATION" locale="zh_CN" localized="摊销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="BAD_DEBT_EXPENSE" locale="zh_CN" localized="坏账损失" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="DEPRECIATION" locale="zh_CN" localized="折旧" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INTEREST_EXPENSE" locale="zh_CN" localized="利息费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CO_LIFE_INSURANCE" locale="zh_CN" localized="公司持有人寿保险" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="NON_COGS_ROYALTIES" locale="zh_CN" localized="特许权使用费-非销货成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CURRENT_LIABILITY" locale="zh_CN" localized="流动负债" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ACCOUNTS_PAYABLE" locale="zh_CN" localized="应付账款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="ACCRUED_EXPENSES" locale="zh_CN" localized="应计费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="LOANS_PAYABLE" locale="zh_CN" localized="应付借款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="UNEARNED_REVENUE" locale="zh_CN" localized="预收账款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="THIRD_PARTY_HOLDINGS" locale="zh_CN" localized="第三方代持" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="LONG_TERM_LIABILITY" locale="zh_CN" localized="长期负债" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="OWNERS_EQUITY" locale="zh_CN" localized="所有者权益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TREASURY_STOCK" locale="zh_CN" localized="库存股" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="RETAINED_EARNINGS" locale="zh_CN" localized="留存收益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="NET_INCOME" locale="zh_CN" localized="净利润" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GOODS_REVENUE" locale="zh_CN" localized="商品收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SERVICES_REVENUE" locale="zh_CN" localized="服务收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="OTHER_REVENUE" locale="zh_CN" localized="其他营业收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="COST_OF_DISCOUNTS" locale="zh_CN" localized="折扣及减值" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CUSTOMER_RETURNS" locale="zh_CN" localized="客户退货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CASH_INCOME" locale="zh_CN" localized="现金收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="INTEREST_INCOME" locale="zh_CN" localized="利息收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="NON_CASH_INCOME" locale="zh_CN" localized="非现金收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngGlcNetIncome" locale="zh_CN" localized="净利润" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngGlcGrossProfit" locale="zh_CN" localized="毛利" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngGlcNetRevenue" locale="zh_CN" localized="净营业收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngGlcNetOpIncome" locale="zh_CN" localized="营业净利润" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngGlcNetAsset" locale="zh_CN" localized="净资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngGlcNetEquity" locale="zh_CN" localized="净权益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EngGlcLiability" locale="zh_CN" localized="负债" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCurrentAsset" locale="zh_CN" localized="流动资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatPrepaidExpenses" locale="zh_CN" localized="预付费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccruedRevenue" locale="zh_CN" localized="应计收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccountsReceivable" locale="zh_CN" localized="应收账款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatRecInventoryTranOut" locale="zh_CN" localized="存货转出应收款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatInterestIncomeRec" locale="zh_CN" localized="应收利息收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccReceivableUnapplied" locale="zh_CN" localized="应收账款-未核销收款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatMerchantSettlement" locale="zh_CN" localized="商户账户结算" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccRecBadRec" locale="zh_CN" localized="坏账准备" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccountsPayable" locale="zh_CN" localized="应付账款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatPayInventoryTranIn" locale="zh_CN" localized="存货转入应付款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccPayableUnapplied" locale="zh_CN" localized="应付账款-未核销付款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatUndepositedReceipts" locale="zh_CN" localized="未存收款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatFixedAsset" locale="zh_CN" localized="固定资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatUnreceivedFixedAsset" locale="zh_CN" localized="未收固定资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatUnissuedFixedAsset" locale="zh_CN" localized="未领用固定资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatFaAccumDepreciation" locale="zh_CN" localized="固定资产累计折旧" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatFaDepreciation" locale="zh_CN" localized="固定资产折旧" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatFaMaintenance" locale="zh_CN" localized="固定资产维护" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatFaShrinkage" locale="zh_CN" localized="固定资产盘亏" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatFaFound" locale="zh_CN" localized="盘盈固定资产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCurrentLiability" locale="zh_CN" localized="流动负债" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatUnearnedRevenue" locale="zh_CN" localized="预收账款" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccruedExpenses" locale="zh_CN" localized="应计费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatLongTermLiability" locale="zh_CN" localized="长期负债" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatInventory" locale="zh_CN" localized="存货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatWipInventory" locale="zh_CN" localized="在产品存货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatInvAdjAvgCost" locale="zh_CN" localized="存货平均成本调整" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatInvValueAdj" locale="zh_CN" localized="存货价值调整" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatUnreceivedInventory" locale="zh_CN" localized="未收存货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatPrepaidInventory" locale="zh_CN" localized="预付存货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatInvShrinkage" locale="zh_CN" localized="存货盘亏" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatInvFound" locale="zh_CN" localized="盘盈存货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatTax" locale="zh_CN" localized="税金" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatProfitLoss" locale="zh_CN" localized="损益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatSales" locale="zh_CN" localized="销售" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCustomerReturns" locale="zh_CN" localized="客户退货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatDiscounts" locale="zh_CN" localized="折扣" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCogs" locale="zh_CN" localized="销货成本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCogsAvgCostAdj" locale="zh_CN" localized="销货成本-平均成本调整" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatExpense" locale="zh_CN" localized="费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatOperatingExpense" locale="zh_CN" localized="营业费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatOtherExpense" locale="zh_CN" localized="其他费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatOwnersEquity" locale="zh_CN" localized="所有者权益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatRetainedEarnings" locale="zh_CN" localized="留存收益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCustomerDeposits" locale="zh_CN" localized="客户押金" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCustomerCredits" locale="zh_CN" localized="客户贷项" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatUninvoicedShpmntRcpts" locale="zh_CN" localized="未开票发货收货" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatSupplierDeposits" locale="zh_CN" localized="供应商押金" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCommissionsAccrued" locale="zh_CN" localized="应计佣金" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatIncome" locale="zh_CN" localized="收益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatOtherIncome" locale="zh_CN" localized="其他收益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatInterestIncome" locale="zh_CN" localized="利息收入" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCommissionExpense" locale="zh_CN" localized="佣金费用" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatWriteOff" locale="zh_CN" localized="核销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccRecWriteOff" locale="zh_CN" localized="应收账款核销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatAccPayWriteOff" locale="zh_CN" localized="应付账款核销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatCommissionsPayWriteOff" locale="zh_CN" localized="应付佣金核销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatInterestIncWriteOff" locale="zh_CN" localized="利息收入核销" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatForExGainLoss" locale="zh_CN" localized="汇兑损益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatForExGain" locale="zh_CN" localized="汇兑收益" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="GatForExLoss" locale="zh_CN" localized="汇兑损失" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="100000000" locale="zh_CN" localized="资产根科目" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="110000000" locale="zh_CN" localized="货币资金资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111000000" locale="zh_CN" localized="库存现金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111100000" locale="zh_CN" localized="一般支票账户" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111200000" locale="zh_CN" localized="工资支票账户" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111300000" locale="zh_CN" localized="其他支票账户" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111400000" locale="zh_CN" localized="货币市场" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111500000" locale="zh_CN" localized="定期存单" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111600000" locale="zh_CN" localized="储蓄账户" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111700000" locale="zh_CN" localized="收银机现金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111800000" locale="zh_CN" localized="店外活动备用金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="111900000" locale="zh_CN" localized="备用金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="112000000" locale="zh_CN" localized="未存收款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="120000000" locale="zh_CN" localized="流动应收" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="121000000" locale="zh_CN" localized="应收账款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="121100000" locale="zh_CN" localized="应收账款-赊销" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="121200000" locale="zh_CN" localized="应收账款-存款不足退票" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="121500000" locale="zh_CN" localized="应收账款-应收利息" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="121600000" locale="zh_CN" localized="应收账款-应收利息折扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="121900000" locale="zh_CN" localized="应收账款-坏账准备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="122000000" locale="zh_CN" localized="信用卡收单在途" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="122900000" locale="zh_CN" localized="信用卡应收账款-坏账准备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="123000000" locale="zh_CN" localized="应收供应商广告折让" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="124000000" locale="zh_CN" localized="应收借款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="124100000" locale="zh_CN" localized="应收借款-员工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="124200000" locale="zh_CN" localized="应收借款-业主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="124300000" locale="zh_CN" localized="应收借款-其他" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="125000000" locale="zh_CN" localized="存货转出应收款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="126000000" locale="zh_CN" localized="应收账款-未核销收款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="129000000" locale="zh_CN" localized="其他应收账款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="130000000" locale="zh_CN" localized="固定资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="131000000" locale="zh_CN" localized="设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="131100000" locale="zh_CN" localized="办公设备-家具-装具" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="131200000" locale="zh_CN" localized="数据处理设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="131300000" locale="zh_CN" localized="数据处理软件" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="131400000" locale="zh_CN" localized="车辆" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="131500000" locale="zh_CN" localized="生产设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="132000000" locale="zh_CN" localized="土地及建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="132100000" locale="zh_CN" localized="土地" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="132200000" locale="zh_CN" localized="房屋建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="132300000" locale="zh_CN" localized="土地改良" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="132400000" locale="zh_CN" localized="房屋装修" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="132500000" locale="zh_CN" localized="租赁物改良" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="132800000" locale="zh_CN" localized="投资性房地产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="133000000" locale="zh_CN" localized="无形资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="133100000" locale="zh_CN" localized="竞业限制-原业主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="133200000" locale="zh_CN" localized="商誉" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="133300000" locale="zh_CN" localized="客户名单" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="133400000" locale="zh_CN" localized="知识产权资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="133800000" locale="zh_CN" localized="其他无形资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="134000000" locale="zh_CN" localized="其他固定资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="134100000" locale="zh_CN" localized="人寿保险退保现金价值" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="134500000" locale="zh_CN" localized="生物资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="134600000" locale="zh_CN" localized="生产性生物资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="134900000" locale="zh_CN" localized="其他资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="138000000" locale="zh_CN" localized="累计摊销" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="138400000" locale="zh_CN" localized="累计摊销-知识产权" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="139000000" locale="zh_CN" localized="未收固定资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="139100000" locale="zh_CN" localized="未收设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="139200000" locale="zh_CN" localized="未收土地及建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="139300000" locale="zh_CN" localized="未收其他资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="140000000" locale="zh_CN" localized="存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="141000000" locale="zh_CN" localized="库存存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="141100000" locale="zh_CN" localized="原材料存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="141200000" locale="zh_CN" localized="在产品存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="141300000" locale="zh_CN" localized="产成品存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="141400000" locale="zh_CN" localized="包装组件存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="142000000" locale="zh_CN" localized="在途存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="147000000" locale="zh_CN" localized="预付存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="148000000" locale="zh_CN" localized="存货-平均成本计价调整" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="149000000" locale="zh_CN" localized="未收/未开票存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="149100000" locale="zh_CN" localized="未收/未开票原材料及组件" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="149300000" locale="zh_CN" localized="未收/未开票产成品" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="150000000" locale="zh_CN" localized="预付费用、押金及其他流动资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="151000000" locale="zh_CN" localized="预付费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="151100000" locale="zh_CN" localized="预付保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="151200000" locale="zh_CN" localized="预付租金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="151300000" locale="zh_CN" localized="预付利息" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="151400000" locale="zh_CN" localized="预付工资" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="151900000" locale="zh_CN" localized="其他预付款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="152000000" locale="zh_CN" localized="押金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="152100000" locale="zh_CN" localized="押金-UPS" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="152200000" locale="zh_CN" localized="押金-水电" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="152300000" locale="zh_CN" localized="押金-租金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="152900000" locale="zh_CN" localized="押金-其他" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="153000000" locale="zh_CN" localized="其他流动资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="160000000" locale="zh_CN" localized="应计收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="180000000" locale="zh_CN" localized="累计折旧" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="181000000" locale="zh_CN" localized="累计折旧-土地及建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="181100000" locale="zh_CN" localized="累计折旧-土地" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="181200000" locale="zh_CN" localized="累计折旧-房屋建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="181300000" locale="zh_CN" localized="累计折旧-土地改良" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="181400000" locale="zh_CN" localized="累计折旧-房屋装修" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="181500000" locale="zh_CN" localized="累计折旧-租赁物改良" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="181800000" locale="zh_CN" localized="累计折旧-投资性房地产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="182000000" locale="zh_CN" localized="累计折旧-设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="182100000" locale="zh_CN" localized="累计折旧-办公家具及设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="182200000" locale="zh_CN" localized="累计折旧-数据处理设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="182300000" locale="zh_CN" localized="累计折旧-数据处理软件" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="182400000" locale="zh_CN" localized="累计折旧-车辆" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="182500000" locale="zh_CN" localized="累计折旧-生产设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="183000000" locale="zh_CN" localized="累计折旧-其他资产根科目" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="183500000" locale="zh_CN" localized="累计折旧-生物资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="183800000" locale="zh_CN" localized="累计折旧-其他资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="200000000" locale="zh_CN" localized="负债" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="210000000" locale="zh_CN" localized="流动应付" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="211000000" locale="zh_CN" localized="应计应付账款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="212000000" locale="zh_CN" localized="应付账款-经营" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="212100000" locale="zh_CN" localized="应付账款-工资" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="212200000" locale="zh_CN" localized="应付账款-佣金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="212300000" locale="zh_CN" localized="应付账款-税金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="212400000" locale="zh_CN" localized="应付账款-扣押款项" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="212500000" locale="zh_CN" localized="应付账款-借款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="214000000" locale="zh_CN" localized="未开票收货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="215000000" locale="zh_CN" localized="存货转入应付款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="216000000" locale="zh_CN" localized="应付账款-未核销付款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="220000000" locale="zh_CN" localized="应计费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="221000000" locale="zh_CN" localized="应计工资" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="221100000" locale="zh_CN" localized="应计应付佣金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="221200000" locale="zh_CN" localized="应计应付工资" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="221300000" locale="zh_CN" localized="应计员工医疗保险费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222000000" locale="zh_CN" localized="工资预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222100000" locale="zh_CN" localized="联邦预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222110000" locale="zh_CN" localized="联邦所得税员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222120000" locale="zh_CN" localized="社会保障员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222130000" locale="zh_CN" localized="医疗保险员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222140000" locale="zh_CN" localized="联邦养老金员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222150000" locale="zh_CN" localized="联邦失业保险员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222400000" locale="zh_CN" localized="州预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222410000" locale="zh_CN" localized="州所得税员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222420000" locale="zh_CN" localized="州伤残保险员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222430000" locale="zh_CN" localized="州杂项税员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222440000" locale="zh_CN" localized="州养老金员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222450000" locale="zh_CN" localized="州失业保险员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222500000" locale="zh_CN" localized="地方预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222510000" locale="zh_CN" localized="地方所得税员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222520000" locale="zh_CN" localized="地方杂项税员工预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222600000" locale="zh_CN" localized="401(k)-养老金预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222700000" locale="zh_CN" localized="扣押款项预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222800000" locale="zh_CN" localized="员工福利预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="222900000" locale="zh_CN" localized="杂项预扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="223000000" locale="zh_CN" localized="应计工资税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="223100000" locale="zh_CN" localized="应计工资税-联邦社会保险税雇主份额" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="223200000" locale="zh_CN" localized="应计工资税-医疗保险雇主份额" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="223300000" locale="zh_CN" localized="应计工资税-联邦失业税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="223400000" locale="zh_CN" localized="应计工资税-州失业税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="223500000" locale="zh_CN" localized="401(k)-养老金雇主缴费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="224000000" locale="zh_CN" localized="代收销售税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="225000000" locale="zh_CN" localized="应计使用税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="226000000" locale="zh_CN" localized="应计退休计划费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="229000000" locale="zh_CN" localized="其他应计费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="230000000" locale="zh_CN" localized="应付短期票据" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="231000000" locale="zh_CN" localized="短期债务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="239000000" locale="zh_CN" localized="一年内到期的长期负债" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="240000000" locale="zh_CN" localized="应付长期票据" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="241000000" locale="zh_CN" localized="长期债务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="242000000" locale="zh_CN" localized="应付抵押票据" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="243000000" locale="zh_CN" localized="业主或股东借款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="248000000" locale="zh_CN" localized="其他长期债务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="250000000" locale="zh_CN" localized="第三方代持" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="251000000" locale="zh_CN" localized="客户贷项及押金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="251100000" locale="zh_CN" localized="未兑付商品贷项" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="251200000" locale="zh_CN" localized="未兑付礼券" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="251300000" locale="zh_CN" localized="特殊订单押金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="251400000" locale="zh_CN" localized="邮购押金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="251500000" locale="zh_CN" localized="客户押金账户" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="252000000" locale="zh_CN" localized="供应商押金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="253000000" locale="zh_CN" localized="未领用固定资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="253100000" locale="zh_CN" localized="未领用设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="253200000" locale="zh_CN" localized="未领用土地及建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="253300000" locale="zh_CN" localized="未领用其他资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="254000000" locale="zh_CN" localized="代收捐赠" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="258000000" locale="zh_CN" localized="金融账户在途" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="258100000" locale="zh_CN" localized="金融账户在途存款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="258200000" locale="zh_CN" localized="金融账户在途取款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="258300000" locale="zh_CN" localized="金融账户在途转账" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="260000000" locale="zh_CN" localized="预收账款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="300000000" locale="zh_CN" localized="所有者权益" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="310000000" locale="zh_CN" localized="所有者权益-个人及合伙" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="311000000" locale="zh_CN" localized="资本-个人及合伙" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="312000000" locale="zh_CN" localized="业主提款-个人及合伙" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="330000000" locale="zh_CN" localized="所有者权益-公司" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="331000000" locale="zh_CN" localized="股本-公司" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="331100000" locale="zh_CN" localized="普通股" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="3312000000" locale="zh_CN" localized="优先股" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="331300000" locale="zh_CN" localized="库存股" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="332000000" locale="zh_CN" localized="实收资本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="332100000" locale="zh_CN" localized="普通股股本溢价" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="332200000" locale="zh_CN" localized="优先股股本溢价" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="332300000" locale="zh_CN" localized="库存股实收资本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="333000000" locale="zh_CN" localized="股利" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="333100000" locale="zh_CN" localized="股利-普通股" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="333200000" locale="zh_CN" localized="股利-优先股" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="334000000" locale="zh_CN" localized="业主提款-S型公司" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="335000000" locale="zh_CN" localized="留存收益" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="400000000" locale="zh_CN" localized="销售" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="410000000" locale="zh_CN" localized="销售收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="411000000" locale="zh_CN" localized="商品销售" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="412000000" locale="zh_CN" localized="服务销售" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="413000000" locale="zh_CN" localized="资产出租收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="419000000" locale="zh_CN" localized="杂项销售" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="420000000" locale="zh_CN" localized="客户退货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="421000000" locale="zh_CN" localized="客户退货-商品" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="422000000" locale="zh_CN" localized="客户退货-促销" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="423000000" locale="zh_CN" localized="客户退货-调整" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="424000000" locale="zh_CN" localized="客户退货-工时" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="430000000" locale="zh_CN" localized="客户服务贷项" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="440000000" locale="zh_CN" localized="已收销售手续费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="441000000" locale="zh_CN" localized="已收邮资及手续费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="442000000" locale="zh_CN" localized="已收逾期付款费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="450000000" locale="zh_CN" localized="第三方销售" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="451000000" locale="zh_CN" localized="第三方商品销售" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="458000000" locale="zh_CN" localized="第三方盘亏贷项" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="459000000" locale="zh_CN" localized="第三方杂项销售" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="500000000" locale="zh_CN" localized="销售成本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="510000000" locale="zh_CN" localized="销货成本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="511000000" locale="zh_CN" localized="商品采购" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="512000000" locale="zh_CN" localized="一般销货成本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="513000000" locale="zh_CN" localized="销货成本平均成本调整" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="516000000" locale="zh_CN" localized="商品特许权使用费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="517000000" locale="zh_CN" localized="销货成本逾期付款费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="518000000" locale="zh_CN" localized="其他销货成本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="519000000" locale="zh_CN" localized="销货成本运费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="519100000" locale="zh_CN" localized="销货成本进货运费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="519200000" locale="zh_CN" localized="销货成本销货运费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="519300000" locale="zh_CN" localized="销货成本包装运输物料" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="520000000" locale="zh_CN" localized="折扣及减值" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="521000000" locale="zh_CN" localized="提前付款折扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="522000000" locale="zh_CN" localized="销售折扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="522100000" locale="zh_CN" localized="优惠券及贷项" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="522200000" locale="zh_CN" localized="促销折扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="522300000" locale="zh_CN" localized="安抚折扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="522400000" locale="zh_CN" localized="供应商折扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="523000000" locale="zh_CN" localized="销售手续费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="523100000" locale="zh_CN" localized="上架费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="525000000" locale="zh_CN" localized="低于成本减值" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="525100000" locale="zh_CN" localized="免费补货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="525200000" locale="zh_CN" localized="免费样品" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="526000000" locale="zh_CN" localized="存货调整" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="527000000" locale="zh_CN" localized="存货盘亏" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="527100000" locale="zh_CN" localized="呆滞存货" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="530000000" locale="zh_CN" localized="退货成本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="531000000" locale="zh_CN" localized="退货罚金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="532000000" locale="zh_CN" localized="退货给供应商" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="550000000" locale="zh_CN" localized="服务成本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="560000000" locale="zh_CN" localized="其他销售成本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="561000000" locale="zh_CN" localized="第三方销售佣金扣减" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="562000000" locale="zh_CN" localized="第三方履约费扣减" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="600000000" locale="zh_CN" localized="一般费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="610000000" locale="zh_CN" localized="场地及设备费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611000000" locale="zh_CN" localized="场地占用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611100000" locale="zh_CN" localized="租金费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611110000" locale="zh_CN" localized="基本租金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611120000" locale="zh_CN" localized="分成租金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611130000" locale="zh_CN" localized="公共区域费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611200000" locale="zh_CN" localized="水电费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611210000" locale="zh_CN" localized="水电费-取暖" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611220000" locale="zh_CN" localized="水电费-电费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611230000" locale="zh_CN" localized="水电费-水费及排污" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611240000" locale="zh_CN" localized="水电费-垃圾清运/回收" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611250000" locale="zh_CN" localized="水电费-车辆燃料" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611300000" locale="zh_CN" localized="其他场地占用成本" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611310000" locale="zh_CN" localized="客户停车补贴" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="611320000" locale="zh_CN" localized="清洁及其他外包服务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="612000000" locale="zh_CN" localized="设备及车辆租赁" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="612100000" locale="zh_CN" localized="办公设备租赁" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="612200000" locale="zh_CN" localized="门店设备租赁" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="612300000" locale="zh_CN" localized="车辆租赁" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="612400000" locale="zh_CN" localized="其他设备租赁" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="613000000" locale="zh_CN" localized="修理及维护" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="613100000" locale="zh_CN" localized="修理及维护-房屋建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="613200000" locale="zh_CN" localized="修理及维护-家具、装具及设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="613300000" locale="zh_CN" localized="修理及维护-数据处理设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="613400000" locale="zh_CN" localized="修理及维护-车辆" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="613500000" locale="zh_CN" localized="修理及维护-出租房屋" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="613900000" locale="zh_CN" localized="修理及维护-其他" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="614000000" locale="zh_CN" localized="通讯费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="614100000" locale="zh_CN" localized="电信公司使用费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="614110000" locale="zh_CN" localized="电信公司费用-市话" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="614120000" locale="zh_CN" localized="电信公司费用-长途" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="614130000" locale="zh_CN" localized="电信公司费用-传真" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="614140000" locale="zh_CN" localized="电信公司费用-手机及寻呼机" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="614200000" locale="zh_CN" localized="网络费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="616000000" locale="zh_CN" localized="数据处理" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="616100000" locale="zh_CN" localized="数据处理耗材" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="616200000" locale="zh_CN" localized="数据处理设备及软件" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="616300000" locale="zh_CN" localized="外部计算机服务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="616400000" locale="zh_CN" localized="网站及软件" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="616900000" locale="zh_CN" localized="其他数据处理费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="620000000" locale="zh_CN" localized="广告宣传费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="621000000" locale="zh_CN" localized="广告费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="623000000" locale="zh_CN" localized="专项活动" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="624000000" locale="zh_CN" localized="联合广告" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="625000000" locale="zh_CN" localized="其他广告/宣传" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="626000000" locale="zh_CN" localized="出版商/供应商广告折让" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="627000000" locale="zh_CN" localized="促销物料" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="627100000" locale="zh_CN" localized="促销资料" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="627200000" locale="zh_CN" localized="促销陈列" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="630000000" locale="zh_CN" localized="薪酬费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="631000000" locale="zh_CN" localized="工资及佣金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="631100000" locale="zh_CN" localized="工资-员工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="631200000" locale="zh_CN" localized="工资-业主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="631400000" locale="zh_CN" localized="工资-高管" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="631600000" locale="zh_CN" localized="销售佣金-员工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="631700000" locale="zh_CN" localized="销售佣金-非雇员" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="631800000" locale="zh_CN" localized="销售佣金调整" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="631900000" locale="zh_CN" localized="奖金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632000000" locale="zh_CN" localized="年假及病假工资" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632100000" locale="zh_CN" localized="年假工资-员工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632200000" locale="zh_CN" localized="年假工资-业主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632300000" locale="zh_CN" localized="病假工资-员工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632400000" locale="zh_CN" localized="病假工资-业主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632500000" locale="zh_CN" localized="带薪休假工资-员工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632600000" locale="zh_CN" localized="带薪休假工资-业主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632700000" locale="zh_CN" localized="节假日工资-员工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="632800000" locale="zh_CN" localized="节假日工资-业主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633000000" locale="zh_CN" localized="就业税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633200000" locale="zh_CN" localized="保险缴费税-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633210000" locale="zh_CN" localized="联邦社会保障-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633220000" locale="zh_CN" localized="联邦医疗保险-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633230000" locale="zh_CN" localized="联邦养老金-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633250000" locale="zh_CN" localized="州伤残保险-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633260000" locale="zh_CN" localized="州杂项税-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633270000" locale="zh_CN" localized="州养老金-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633290000" locale="zh_CN" localized="地方杂项税-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633700000" locale="zh_CN" localized="失业保险-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633710000" locale="zh_CN" localized="联邦失业保险-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="633720000" locale="zh_CN" localized="州失业保险-雇主" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="634000000" locale="zh_CN" localized="团体医疗保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="634100000" locale="zh_CN" localized="团体医疗保险-保费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="634200000" locale="zh_CN" localized="团体医疗保险-保费业主或股东" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="634800000" locale="zh_CN" localized="员工医疗保险费分担" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="634900000" locale="zh_CN" localized="离职员工COBRA付款" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="635000000" locale="zh_CN" localized="工伤保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="636000000" locale="zh_CN" localized="失能及人寿保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="636100000" locale="zh_CN" localized="失能收入保险费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="636200000" locale="zh_CN" localized="失能收入保险费-业主或股东" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="636400000" locale="zh_CN" localized="员工失能保险共付" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="636500000" locale="zh_CN" localized="人寿保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="636600000" locale="zh_CN" localized="团体人寿保险费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="636700000" locale="zh_CN" localized="团体人寿保险费-业主或股东" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="636900000" locale="zh_CN" localized="员工人寿保险共付" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="637000000" locale="zh_CN" localized="退休（养老金/利润分享/401k）" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="638000000" locale="zh_CN" localized="其他福利费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="638100000" locale="zh_CN" localized="员工礼品及津贴" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="638200000" locale="zh_CN" localized="员工聚餐/晚会（100%可扣除）" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="638300000" locale="zh_CN" localized="员工餐饮点心（100%可扣除）" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="639000000" locale="zh_CN" localized="工资处理费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="640000000" locale="zh_CN" localized="专业服务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="641000000" locale="zh_CN" localized="律师费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="642000000" locale="zh_CN" localized="会计费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="643000000" locale="zh_CN" localized="存货核实费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="644000000" locale="zh_CN" localized="营销咨询费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="645000000" locale="zh_CN" localized="商务咨询费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="646000000" locale="zh_CN" localized="系统分析及开发费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="649000000" locale="zh_CN" localized="其他咨询费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="650000000" locale="zh_CN" localized="办公及用品费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="651000000" locale="zh_CN" localized="办公费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="652000000" locale="zh_CN" localized="用品费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="652100000" locale="zh_CN" localized="文具及用品-办公使用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="652200000" locale="zh_CN" localized="包装袋" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="652300000" locale="zh_CN" localized="印刷品-未另行分摊" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="652400000" locale="zh_CN" localized="清洁用品" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="652900000" locale="zh_CN" localized="其他用品" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="653000000" locale="zh_CN" localized="运费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="653100000" locale="zh_CN" localized="邮资费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="653200000" locale="zh_CN" localized="其他邮资费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="653300000" locale="zh_CN" localized="运输物料费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="655000000" locale="zh_CN" localized="招聘及招工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="660000000" locale="zh_CN" localized="非雇员薪酬" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="661000000" locale="zh_CN" localized="外部劳务及服务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="670000000" locale="zh_CN" localized="折旧" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="671000000" locale="zh_CN" localized="折旧-土地及建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="671100000" locale="zh_CN" localized="折旧-土地" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="671200000" locale="zh_CN" localized="折旧-房屋建筑物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="671300000" locale="zh_CN" localized="折旧-土地改良" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="671400000" locale="zh_CN" localized="折旧-房屋装修" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="671500000" locale="zh_CN" localized="折旧-租赁物改良" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="671800000" locale="zh_CN" localized="折旧-投资性房地产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="672000000" locale="zh_CN" localized="折旧-设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="672100000" locale="zh_CN" localized="折旧-家具/装具/设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="672200000" locale="zh_CN" localized="折旧-数据处理设备" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="672300000" locale="zh_CN" localized="折旧-数据处理软件" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="672400000" locale="zh_CN" localized="折旧-车辆" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="673000000" locale="zh_CN" localized="折旧-其他资产根科目" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="673500000" locale="zh_CN" localized="折旧-生物资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="673800000" locale="zh_CN" localized="折旧-其他资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="680000000" locale="zh_CN" localized="差旅、招待及教育" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="681000000" locale="zh_CN" localized="差旅及招待" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="681100000" locale="zh_CN" localized="差旅费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="681110000" locale="zh_CN" localized="销售差旅费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="681200000" locale="zh_CN" localized="业务招待费（50%可扣除）" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="681210000" locale="zh_CN" localized="销售餐饮招待" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="681300000" locale="zh_CN" localized="餐饮-员工会议等（100%可扣除-微额）" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="682000000" locale="zh_CN" localized="教育培训" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="682100000" locale="zh_CN" localized="教育培训-课程费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="682200000" locale="zh_CN" localized="教育培训-差旅" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="682300000" locale="zh_CN" localized="教育培训-餐饮招待（50%可扣除）" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="682400000" locale="zh_CN" localized="教育培训-其他" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="682500000" locale="zh_CN" localized="教育培训-产品研究" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="683000000" locale="zh_CN" localized="会费及订阅" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="683100000" locale="zh_CN" localized="协会会费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="683200000" locale="zh_CN" localized="订阅费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="683210000" locale="zh_CN" localized="订阅费-专业刊物" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="683220000" locale="zh_CN" localized="订阅费-纸质参考工具" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="683230000" locale="zh_CN" localized="订阅费-电子参考工具" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="690000000" locale="zh_CN" localized="保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="691000000" locale="zh_CN" localized="企业保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="692000000" locale="zh_CN" localized="不动产保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="693000000" locale="zh_CN" localized="车辆保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="694000000" locale="zh_CN" localized="其他保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="700000000" locale="zh_CN" localized="其他费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="710000000" locale="zh_CN" localized="银行服务费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="711000000" locale="zh_CN" localized="信用卡手续费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="711100000" locale="zh_CN" localized="信用卡手续费-万事达/维萨" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="711200000" locale="zh_CN" localized="信用卡手续费-运通" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="711300000" locale="zh_CN" localized="信用卡手续费-Discover" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="711400000" locale="zh_CN" localized="信用卡手续费-借记卡/ATM" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="712000000" locale="zh_CN" localized="银行手续费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="719000000" locale="zh_CN" localized="其他服务费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="730000000" locale="zh_CN" localized="所得税费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="731000000" locale="zh_CN" localized="联邦所得税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="732000000" locale="zh_CN" localized="州所得税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="733000000" locale="zh_CN" localized="地方所得税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="740000000" locale="zh_CN" localized="其他税费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="741000000" locale="zh_CN" localized="存货及使用税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="742000000" locale="zh_CN" localized="不动产税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="743000000" locale="zh_CN" localized="营业执照及规费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="744000000" locale="zh_CN" localized="其他营业税金及规费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="745000000" locale="zh_CN" localized="销售及使用税" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="780000000" locale="zh_CN" localized="其他营业费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="781000000" locale="zh_CN" localized="坏账" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="781100000" locale="zh_CN" localized="催收费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="782000000" locale="zh_CN" localized="核销费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="782100000" locale="zh_CN" localized="应收账款核销" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="782400000" locale="zh_CN" localized="利息收入核销" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="783000000" locale="zh_CN" localized="现金溢缺" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="784000000" locale="zh_CN" localized="金融账户差错" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="785000000" locale="zh_CN" localized="出资" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="786000000" locale="zh_CN" localized="非销货成本存货费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="786100000" locale="zh_CN" localized="存货采购调整" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="787000000" locale="zh_CN" localized="摊销费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="789000000" locale="zh_CN" localized="杂项营业费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="790000000" locale="zh_CN" localized="营业外支出" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="791000000" locale="zh_CN" localized="利息费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="791100000" locale="zh_CN" localized="设备利息费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="791200000" locale="zh_CN" localized="车辆利息费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="791300000" locale="zh_CN" localized="不动产利息费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="792000000" locale="zh_CN" localized="公司持有人寿保险" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="793000000" locale="zh_CN" localized="固定资产损失" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="793100000" locale="zh_CN" localized="处置固定资产损失" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="793200000" locale="zh_CN" localized="固定资产盘亏损失" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="794000000" locale="zh_CN" localized="非销货成本特许权及加盟费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="795000000" locale="zh_CN" localized="未投保意外损失" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="796000000" locale="zh_CN" localized="慈善捐赠" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="797000000" locale="zh_CN" localized="汇兑损失" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="798000000" locale="zh_CN" localized="营业外手续费及罚金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="799000000" locale="zh_CN" localized="其他营业外支出" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="800000000" locale="zh_CN" localized="其他收益根科目" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="810000000" locale="zh_CN" localized="投资及利得收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="812000000" locale="zh_CN" localized="股利收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="813000000" locale="zh_CN" localized="资本利得收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="814000000" locale="zh_CN" localized="资产收益" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="814100000" locale="zh_CN" localized="处置固定资产收益" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="814200000" locale="zh_CN" localized="盘盈固定资产收益" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="814300000" locale="zh_CN" localized="盘盈存货收益" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="817000000" locale="zh_CN" localized="汇兑收益" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="819000000" locale="zh_CN" localized="其他收益" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="830000000" locale="zh_CN" localized="经营所得（扣除费用后）" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="832000000" locale="zh_CN" localized="租金收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="833000000" locale="zh_CN" localized="销售税佣金" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="834000000" locale="zh_CN" localized="代收专项费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="835000000" locale="zh_CN" localized="代收其他费用" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="836000000" locale="zh_CN" localized="代收会员费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="837000000" locale="zh_CN" localized="代收制造费" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="840000000" locale="zh_CN" localized="利息收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="841000000" locale="zh_CN" localized="融资费用利息收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="842000000" locale="zh_CN" localized="其他利息收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="850000000" locale="zh_CN" localized="净利润（本期损益）" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="860000000" locale="zh_CN" localized="核销收入" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="862000000" locale="zh_CN" localized="应付账款核销" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="863000000" locale="zh_CN" localized="应付佣金核销" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="864000000" locale="zh_CN" localized="应付提前付款折扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="865000000" locale="zh_CN" localized="其他采购折扣" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="910000000" locale="zh_CN" localized="内部划转清算科目" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="911000000" locale="zh_CN" localized="内部划转清算-资产" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.ledger.account.GlAccount" fieldName="accountName"
+        pkValue="912000000" locale="zh_CN" localized="内部划转清算-负债" />
+</entity-facade-xml>

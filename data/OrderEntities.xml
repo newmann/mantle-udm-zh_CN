@@ -164,7 +164,7 @@
 
 <!--             <moqui.basic.Enumeration description="Payment Not Received" enumId="OdrPayment" enumTypeId="OrderDecisionReason"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
-		pkValue="OdrPayment" locale="zh_CN" localized="订单决定原因" />   
+		pkValue="OdrPayment" locale="zh_CN" localized="未收到付款" />   
 
 <!--             <moqui.basic.Enumeration description="Other" enumId="OdrOther" enumTypeId="OrderDecisionReason"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
@@ -201,7 +201,7 @@
 		          
 <!--             <moqui.basic.StatusItem description="Created" sequenceNum="0" statusId="ReturnCreated" statusTypeId="Return"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
-		pkValue="Return" locale="zh_CN" localized="退货单据头和明细的状态" />   
+		pkValue="ReturnCreated" locale="zh_CN" localized="已创建" />   
 		            
 <!--             <moqui.basic.StatusItem description="Requested" sequenceNum="1" statusId="ReturnRequested" statusTypeId="Return"/> -->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"

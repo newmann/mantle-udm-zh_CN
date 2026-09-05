@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="BudgetCapital" locale="zh_CN" localized="资本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="BudgetOperating" locale="zh_CN" localized="经营" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="BdgItRequired" locale="zh_CN" localized="必需" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="BdgItDiscretionary" locale="zh_CN" localized="酌情" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TatFederal" locale="zh_CN" localized="联邦/国家" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TatState" locale="zh_CN" localized="州/省" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TatCounty" locale="zh_CN" localized="县/教区/自治市镇" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TatCity" locale="zh_CN" localized="市" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TaatExemption" locale="zh_CN" localized="豁免继承" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TaatCollAgent" locale="zh_CN" localized="代收机构" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TaxGtwyLocal" locale="zh_CN" localized="本地税务网关" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="DbfpTaxStatement" locale="zh_CN" localized="税务报表" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="BudgetType" locale="zh_CN" localized="预算类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="BudgetItemType" locale="zh_CN" localized="预算项目类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="BudgetReviewResult" locale="zh_CN" localized="预算审核结果" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TaxAuthorityType" locale="zh_CN" localized="税务机关类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TaxAuthorityAssocType" locale="zh_CN" localized="税务机关关联类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="TaxGatewayType" locale="zh_CN" localized="税务网关类型" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+        pkValue="Budget" locale="zh_CN" localized="预算" />
+</entity-facade-xml>

@@ -48,17 +48,41 @@ along with this software (see the LICENSE.md file). If not, see
         <field name="description" type="text-medium" enable-localization="true"/>
     </extend-entity>
 
-    <extend-entity entity-name="ContactMechPurpose" package="mantle.party.contact">
+    <extend-entity entity-name="BenefitType" package="mantle.humanres.employment">
         <field name="description" type="text-medium" enable-localization="true"/>
     </extend-entity>
 
-    <extend-entity entity-name="TimePeriodType" package="mantle.party.time">
+    <extend-entity entity-name="PartyClassification" package="mantle.party">
         <field name="description" type="text-medium" enable-localization="true"/>
     </extend-entity>
 
-<!--     <extend-entity entity-name="Organization" package="mantle.party">
-        <field name="taxOrganizationName" type="text-medium" enable-localization="true"/>
-    </extend-entity> -->
+    <extend-entity entity-name="GlAccount" package="mantle.ledger.account">
+        <field name="accountName" type="text-medium" enable-localization="true"/>
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
 
+    <extend-entity entity-name="WorkEffortCategory" package="mantle.work.effort">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="WorkEffort" package="mantle.work.effort">
+        <field name="workEffortName" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="TaxAuthority" package="mantle.other.tax">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="PayrollAdjustment" package="mantle.humanres.employment">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="CarrierShipmentMethod" package="mantle.shipment.carrier">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
+
+    <extend-entity entity-name="PaymentGatewayConfig" package="mantle.account.method">
+        <field name="description" type="text-medium" enable-localization="true"/>
+    </extend-entity>
 
 </entities>

@@ -638,5 +638,29 @@
 			entityName="moqui.basic.Enumeration" fieldName="description"
 			pkValue="ArjNotToSpec" locale="zh_CN" localized="不符合规范" />
 
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtBinShelf" locale="zh_CN" localized="料箱 - 标准货架" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletUs4048" locale="zh_CN" localized="托盘 美国 40x48英寸" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletUs4040" locale="zh_CN" localized="托盘 美国 40x40英寸" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletUs4242" locale="zh_CN" localized="托盘 美国 42x42英寸" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletUs4840" locale="zh_CN" localized="托盘 美国 48x40英寸" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletUs4848" locale="zh_CN" localized="托盘 美国 48x48英寸" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletIso1" locale="zh_CN" localized="托盘 ISO1/EUR1 0.8x1.2米" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletIso2" locale="zh_CN" localized="托盘 ISO2/EUR2 1.2x1.0米" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletIso0" locale="zh_CN" localized="托盘 ISO0/EUR6 0.8x0.6米" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtPalletEur3" locale="zh_CN" localized="托盘 EUR3 1.0x1.2米" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtContainerIso40" locale="zh_CN" localized="集装箱 ISO 40英尺" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CtContainerIso20" locale="zh_CN" localized="集装箱 ISO 20英尺" />
 </entity-facade-xml>
             

@@ -1013,7 +1013,7 @@
 <!--		parentEnumId="ItemPayrollTaxes" enumTypeId="ItemType" />-->
 	<moqui.basic.LocalizedEntityField
 			entityName="moqui.basic.Enumeration" fieldName="description"
-			pkValue="ItemPayrollTaxes" locale="zh_CN" localized="医疗保险雇员" />
+			pkValue="ItemTaxMedEmpe" locale="zh_CN" localized="医疗保险雇员" />
 
 <!--	<moqui.basic.Enumeration-->
 <!--		description="Additional Medicare Employee"-->
@@ -1322,7 +1322,7 @@
 <!--		enumTypeId="EnumGroup" />-->
 	<moqui.basic.LocalizedEntityField
 			entityName="moqui.basic.Enumeration" fieldName="description"
-			pkValue="Eng401kEmpr" locale="zh_CN" localized="雇员 401k类型" />
+			pkValue="Eng401kEmpe" locale="zh_CN" localized="雇员 401k类型" />
 
 
 <!--	<moqui.basic.Enumeration-->
@@ -1337,7 +1337,7 @@
 <!--		enumTypeId="EnumGroup" />-->
 	<moqui.basic.LocalizedEntityField
 			entityName="moqui.basic.Enumeration" fieldName="description"
-			pkValue="EngSec125Empr" locale="zh_CN" localized="雇员 第125节类型" />
+			pkValue="EngSec125Empe" locale="zh_CN" localized="雇员 第125节类型" />
 
 	<!-- Product Item Types (used for GL mapping and other purposes for items
 		that should always have a productId and may be treated differently) -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="install">
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustConsumer" locale="zh_CN" localized="消费者" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustWholesale" locale="zh_CN" localized="批发" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustRetailStore" locale="zh_CN" localized="批发 - 零售店" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustProfessional" locale="zh_CN" localized="批发 - 专业" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustDistributor" locale="zh_CN" localized="分销商" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustDistributorPref" locale="zh_CN" localized="首选分销商" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustEnterprise" locale="zh_CN" localized="企业" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustBroker" locale="zh_CN" localized="经纪人" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="CustEmployee" locale="zh_CN" localized="员工" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="NAICS_511210" locale="zh_CN" localized="软件出版商" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="NAICS_541511" locale="zh_CN" localized="定制计算机编程服务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="NAICS_541512" locale="zh_CN" localized="计算机系统设计服务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="NAICS_541519" locale="zh_CN" localized="其他计算机相关服务" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.PartyClassification" fieldName="description"
+        pkValue="NAICS_611420" locale="zh_CN" localized="计算机培训" />
+</entity-facade-xml>

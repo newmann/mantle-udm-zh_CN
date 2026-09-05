@@ -102,8 +102,55 @@ along with this software (see the LICENSE.md file). If not, see
     <!-- available: partyDetail, timePeriodType, fromLocalDate, thruLocalDate, TimePeriod fields (periodNum, fromDate, thruDate, etc) -->
      <moqui.basic.LocalizedMessage locale="zh_CN" original="TimePeriodBaseNameTemplate"
             localized="${partyDetail.pseudoId} ${timePeriodType.periodPurposeEnumId[0]}Y${fromLocalDate.getYear()}${timePeriodType?.lengthUomId!='TF_yr'?(timePeriodType?.description.toLowerCase())+(periodNum as String).padLeft(2,'0'):''}"/>
-<!--	原来内容，报错，localized="${partyDetail.pseudoId} ${timePeriodType.periodPurposeEnumId[0]}Y${fromLocalDate.getYear()}${timePeriodType?.lengthUomId!='TF_yr'?(timePeriodType?.description.split('(?=[A-Z])')[1][0].toLowerCase())+(periodNum as String).padLeft(2,'0'):''}"/>-->
 
-    <!-- <moqui.basic.LocalizedMessage locale="default" original="TimePeriodBaseNameTemplate"
-            localized="${partyDetail.pseudoId} ${timePeriodType.description.split('(?=[A-Z])').collect({it?it[0]:''}).join('')}${fromLocalDate.getYear()}${timePeriodType?.lengthUomId!='TF_yr'?'-'+((periodNum as String).padLeft(2,'0')):''}"/> -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="AssetNameTemplate" localized="${assetName ? assetId + ': ' + assetName : assetId}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="ContainerNameTemplate"
+            localized="${serialNumber ?: containerId}${description ? ': ' + description : ''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="LotNameTemplate"
+            localized="${lotId}: ${pseudoId?:mfgParty?.pseudoId?:''} ${lotNumber?:'无批号'} 生产 ${ec.l10n.format(manufacturedDate, 'yyyy-MM-dd')?:'无'} 到期 ${ec.l10n.format(expirationDate, 'yyyy-MM-dd')}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="FacilityNameTemplate"
+            localized="${pseudoId}: ${facilityName?:name?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="FacilityLocationNameTemplate"
+            localized="${locationSeqId?:''} ${description?:''} [${areaId?:' '}:${aisleId?:' '}:${sectionId?:' '}:${levelId?:' '}:${positionId?:' '}] ${type?.description?:(locationTypeEnumId?locationTypeEnumId.substring(3):null)?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="FinancialAccountNameTemplate"
+            localized="${finAccountCode ?: finAccountId}: ${finAccountName} (${ec.l10n.format(availableBalance ?: 0.0, '#,##0.00')})"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="GlAccountNameTemplate"
+            localized="${accountCodeFormatter != null ? accountCodeFormatter.valueToString(accountCode) : accountCode}: ${accountName}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PayrollInvoicePayDescription"
+            localized="${emplPosition.description} ${ec.l10n.format(timePeriod.fromDate, 'yyyy-MM-dd')} - ${ec.l10n.format(timePeriod.thruDate, 'yyyy-MM-dd')}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="OrderNameTemplate" localized="${orderId}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="OrderPartNameTemplate" localized="${orderId}${orderPartSeqId?':'+orderPartSeqId:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="OrderItemNameTemplate"
+            localized="${orderId}${orderPartSeqId ? ':' + orderPartSeqId : ''}:${orderItemSeqId}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PartyFullNameTemplate"
+            localized="${organizationName?:''}${lastName?:''}${firstName?:''}${middleName?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PartyNameOnlyTemplate"
+            localized="${organizationName?:''}${lastName?:''}${firstName?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PartyNameTemplate"
+            localized="${pseudoId}: ${organizationName?:''}${lastName?:''}${firstName?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PaymentMethodAndTypeTemplate"
+            localized="${typeDescription} - ${description?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PaymentMethodDetailTemplate"
+            localized="${typeDescription} - ${description?:''}${gatewayDescription ? ' - ' + gatewayDescription : ''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PostalAddressSimpleTemplate"
+            localized="${stateGeoCodeAlpha2?:''}${city?:''}${address1?:''}${unitNumber?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PostalAddressInfoTemplate"
+            localized="${postalAddress.toName ? postalAddress.toName + ' ' : ''}${postalAddress.attnName ? postalAddress.attnName + ' ' : ''}${postalAddressCountryGeo?.geoName?:''}${postalAddressStateGeo?.geoName?:(postalAddressStateGeo?.geoCodeAlpha2?:'')}${postalAddress.city?:''}${postalAddress.address1?:''}${postalAddress.unitNumber?:''}${postalAddress.address2 ? ' ' + postalAddress.address2 : ''} ${postalAddress.postalCode?:''}${postalAddress.postalCodeExt ? '-' + postalAddress.postalCodeExt : ''} ${telecomNumber?.countryCode ? telecomNumber.countryCode + '-' : ''}${telecomNumber?.areaCode ? telecomNumber.areaCode + '-' : ''}${telecomNumber?.contactNumber?:''} - ${postalTrustLevelEnum?.description ?: '新'}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="TelecomNumberSimpleTemplate"
+            localized="${countryCode ? countryCode + '-' : ''}${areaCode ? areaCode + '-' : ''}${contactNumber}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="ProductAmountNameTemplate"
+            localized="${(amountFixed&amp;&amp;amountFixed!=1?(ec.l10n.format(amountFixed,'')+' '):'')+(uomDescription?:description?:'')}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="ProductCategoryNameTemplate"
+            localized="${pseudoId}: ${categoryName?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="ProductFeatureGroupNameTemplate"
+            localized="${description}: ${productFeatureGroupId?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="ProductFeatureNameTemplate"
+            localized="${abbrev?:productFeatureId}: ${description}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="ProductFeatureAndTypeTemplate"
+            localized="${typeDescription} - ${abbrev?:productFeatureId}: ${description}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="ProductNameTemplate"
+            localized="${pseudoId?:productId}: ${productName?:name?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="RequestNameTemplate" localized="${requestId}: ${requestName?:''}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="TimePeriodNameTemplate" localized="${timePeriodId}: ${periodName}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="WorkEffortNameTemplate" localized="${workEffortId}: ${workEffortName?:''}"/>
 </entity-facade-xml>

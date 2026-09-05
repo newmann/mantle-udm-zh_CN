@@ -401,7 +401,7 @@
 		pkValue="PppComponent" locale="zh_CN" localized="组件价格" />  
             <!-- Supplier Preferred Order -->
 <!--             <moqui.basic.EnumerationType description="Supplier Preferred Order" enumTypeId="SupplierPreferredOrder"/> -->
-	<moqui.basic.LocalizedEntityField  entityName="moqui.basic.Enumeration" fieldName="description"
+	<moqui.basic.LocalizedEntityField  entityName="moqui.basic.EnumerationType" fieldName="description"
 		pkValue="SupplierPreferredOrder" locale="zh_CN" localized="供应商首选订单" />  
 		            
             <moqui.basic.Enumeration enumId="SpoMain" sequenceNum="1" description="Main Supplier" enumTypeId="SupplierPreferredOrder"/>
@@ -728,5 +728,79 @@
 		pkValue="StProduct" locale="zh_CN" localized="产品" />		
 		            
             
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntProductName" locale="zh_CN" localized="产品名称" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntDescription" locale="zh_CN" localized="描述" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntDescriptionLong" locale="zh_CN" localized="描述 - 详细" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntDeliveryInfo" locale="zh_CN" localized="交货信息" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntDownload" locale="zh_CN" localized="数字下载" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntDirections" locale="zh_CN" localized="使用说明" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntEmail" locale="zh_CN" localized="履约邮件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntFAQ" locale="zh_CN" localized="常见问题" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntIngredients" locale="zh_CN" localized="成分" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntUniqueIngred" locale="zh_CN" localized="成分 - 特有" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntInstallation" locale="zh_CN" localized="安装" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntLabelImage" locale="zh_CN" localized="标签图片" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntLabelText" locale="zh_CN" localized="标签文本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntOnline" locale="zh_CN" localized="在线访问" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntPriceDetail" locale="zh_CN" localized="价格明细文本" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntShortSalesPitch" locale="zh_CN" localized="简短销售说明" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntSpecialInstr" locale="zh_CN" localized="特殊说明" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntSpecification" locale="zh_CN" localized="规格" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntTermsConditions" locale="zh_CN" localized="条款与条件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntTestimonials" locale="zh_CN" localized="客户评价" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntWarnings" locale="zh_CN" localized="警告" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntWarranty" locale="zh_CN" localized="保修" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageSmall" locale="zh_CN" localized="图片 - 小" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageMedium" locale="zh_CN" localized="图片 - 中" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageLarge" locale="zh_CN" localized="图片 - 大" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageDetail" locale="zh_CN" localized="图片 - 细节" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageOriginal" locale="zh_CN" localized="图片 - 原图" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageUrlSmall" locale="zh_CN" localized="图片 URL - 小" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageUrlMedium" locale="zh_CN" localized="图片 URL - 中" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageUrlLarge" locale="zh_CN" localized="图片 URL - 大" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageUrlDetail" locale="zh_CN" localized="图片 URL - 细节" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntImageUrlOriginal" locale="zh_CN" localized="图片 URL - 原图" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntAddToCartLabel" locale="zh_CN" localized="加入购物车标签" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntAddToCartImage" locale="zh_CN" localized="加入购物车图片" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntMetaKeywords" locale="zh_CN" localized="Meta 关键词" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PcntMetaDescription" locale="zh_CN" localized="Meta 描述" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description"
+        pkValue="ProductContentType" locale="zh_CN" localized="产品内容类型" />
 </entity-facade-xml>
             

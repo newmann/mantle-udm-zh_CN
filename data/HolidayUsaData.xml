@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="install">
+    <moqui.basic.LocalizedEntityField entityName="mantle.work.effort.WorkEffortCategory" fieldName="description"
+        pkValue="HolidayUsaFed" locale="zh_CN" localized="美国联邦法定节日" />
+    <moqui.basic.LocalizedEntityField entityName="mantle.work.effort.WorkEffortCategory" fieldName="description"
+        pkValue="HolidayUsaBank" locale="zh_CN" localized="美国银行（联邦储备）节日" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Columbus Day" localized="哥伦布日"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Martin Luther King Day" localized="马丁·路德·金纪念日"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Presidents Day" localized="总统日"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Memorial Day" localized="阵亡将士纪念日"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Independence Day" localized="独立日"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Labor Day" localized="劳动节"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Thanksgiving Day" localized="感恩节"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Christmas Day" localized="圣诞节"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="New Years Day" localized="元旦"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="New Years Day Observed" localized="元旦（顺延）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Veterans Day" localized="退伍军人节"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Veterans Day Observed" localized="退伍军人节（顺延）"/>
+</entity-facade-xml>

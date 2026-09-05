@@ -24,7 +24,7 @@
         zero and then if any other transactions are attempted during replenishment they will be rejected. -->
 <!--	<moqui.basic.StatusItem description="Negative Pending Replenishment" sequenceNum="2" statusId="FaNegPendRepl" statusTypeId="FinancialAccount"/>-->
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
-									  pkValue="FaNegPendRepl" locale="zh_CN" localized="Negative Pending Replenishment" />
+									  pkValue="FaNegPendRepl" locale="zh_CN" localized="负向待补货" />
 
 	<!-- This is meant to be set manually by a company representative to freeze an account so further transactions are
         not allowed. -->
@@ -90,5 +90,61 @@
 	<moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
 									  pkValue="FatrErrorAdjust" locale="zh_CN" localized="误差调整" />
 
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxfUsIrs1120" locale="zh_CN" localized="美国国税局表格 1120" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxfUsIrs1120S" locale="zh_CN" localized="美国国税局表格 1120S" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxfUsIrs1065" locale="zh_CN" localized="美国国税局表格 1065" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxfUsIrs990" locale="zh_CN" localized="美国国税局表格 990" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxfUsIrs990PF" locale="zh_CN" localized="美国国税局表格 990-PF" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxfUsIrs990T" locale="zh_CN" localized="美国国税局表格 990-T" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxfUsIrs1040" locale="zh_CN" localized="美国国税局表格 1040" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PtxfUsIrs941" locale="zh_CN" localized="美国国税局表格 941" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PtxfUsIrs943" locale="zh_CN" localized="美国国税局表格 943" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PtxfUsIrs944" locale="zh_CN" localized="美国国税局表格 944" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PtxfUsIrsSchH" locale="zh_CN" localized="美国国税局附表 H" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PtxfUsIrsCT1" locale="zh_CN" localized="美国国税局 CT-1" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcIndividual" locale="zh_CN" localized="美国 - 个人、独资经营者、单成员有限责任公司" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcCCorp" locale="zh_CN" localized="美国 - C 类公司" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcSCorp" locale="zh_CN" localized="美国 - S 类公司" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcPartnership" locale="zh_CN" localized="美国 - 合伙企业" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcTrustEstate" locale="zh_CN" localized="美国 - 信托/遗产" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcLlcSCorp" locale="zh_CN" localized="美国 - 作为 S 类公司的有限责任公司" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcLlcCCorp" locale="zh_CN" localized="美国 - 作为 C 类公司的有限责任公司" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcLlcPartnership" locale="zh_CN" localized="美国 - 作为合伙企业的有限责任公司" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TxcOther" locale="zh_CN" localized="其他" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmclsUsIrsAgriculture" locale="zh_CN" localized="美国国税局 农业（943）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmclsUsIrsHousehold" locale="zh_CN" localized="美国国税局 家庭（附表 H）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmclsUsIrsMilitary" locale="zh_CN" localized="美国国税局 军事（941）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmclsUsIrsQualGovernment" locale="zh_CN" localized="美国国税局 符合医疗保险资格的政府（941）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmclsUsIrsRailroad" locale="zh_CN" localized="美国国税局 铁路（CT-1）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmclsUsIrsRegular" locale="zh_CN" localized="美国国税局 常规（944）" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EmclsUsIrsRegularOther" locale="zh_CN" localized="美国国税局 常规（所有其他）（941）" />
 </entity-facade-xml>
             

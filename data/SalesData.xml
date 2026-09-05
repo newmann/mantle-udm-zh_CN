@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="seed-initial">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="LEAD_SOURCE" locale="zh_CN" localized="线索来源" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="OTHER" locale="zh_CN" localized="其他" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="COLD_CALL" locale="zh_CN" localized="陌生拜访" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EXISTING_CUSTOMER" locale="zh_CN" localized="现有客户" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="SELF_GENERATED" locale="zh_CN" localized="自行开发" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EMPLOYEE" locale="zh_CN" localized="员工" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PARTNER" locale="zh_CN" localized="合作伙伴" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="PUBLIC_RELATIONS" locale="zh_CN" localized="公共关系" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="DIRECT_MAIL" locale="zh_CN" localized="直邮" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CONFERENCE" locale="zh_CN" localized="会议" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="TRADE_SHOW" locale="zh_CN" localized="展会" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="WEB_SITE" locale="zh_CN" localized="网站" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="WORD_OF_MOUTH" locale="zh_CN" localized="口碑" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="EMAIL" locale="zh_CN" localized="电子邮件" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+        pkValue="CAMPAIGN" locale="zh_CN" localized="营销活动" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="LEAD_ASSIGNED" locale="zh_CN" localized="已分配" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="LEAD_CONVERTED" locale="zh_CN" localized="已转化" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+        pkValue="LEAD_QUALIFIED" locale="zh_CN" localized="已合格" />
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+        pkValue="LeadStatus" locale="zh_CN" localized="线索状态" />
+</entity-facade-xml>

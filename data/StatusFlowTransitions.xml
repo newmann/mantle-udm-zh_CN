@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This software is in the public domain under CC0 1.0 Universal plus a Grant of Patent License. -->
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Accept" localized="接受"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Accept Assignment" localized="接受分配"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Acknowledge" localized="确认收悉"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Acknowledged" localized="已确认"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Activate" localized="激活"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Approve" localized="批准"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Approve (un-complete)" localized="批准（取消完成）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Approve (un-send)" localized="批准（取消发送）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Approve Marketing Campaign" localized="批准营销活动"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Arrive" localized="到达"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Arrived" localized="已到达"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Assign" localized="分配"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Assigned" localized="已分配"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Authorize" localized="授权"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Begin" localized="开始"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Begin Changes" localized="开始更改"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Bill Through" localized="过账开票"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Billed Through" localized="已过账开票"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Bounce" localized="退回"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Cancel" localized="取消"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Cancel Marketing Campaign" localized="取消营销活动"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Cancel Promise" localized="取消承诺"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Cancel Quote" localized="取消报价"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Close" localized="关闭"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Complete" localized="完成"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Complete Marketing Campaign" localized="完成营销活动"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Confirm" localized="确认"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Confirm complete" localized="确认完成"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Converted" localized="已转化"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Correct (Ready)" localized="更正（就绪）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Deactivate" localized="停用"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Decline" localized="谢绝"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Decline Assignment" localized="拒绝分配"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Defective" localized="不合格"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Deliver" localized="交付"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Deny Request" localized="拒绝请求"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Depart" localized="出发"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Entered" localized="已录入"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Finalize" localized="定稿"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Hold" localized="冻结"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Hold##Order" localized="冻结订单"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="In-Process" localized="处理中"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Incoming" localized="转入来件"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Invalid" localized="无效"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Locked - In Use" localized="锁定 - 使用中"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Make Available" localized="设为可用"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Make Open/Tentative" localized="设为开放/暂定"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Make Return Available" localized="设退货为可用"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Manual Response" localized="人工回复"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Manually Freeze" localized="手动冻结"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Mark As Defective" localized="标记为不合格"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Marketing Campaign In Progress" localized="营销活动进行中"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Morgue" localized="报废"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Not Defective" localized="合格"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Offer" localized="报价"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Order" localized="下单"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Pack" localized="打包"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Partly Reconcile" localized="部分对账"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Payment Already Sent" localized="付款已发送"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Payment Received" localized="已收到付款"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Payment Sent" localized="已发送付款"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Pending Accept" localized="待接受"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Pick" localized="拣货"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Place" localized="下达"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Place (un-approve)" localized="下达（取消批准）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Place from Quote" localized="从报价下达"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Place##Order" localized="下达订单"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Process" localized="处理"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Process (un-approve)" localized="处理（取消批准）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Process (un-send, un-approve)" localized="处理（取消发送、取消批准）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Promise" localized="承诺"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Propose Quote" localized="提出报价"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Qualified" localized="已合格"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Quarantine" localized="隔离"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Re-activate" localized="重新激活"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Re-open" localized="重新打开"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Receive" localized="接收"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Receive Payment" localized="收到付款"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reconcile" localized="对账"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Refer" localized="转交"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Refund" localized="退款"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reject" localized="拒绝"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reject Request" localized="拒绝请求"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Release Available" localized="释放为可用"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Release Hold" localized="解除冻结"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Request" localized="请求"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Request Quote" localized="请求报价"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Resolve" localized="解决"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Resume" localized="恢复"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Resume Changes" localized="恢复更改"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Return" localized="退货"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Return Status Pending" localized="退货状态待定"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reverse to Payable" localized="转回应付"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reverse to Receivable" localized="转回应收"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Review Approved" localized="审核通过"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Review Deleted" localized="审核删除"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reviewed" localized="已审核"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Schedule" localized="安排"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Scheduled" localized="已安排"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Send" localized="发送"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Send##Order" localized="发送订单"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Sent" localized="已发送"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Set Created to Reconciled" localized="将已创建设为已对账"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Set Manually Frozen" localized="设为手动冻结"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Set Negative Pending Replenishment" localized="设为负库存待补货"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Ship" localized="发运"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Start Progress" localized="开始进行"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Start Transfer" localized="开始转移"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Start Transfer (Promised)" localized="开始转移（已承诺）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Stop Progress (to Submitted)" localized="停止进行（回到已提交）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Store" localized="入库"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Submit" localized="提交"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Subscription Accepted - Unsubscribed" localized="订阅已接受-已退订"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Subscription Accepted - Unsubscription Pending" localized="订阅已接受-退订待处理"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Subscription In Use - Unsubscribed" localized="订阅使用中-已退订"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Subscription In Use - Unsubscription Pending" localized="订阅使用中-退订待处理"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Subscription Invalid - Unsubscribed" localized="订阅无效-已退订"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Subscription Invalid - Unsubscription Pending" localized="订阅无效-退订待处理"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Subscription Pending - Unsubscription Pending" localized="订阅待处理-退订待处理"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Transfer Complete" localized="转移完成"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Transfer Complete (Promised)" localized="转移完成（已承诺）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Transfer Complete (Store)" localized="转移完成（入库）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Transfer Complete (Use)" localized="转移完成（使用）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Un-Deliver (Available)" localized="取消交付（可用）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Un-Deliver (In Storage)" localized="取消交付（在库）"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Un-acknowledge" localized="取消确认"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Un-deliver" localized="取消交付"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Un-pack" localized="取消打包"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Un-pick" localized="取消拣货"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Un-ship" localized="取消发运"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Un-view" localized="取消查看"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Unassign" localized="取消分配"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Unauthorize" localized="取消授权"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Uncancel Payable" localized="取消应付作废"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Uncancel Receivable" localized="取消应收作废"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Unconfirm" localized="取消确认"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Undeliver" localized="取消交付"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Undeliver and Unauthorize" localized="取消交付并取消授权"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Unpack" localized="取消打包"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Unpay" localized="取消付款"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Unreconcile" localized="取消对账"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Use" localized="使用"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="View" localized="查看"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Void" localized="作废"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Write Off" localized="核销"/>
+</entity-facade-xml>
